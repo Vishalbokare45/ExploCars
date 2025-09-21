@@ -1,0 +1,1289 @@
+{
+    "Ferrari": {
+        "812 Superfast": {
+            "mainCard": {
+                "title": "Ferrari 812 Superfast",
+                "price": "from INR 14,772,000",
+                "technicalSpecifications": {
+                    "power": "800 cv",
+                    "acceleration": "0-100 km/h in 2.9 s",
+                    "topSpeed": "340 km/h"
+                }
+            },
+            "video1": {
+                "title": "Ferrari 812 Superfast",
+                "description": "Ferrari 812 Superfast Video 1."
+            },
+            "video2": {
+                "title": "812 Style Edition.",
+                "description": "The 812 Superfast Style Edition brings elegance and performance together, with its striking design and powerful engine."
+            },
+            "video3": {
+                "title": "For the sport of it.",
+                "description": "The 812 Superfast is designed for those who seek the thrill of the open road, combining Italian craftsmanship with cutting-edge technology."
+            },
+            "interior2": {
+                "title": "Discover the new Ferrari 812 Superfast",
+                "description": "Experience the perfect blend of performance, design, and technology."
+            },
+            "bottom": {
+                "title": "Title for Bottom Section",
+                "description": "Description for Bottom Section."
+            }
+        },
+        "488 Pista": {
+            "mainCard": {
+                "title": "Ferrari 488 Pista",
+                "price": "from INR 20,000,000",
+                "technicalSpecifications": {
+                    "power": "720 cv",
+                    "acceleration": "0-100 km/h in 2.85 s",
+                    "topSpeed": "340 km/h"
+                }
+            },
+            "video1": {
+                "title": "Ferrari 488 Pista Video 1",
+                "description": "Ferrari 488 Pista Video 1."
+            },
+            "video2": {
+                "title": "488 Pista Style Edition.",
+                "description": "The 488 Pista Style Edition brings the thrill of the track to the streets, with its distinctive design and performance capabilities."
+            },
+            "video3": {
+                "title": "For the sport of it.",
+                "description": "The 488 Pista is designed for those who seek the ultimate driving experience, combining power, performance, and design in a single package."
+            },
+            "interior2": {
+                "title": "Discover the new Ferrari 488 Pista",
+                "description": "Experience the perfect blend of performance, design, and technology."
+            },
+            "bottom": {
+                "title": "Title for Bottom Section",
+                "description": "Description for Bottom Section."
+            }
+        },
+        "458 Italia": {
+            "mainCard": {
+                "title": "Ferrari 458 Italia",
+                "price": "from INR 18,000,000",
+                "technicalSpecifications": {
+                    "power": "570 cv",
+                    "acceleration": "0-100 km/h in 3.4 s",
+                    "topSpeed": "325 km/h"
+                }
+            },
+            "video1": {
+                "title": "Ferrari 458 Italia Video 1",
+                "description": "Ferrari 458 Italia Video 1."
+            },
+            "video2": {
+                "title": "458 Italia Style Edition.",
+                "description": "The 458 Italia Style Edition offers a blend of luxury and performance, with its sleek design and powerful engine."
+            },
+            "video3": {
+                "title": "For the sport of it.",
+                "description": "The 458 Italia is designed for those who seek a balance between luxury and performance, offering a driving experience that is both exhilarating and comfortable."
+            },
+            "interior2": {
+                "title": "Discover the new Ferrari 458 Italia",
+                "description": "Experience the perfect blend of performance, design, and technology."
+            },
+            "bottom": {
+                "title": "Title for Bottom Section",
+                "description": "Description for Bottom Section."
+            }
+        }
+    },
+    "Lamborghini": {
+        "Aventador": {
+            "mainCard": {
+                "title": "Lamborghini Aventador",
+                "price": "from INR 52,000,000",
+                "technicalSpecifications": {
+                    "power": "770 hp",
+                    "acceleration": "0-100 km/h in 2.8 s",
+                    "topSpeed": "350 km/h"
+                }
+            },
+            "video1": {
+                "title": "Lamborghini Aventador Video 1",
+                "description": "Lamborghini Aventador Video 1."
+            },
+            "video2": {
+                "title": "Aventador Style Edition.",
+                "description": "The Aventador Style Edition brings cutting-edge design and breathtaking performance to the road, making every drive an exhilarating experience."
+            },
+            "video3": {
+                "title": "For the thrill of it.",
+                "description": "The Aventador is engineered for those who crave adrenaline, offering unmatched power and precision on every journey."
+            },
+            "interior2": {
+                "title": "Discover the new Lamborghini Aventador",
+                "description": "Experience the perfect blend of performance, design, and technology."
+            },
+            "bottom": {
+                "title": "Title for Bottom Section",
+                "description": "Description for Bottom Section."
+            }
+        },
+        "Countach": {
+            "mainCard": {
+                "title": "Lamborghini Countach",
+                "price": "from INR 35,000,000",
+                "technicalSpecifications": {
+                    "power": "455 hp",
+                    "acceleration": "0-100 km/h in 4.9 s",
+                    "topSpeed": "309 km/h"
+                }
+            },
+            "video1": {
+                "title": "Lamborghini Countach Video 1",
+                "description": "Lamborghini Countach Video 1."
+            },
+            "video2": {
+                "title": "Countach Style Edition.",
+                "description": "The Countach Style Edition pays homage to the iconic design of the original, with modern enhancements that captivate both onlookers and drivers alike."
+            },
+            "video3": {
+                "title": "For the classic enthusiast.",
+                "description": "The Countach is a legend reborn, offering classic style and exhilarating performance for those who appreciate automotive history."
+            },
+            "interior2": {
+                "title": "Discover the new Lamborghini Countach",
+                "description": "Experience the perfect blend of heritage, performance, and innovation."
+            },
+            "bottom": {
+                "title": "Title for Bottom Section",
+                "description": "Description for Bottom Section."
+            }
+        },
+        "Diablo": {
+            "mainCard": {
+                "title": "Lamborghini Diablo",
+                "price": "from INR 25,000,000",
+                "technicalSpecifications": {
+                    "power": "530 hp",
+                    "acceleration": "0-100 km/h in 4.0 s",
+                    "topSpeed": "325 km/h"
+                }
+            },
+            "video1": {
+                "title": "Lamborghini Diablo Video 1",
+                "description": "Lamborghini Diablo Video 1."
+            },
+            "video2": {
+                "title": "Diablo Style Edition.",
+                "description": "The Diablo Style Edition exudes power and presence, with its aggressive styling and exhilarating performance."
+            },
+            "video3": {
+                "title": "For the adrenaline junkie.",
+                "description": "The Diablo offers heart-pounding performance and timeless design, making every drive an unforgettable experience."
+            },
+            "interior2": {
+                "title": "Discover the new Lamborghini Diablo",
+                "description": "Experience the perfect blend of performance, luxury, and Italian craftsmanship."
+            },
+            "bottom": {
+                "title": "Title for Bottom Section",
+                "description": "Description for Bottom Section."
+            }
+        },
+        "Huracan": {
+            "mainCard": {
+                "title": "Lamborghini Huracan",
+                "price": "from INR 19,000,000",
+                "technicalSpecifications": {
+                    "power": "640 hp",
+                    "acceleration": "0-100 km/h in 2.9 s",
+                    "topSpeed": "325 km/h"
+                }
+            },
+            "video1": {
+                "title": "Lamborghini Huracan Video 1",
+                "description": "Lamborghini Huracan Video 1."
+            },
+            "video2": {
+                "title": "Huracan Style Edition.",
+                "description": "The Huracan Style Edition blends performance and elegance, with its dynamic design and exhilarating driving dynamics."
+            },
+            "video3": {
+                "title": "For the thrill-seeker.",
+                "description": "The Huracan offers adrenaline-fueled excitement on every drive, combining cutting-edge technology with Italian flair."
+            },
+            "interior2": {
+                "title": "Discover the new Lamborghini Huracan",
+                "description": "Experience the perfect blend of performance, luxury, and emotion."
+            },
+            "bottom": {
+                "title": "Title for Bottom Section",
+                "description": "Description for Bottom Section."
+            }
+        },
+        "Urus": {
+            "mainCard": {
+                "title": "Lamborghini Urus",
+                "price": "from INR 40,000,000",
+                "technicalSpecifications": {
+                    "power": "650 hp",
+                    "acceleration": "0-100 km/h in 3.6 s",
+                    "topSpeed": "305 km/h"
+                }
+            },
+            "video1": {
+                "title": "Lamborghini Urus Video 1",
+                "description": "Lamborghini Urus Video 1."
+            },
+            "video2": {
+                "title": "Urus Style Edition.",
+                "description": "The Urus Style Edition redefines the SUV segment with its bold design and uncompromising performance."
+            },
+            "video3": {
+                "title": "For the modern adventurer.",
+                "description": "The Urus combines the versatility of an SUV with the performance of a supercar, offering a driving experience like no other."
+            },
+            "interior2": {
+                "title": "Discover the new Lamborghini Urus",
+                "description": "Experience the perfect blend of power, luxury, and versatility."
+            },
+            "bottom": {
+                "title": "Title for Bottom Section",
+                "description": "Description for Bottom Section."
+            }
+        },
+        "Venenzo": {
+            "mainCard": {
+                "title": "Lamborghini Veneno",
+                "price": "from INR 150,000,000",
+                "technicalSpecifications": {
+                    "power": "750 hp",
+                    "acceleration": "0-100 km/h in 2.8 s",
+                    "topSpeed": "355 km/h"
+                }
+            },
+            "video1": {
+                "title": "Lamborghini Veneno Video 1",
+                "description": "Lamborghini Veneno Video 1."
+            },
+            "video2": {
+                "title": "Venenzo Style Edition.",
+                "description": "The Veneno Style Edition is a masterpiece of design and engineering, with its aerodynamic styling and blistering performance."
+            },
+            "video3": {
+                "title": "For the collector.",
+                "description": "The Veneno is a rare and exclusive masterpiece, designed for those who demand the absolute best in automotive excellence."
+            },
+            "interior2": {
+                "title": "Discover the new Lamborghini Veneno",
+                "description": "Experience the pinnacle of automotive engineering and luxury."
+            },
+            "bottom": {
+                "title": "Title for Bottom Section",
+                "description": "Description for Bottom Section."
+            }
+        }
+    },
+    "BMW": {
+        "I8": {
+            "mainCard": {
+                "title": "BMW i8",
+                "price": "from INR 2,500,000",
+                "technicalSpecifications": {
+                    "power": "369 hp",
+                    "acceleration": "0-100 km/h in 4.4 s",
+                    "topSpeed": "250 km/h"
+                }
+            },
+            "video1": {
+                "title": "BMW i8 Video 1",
+                "description": "BMW i8 Video 1."
+            },
+            "video2": {
+                "title": "i8 Style Edition.",
+                "description": "The i8 Style Edition combines futuristic design with sustainable performance, making it a pioneer in the world of electric sports cars."
+            },
+            "video3": {
+                "title": "For the eco-conscious driver.",
+                "description": "The i8 offers exhilarating performance with minimal environmental impact, perfect for those who want to enjoy driving while reducing their carbon footprint."
+            },
+            "interior2": {
+                "title": "Discover the new BMW i8",
+                "description": "Experience the perfect blend of innovation, performance, and sustainability."
+            },
+            "bottom": {
+                "title": "Title for Bottom Section",
+                "description": "Description for Bottom Section."
+            }
+        },
+        "M3 GTR": {
+            "mainCard": {
+                "title": "BMW M3 GTR",
+                "price": "from INR 6,000,000",
+                "technicalSpecifications": {
+                    "power": "380 hp",
+                    "acceleration": "0-100 km/h in 4.8 s",
+                    "topSpeed": "280 km/h"
+                }
+            },
+            "video1": {
+                "title": "BMW M3 GTR Video 1",
+                "description": "BMW M3 GTR Video 1."
+            },
+            "video2": {
+                "title": "M3 GTR Style Edition.",
+                "description": "The M3 GTR Style Edition pays homage to BMW's racing heritage, with its aggressive styling and track-inspired performance."
+            },
+            "video3": {
+                "title": "For the track enthusiast.",
+                "description": "The M3 GTR is designed for those who demand the ultimate performance on the track, offering precision handling and exhilarating acceleration."
+            },
+            "interior2": {
+                "title": "Discover the new BMW M3 GTR",
+                "description": "Experience the perfect blend of performance, agility, and motorsport DNA."
+            },
+            "bottom": {
+                "title": "Title for Bottom Section",
+                "description": "Description for Bottom Section."
+            }
+        },
+        "M4 Coupe": {
+            "mainCard": {
+                "title": "BMW M4 Coupe",
+                "price": "from INR 7,000,000",
+                "technicalSpecifications": {
+                    "power": "473 hp",
+                    "acceleration": "0-100 km/h in 3.9 s",
+                    "topSpeed": "280 km/h"
+                }
+            },
+            "video1": {
+                "title": "BMW M4 Coupe Video 1",
+                "description": "BMW M4 Coupe Video 1."
+            },
+            "video2": {
+                "title": "M4 Coupe Style Edition.",
+                "description": "The M4 Coupe Style Edition combines aggressive styling with uncompromising performance, making it the ultimate driving machine for enthusiasts."
+            },
+            "video3": {
+                "title": "For the performance purist.",
+                "description": "The M4 Coupe offers precision handling and relentless power, delivering an exhilarating driving experience that true enthusiasts crave."
+            },
+            "interior2": {
+                "title": "Discover the new BMW M4 Coupe",
+                "description": "Experience the perfect blend of performance, luxury, and driving dynamics."
+            },
+            "bottom": {
+                "title": "Title for Bottom Section",
+                "description": "Description for Bottom Section."
+            }
+        },
+        "M5": {
+            "mainCard": {
+                "title": "BMW M5",
+                "price": "from INR 8,000,000",
+                "technicalSpecifications": {
+                    "power": "600 hp",
+                    "acceleration": "0-100 km/h in 3.4 s",
+                    "topSpeed": "305 km/h"
+                }
+            },
+            "video1": {
+                "title": "BMW M5 Video 1",
+                "description": "BMW M5 Video 1."
+            },
+            "video2": {
+                "title": "M5 Style Edition.",
+                "description": "The M5 Style Edition combines luxury and performance, with its sleek design and powerful engine delivering an unmatched driving experience."
+            },
+            "video3": {
+                "title": "For the executive racer.",
+                "description": "The M5 offers executive luxury with racecar performance, making it the perfect choice for those who demand both comfort and speed."
+            },
+            "interior2": {
+                "title": "Discover the new BMW M5",
+                "description": "Experience the perfect blend of luxury, performance, and technology."
+            },
+            "bottom": {
+                "title": "Title for Bottom Section",
+                "description": "Description for Bottom Section."
+            }
+        },
+        "M6 Coupe": {
+            "mainCard": {
+                "title": "BMW M6 Coupe",
+                "price": "from INR 9,000,000",
+                "technicalSpecifications": {
+                    "power": "617 hp",
+                    "acceleration": "0-100 km/h in 3.3 s",
+                    "topSpeed": "305 km/h"
+                }
+            },
+            "video1": {
+                "title": "BMW M6 Coupe Video 1",
+                "description": "BMW M6 Coupe Video 1."
+            },
+            "video2": {
+                "title": "M6 Coupe Style Edition.",
+                "description": "The M6 Coupe Style Edition combines luxury and performance in a sleek and sophisticated package, making it the ultimate grand tourer."
+            },
+            "video3": {
+                "title": "For the grand tour enthusiast.",
+                "description": "The M6 Coupe offers breathtaking performance and refined luxury, perfect for those who seek the ultimate driving experience on long journeys."
+            },
+            "interior2": {
+                "title": "Discover the new BMW M6 Coupe",
+                "description": "Experience the perfect blend of power, elegance, and comfort."
+            },
+            "bottom": {
+                "title": "Title for Bottom Section",
+                "description": "Description for Bottom Section."
+            }
+        },
+        "Roadster": {
+            "mainCard": {
+                "title": "BMW Roadster",
+                "price": "from INR 6,500,000",
+                "technicalSpecifications": {
+                    "power": "382 hp",
+                    "acceleration": "0-100 km/h in 4.4 s",
+                    "topSpeed": "280 km/h"
+                }
+            },
+            "video1": {
+                "title": "BMW Roadster Video 1",
+                "description": "BMW Roadster Video 1."
+            },
+            "video2": {
+                "title": "Roadster Style Edition.",
+                "description": "The Roadster Style Edition offers open-top driving excitement with timeless design and exhilarating performance."
+            },
+            "video3": {
+                "title": "For the open-air enthusiast.",
+                "description": "The Roadster delivers thrilling performance with the freedom of open-air driving, making every journey an adventure."
+            },
+            "interior2": {
+                "title": "Discover the new BMW Roadster",
+                "description": "Experience the perfect blend of sportiness, style, and driving pleasure."
+            },
+            "bottom": {
+                "title": "Title for Bottom Section",
+                "description": "Description for Bottom Section."
+            }
+        }
+    },
+    "Bugatti": {
+        "Chiron": {
+            "mainCard": {
+                "title": "Bugatti Chiron",
+                "price": "from INR 350,000,000",
+                "technicalSpecifications": {
+                    "power": "1500 hp",
+                    "acceleration": "0-100 km/h in 2.5 s",
+                    "topSpeed": "420 km/h"
+                }
+            },
+            "video1": {
+                "title": "Bugatti Chiron Video 1",
+                "description": "Bugatti Chiron Video 1."
+            },
+            "video2": {
+                "title": "Chiron Style Edition.",
+                "description": "The Chiron Style Edition combines breathtaking design with unrivaled performance, setting the standard for hypercars around the world."
+            },
+            "video3": {
+                "title": "For the speed enthusiast.",
+                "description": "The Chiron offers unmatched speed and luxury, making it the ultimate expression of automotive engineering."
+            },
+            "interior2": {
+                "title": "Discover the new Bugatti Chiron",
+                "description": "Experience the pinnacle of performance and luxury."
+            },
+            "bottom": {
+                "title": "Title for Bottom Section",
+                "description": "Description for Bottom Section."
+            }
+        },
+        "Divo": {
+            "mainCard": {
+                "title": "Bugatti Divo",
+                "price": "from INR 450,000,000",
+                "technicalSpecifications": {
+                    "power": "1500 hp",
+                    "acceleration": "0-100 km/h in 2.4 s",
+                    "topSpeed": "380 km/h"
+                }
+            },
+            "video1": {
+                "title": "Bugatti Divo Video 1",
+                "description": "Bugatti Divo Video 1."
+            },
+            "video2": {
+                "title": "Divo Style Edition.",
+                "description": "The Divo Style Edition is a masterpiece of aerodynamics and design, with its stunning curves and exceptional performance."
+            },
+            "video3": {
+                "title": "For the track-focused driver.",
+                "description": "The Divo is designed for those who demand the ultimate performance on the track, with its agile handling and blistering acceleration."
+            },
+            "interior2": {
+                "title": "Discover the new Bugatti Divo",
+                "description": "Experience the thrill of driving at the limit with uncompromising performance and craftsmanship."
+            },
+            "bottom": {
+                "title": "Title for Bottom Section",
+                "description": "Description for Bottom Section."
+            }
+        },
+        "GT2017": {
+            "mainCard": {
+                "title": "Bugatti GT2017",
+                "price": "from INR 500,000,000",
+                "technicalSpecifications": {
+                    "power": "1700 hp",
+                    "acceleration": "0-100 km/h in 2.0 s",
+                    "topSpeed": "450 km/h"
+                }
+            },
+            "video1": {
+                "title": "Bugatti GT2017 Video 1",
+                "description": "Bugatti GT2017 Video 1."
+            },
+            "video2": {
+                "title": "GT2017 Style Edition.",
+                "description": "The GT2017 Style Edition pushes the limits of design and performance, with its aggressive styling and mind-blowing speed."
+            },
+            "video3": {
+                "title": "For the speed demon.",
+                "description": "The GT2017 is the ultimate hypercar, offering unprecedented speed and power that redefine what's possible on the road."
+            },
+            "interior2": {
+                "title": "Discover the new Bugatti GT2017",
+                "description": "Experience the future of automotive engineering with uncompromising performance and luxury."
+            },
+            "bottom": {
+                "title": "Title for Bottom Section",
+                "description": "Description for Bottom Section."
+            }
+        },
+        "Supersport": {
+            "mainCard": {
+                "title": "Bugatti Supersport",
+                "price": "from INR 400,000,000",
+                "technicalSpecifications": {
+                    "power": "1200 hp",
+                    "acceleration": "0-100 km/h in 2.5 s",
+                    "topSpeed": "430 km/h"
+                }
+            },
+            "video1": {
+                "title": "Bugatti Supersport Video 1",
+                "description": "Bugatti Supersport Video 1."
+            },
+            "video2": {
+                "title": "Supersport Style Edition.",
+                "description": "The Supersport Style Edition is the ultimate expression of speed and luxury, with its sleek design and blistering performance."
+            },
+            "video3": {
+                "title": "For the speed enthusiast.",
+                "description": "The Supersport offers unmatched speed and agility, making it the perfect choice for those who demand the best."
+            },
+            "interior2": {
+                "title": "Discover the new Bugatti Supersport",
+                "description": "Experience the thrill of driving at the limit with unparalleled performance and refinement."
+            },
+            "bottom": {
+                "title": "Title for Bottom Section",
+                "description": "Description for Bottom Section."
+            }
+        },
+        "Veyron": {
+            "mainCard": {
+                "title": "Bugatti Veyron",
+                "price": "from INR 250,000,000",
+                "technicalSpecifications": {
+                    "power": "1001 hp",
+                    "acceleration": "0-100 km/h in 2.5 s",
+                    "topSpeed": "407 km/h"
+                }
+            },
+            "video1": {
+                "title": "Bugatti Veyron Video 1",
+                "description": "Bugatti Veyron Video 1."
+            },
+            "video2": {
+                "title": "Veyron Style Edition.",
+                "description": "The Veyron Style Edition is a modern classic, combining timeless design with groundbreaking performance."
+            },
+            "video3": {
+                "title": "For the speed enthusiast.",
+                "description": "The Veyron offers unmatched speed and luxury, making it the ultimate status symbol for automotive enthusiasts."
+            },
+            "interior2": {
+                "title": "Discover the new Bugatti Veyron",
+                "description": "Experience the pinnacle of automotive engineering with the iconic Veyron."
+            },
+            "bottom": {
+                "title": "Title for Bottom Section",
+                "description": "Description for Bottom Section."
+            }
+        }
+    },
+    "Ford": {
+        "GT": {
+            "mainCard": {
+                "title": "Ford GT",
+                "price": "from INR 30,000,000",
+                "technicalSpecifications": {
+                    "power": "647 hp",
+                    "acceleration": "0-100 km/h in 2.8 s",
+                    "topSpeed": "347 km/h"
+                }
+            },
+            "video1": {
+                "title": "Ford GT Video 1",
+                "description": "Ford GT Video 1."
+            },
+            "video2": {
+                "title": "GT Style Edition.",
+                "description": "The GT Style Edition combines iconic design with exceptional performance, making it a symbol of automotive excellence."
+            },
+            "video3": {
+                "title": "For the speed enthusiast.",
+                "description": "The GT offers unmatched speed and precision, delivering an exhilarating driving experience that pushes the limits of performance."
+            },
+            "interior2": {
+                "title": "Discover the new Ford GT",
+                "description": "Experience the thrill of driving with uncompromising performance and cutting-edge technology."
+            },
+            "bottom": {
+                "title": "Explore More",
+                "description": "Discover the legacy of Ford's racing heritage with the GT. With its aerodynamic design and powerful engine, the GT is built to dominate both on the track and the road."
+            }
+        },
+        "Mustang": {
+            "mainCard": {
+                "title": "Ford Mustang",
+                "price": "from INR 6,000,000",
+                "technicalSpecifications": {
+                    "power": "450 hp",
+                    "acceleration": "0-100 km/h in 4.0 s",
+                    "topSpeed": "266 km/h"
+                }
+            },
+            "video1": {
+                "title": "Ford Mustang Video 1",
+                "description": "Ford Mustang Video 1."
+            },
+            "video2": {
+                "title": "Mustang Style Edition.",
+                "description": "The Mustang Style Edition blends classic design with modern performance, delivering an exhilarating driving experience that pays homage to its heritage."
+            },
+            "video3": {
+                "title": "For the muscle car enthusiast.",
+                "description": "The Mustang offers legendary performance and unmistakable style, making it an icon of American muscle cars."
+            },
+            "interior2": {
+                "title": "Discover the new Ford Mustang",
+                "description": "Experience the freedom of the open road with the power and performance of the legendary Mustang."
+            },
+            "bottom": {
+                "title": "Explore More",
+                "description": "Unleash the power of the Mustang and experience the thrill of driving with its iconic design and exhilarating performance. From the roar of its engine to its unmistakable silhouette, the Mustang is an American legend."
+            }
+        },
+        "Raptor": {
+            "mainCard": {
+                "title": "Ford Raptor Pickup Truck",
+                "price": "from INR 7,500,000",
+                "technicalSpecifications": {
+                    "power": "450 hp",
+                    "acceleration": "0-100 km/h in 5.1 s",
+                    "topSpeed": "177 km/h"
+                }
+            },
+            "video1": {
+                "title": "Ford Raptor Video 1",
+                "description": "Ford Raptor Video 1."
+            },
+            "video2": {
+                "title": "Raptor Style Edition.",
+                "description": "The Raptor Style Edition combines rugged design with off-road capability, making it the ultimate pickup truck for adventure seekers."
+            },
+            "video3": {
+                "title": "For the off-road enthusiast.",
+                "description": "The Raptor is built to conquer any terrain, with its powerful engine and advanced suspension system providing unmatched performance off the beaten path."
+            },
+            "interior2": {
+                "title": "Discover the new Ford Raptor",
+                "description": "Experience the thrill of off-roading with the rugged durability and capability of the Ford Raptor."
+            },
+            "bottom": {
+                "title": "Explore More",
+                "description": "Take on any adventure with the Ford Raptor. From rugged trails to open highways, the Raptor is built to perform in any environment. With its powerful engine and advanced off-road features, the Raptor is the ultimate pickup truck for those who demand more from their vehicle."
+            }
+        }
+    },
+    "McLaren": {
+        "Coupe": {
+            "mainCard": {
+                "title": "McLaren Coupe",
+                "price": "from INR 25,000,000",
+                "technicalSpecifications": {
+                    "power": "620 hp",
+                    "acceleration": "0-100 km/h in 3.2 s",
+                    "topSpeed": "330 km/h"
+                }
+            },
+            "video1": {
+                "title": "McLaren Coupe Video 1",
+                "description": "McLaren Coupe Video 1."
+            },
+            "video2": {
+                "title": "Coupe Style Edition.",
+                "description": "The Coupe Style Edition blends performance and luxury, with its sleek design and powerful engine delivering an unmatched driving experience."
+            },
+            "video3": {
+                "title": "For the performance enthusiast.",
+                "description": "The Coupe offers breathtaking performance and precision handling, making it the ultimate choice for those who demand the best."
+            },
+            "interior2": {
+                "title": "Discover the new McLaren Coupe",
+                "description": "Experience the perfect balance of performance and luxury with the McLaren Coupe."
+            },
+            "bottom": {
+                "title": "Explore More",
+                "description": "Unleash the power and precision of McLaren with the Coupe. From its aerodynamic design to its advanced technology, the Coupe is engineered to deliver an exhilarating driving experience."
+            }
+        },
+        "F1 GT": {
+            "mainCard": {
+                "title": "McLaren F1 GT",
+                "price": "from INR 50,000,000",
+                "technicalSpecifications": {
+                    "power": "600 hp",
+                    "acceleration": "0-100 km/h in 3.1 s",
+                    "topSpeed": "372 km/h"
+                }
+            },
+            "video1": {
+                "title": "McLaren F1 GT Video 1",
+                "description": "McLaren F1 GT Video 1."
+            },
+            "video2": {
+                "title": "F1 GT Style Edition.",
+                "description": "The F1 GT Style Edition pays homage to McLaren's racing heritage, with its iconic design and blistering performance setting new standards in supercar excellence."
+            },
+            "video3": {
+                "title": "For the racing enthusiast.",
+                "description": "The F1 GT is designed for those who seek the thrill of the track, with its lightweight construction and powerful engine delivering unmatched performance."
+            },
+            "interior2": {
+                "title": "Discover the new McLaren F1 GT",
+                "description": "Experience the ultimate driving machine with the McLaren F1 GT."
+            },
+            "bottom": {
+                "title": "Explore More",
+                "description": "Experience the thrill of McLaren's racing heritage with the F1 GT. From its iconic design to its record-breaking performance, the F1 GT is a true testament to McLaren's commitment to innovation and excellence."
+            }
+        },
+        "P1": {
+            "mainCard": {
+                "title": "McLaren P1",
+                "price": "from INR 30,000,000",
+                "technicalSpecifications": {
+                    "power": "903 hp",
+                    "acceleration": "0-100 km/h in 2.8 s",
+                    "topSpeed": "350 km/h"
+                }
+            },
+            "video1": {
+                "title": "McLaren P1 Video 1",
+                "description": "McLaren P1 Video 1."
+            },
+            "video2": {
+                "title": "P1 Style Edition.",
+                "description": "The P1 Style Edition pushes the boundaries of design and performance, with its aerodynamic shape and hybrid powertrain delivering unrivaled speed and agility."
+            },
+            "video3": {
+                "title": "For the hybrid enthusiast.",
+                "description": "The P1 combines electric power with gasoline performance, offering a driving experience that is both exhilarating and environmentally conscious."
+            },
+            "interior2": {
+                "title": "Discover the new McLaren P1",
+                "description": "Experience the future of supercars with the McLaren P1."
+            },
+            "bottom": {
+                "title": "Explore More",
+                "description": "Discover the ultimate hybrid hypercar with McLaren's P1. With its cutting-edge technology and breathtaking performance, the P1 redefines what's possible on the road and the track."
+            }
+        },
+        "Senna": {
+            "mainCard": {
+                "title": "McLaren Senna",
+                "price": "from INR 35,000,000",
+                "technicalSpecifications": {
+                    "power": "800 hp",
+                    "acceleration": "0-100 km/h in 2.8 s",
+                    "topSpeed": "335 km/h"
+                }
+            },
+            "video1": {
+                "title": "McLaren Senna Video 1",
+                "description": "McLaren Senna Video 1."
+            },
+            "video2": {
+                "title": "Senna Style Edition.",
+                "description": "The Senna Style Edition is the ultimate track-focused hypercar, with its aggressive styling and race-inspired performance setting new standards for speed and precision."
+            },
+            "video3": {
+                "title": "For the track enthusiast.",
+                "description": "The Senna is built for those who demand the ultimate performance on the track, with its lightweight construction and powerful engine delivering blistering lap times."
+            },
+            "interior2": {
+                "title": "Discover the new McLaren Senna",
+                "description": "Experience the thrill of driving at the limit with the McLaren Senna."
+            },
+            "bottom": {
+                "title": "Explore More",
+                "description": "Push the limits of performance with the McLaren Senna. With its track-focused design and race-inspired technology, the Senna delivers an unparalleled driving experience on and off the track."
+            }
+        },
+        "Speedtail": {
+            "mainCard": {
+                "title": "McLaren Speedtail",
+                "price": "from INR 50,000,000",
+                "technicalSpecifications": {
+                    "power": "1035 hp",
+                    "acceleration": "0-100 km/h in 2.5 s",
+                    "topSpeed": "403 km/h"
+                }
+            },
+            "video1": {
+                "title": "McLaren Speedtail Video 1",
+                "description": "McLaren Speedtail Video 1."
+            },
+            "video2": {
+                "title": "Speedtail Style Edition.",
+                "description": "The Speedtail Style Edition combines cutting-edge design with breathtaking performance, making it the ultimate expression of McLaren's vision for the future of hypercars."
+            },
+            "video3": {
+                "title": "For the speed enthusiast.",
+                "description": "The Speedtail is designed for those who demand the fastest, most luxurious cars in the world, with its hybrid powertrain and aerodynamic design delivering unparalleled speed and comfort."
+            },
+            "interior2": {
+                "title": "Discover the new McLaren Speedtail",
+                "description": "Experience the future of automotive engineering with the McLaren Speedtail."
+            },
+            "bottom": {
+                "title": "Explore More",
+                "description": "Experience the pinnacle of automotive innovation with the McLaren Speedtail. With its aerodynamic design and hybrid powertrain, the Speedtail delivers unrivaled speed and luxury in a package that's unlike anything else on the road."
+            }
+        },
+        "Spider": {
+            "mainCard": {
+                "title": "McLaren Spider",
+                "price": "from INR 20,000,000",
+                "technicalSpecifications": {
+                    "power": "570 hp",
+                    "acceleration": "0-100 km/h in 3.1 s",
+                    "topSpeed": "328 km/h"
+                }
+            },
+            "video1": {
+                "title": "McLaren Spider Video 1",
+                "description": "McLaren Spider Video 1."
+            },
+            "video2": {
+                "title": "Spider Style Edition.",
+                "description": "The Spider Style Edition combines open-top driving with exhilarating performance, making it the perfect choice for those who crave the thrill of the road."
+            },
+            "video3": {
+                "title": "For the convertible enthusiast.",
+                "description": "The Spider offers the ultimate driving experience with its retractable roof and powerful engine, allowing you to enjoy the freedom of the open road in style."
+            },
+            "interior2": {
+                "title": "Discover the new McLaren Spider",
+                "description": "Experience the thrill of open-top driving with the McLaren Spider."
+            },
+            "bottom": {
+                "title": "Explore More",
+                "description": "Experience the thrill of open-air driving with the McLaren Spider. With its powerful engine and stunning design, the Spider delivers an exhilarating driving experience that's unmatched in its class."
+            }
+        }
+    },
+    "Mercedes": {
+        "CoupeBlackSeries": {
+            "mainCard": {
+                "title": "Mercedes-AMG Coupe Black Series",
+                "price": "from INR 40,000,000",
+                "technicalSpecifications": {
+                    "power": "700 hp",
+                    "acceleration": "0-100 km/h in 3.5 s",
+                    "topSpeed": "330 km/h"
+                }
+            },
+            "video1": {
+                "title": "Mercedes-AMG Coupe Black Series Video 1",
+                "description": "Mercedes-AMG Coupe Black Series Video 1."
+            },
+            "video2": {
+                "title": "Coupe Black Series Style Edition.",
+                "description": "The Coupe Black Series Style Edition combines aggressive styling with breathtaking performance, setting new standards in luxury and speed."
+            },
+            "video3": {
+                "title": "For the performance enthusiast.",
+                "description": "The Coupe Black Series offers unmatched power and precision, making it the ultimate choice for those who demand the best."
+            },
+            "interior2": {
+                "title": "Discover the new Mercedes-AMG Coupe Black Series",
+                "description": "Experience the perfect combination of luxury and performance with the Mercedes-AMG Coupe Black Series."
+            },
+            "bottom": {
+                "title": "Explore More",
+                "description": "Experience the pinnacle of performance with the Mercedes-AMG Coupe Black Series. With its aggressive design and powerful engine, the Coupe Black Series delivers an exhilarating driving experience that's unmatched in its class."
+            }
+        },
+        "AMGHammer": {
+            "mainCard": {
+                "title": "Mercedes-AMG Hammer",
+                "price": "from INR 15,000,000",
+                "technicalSpecifications": {
+                    "power": "360 hp",
+                    "acceleration": "0-100 km/h in 5.0 s",
+                    "topSpeed": "250 km/h"
+                }
+            },
+            "video1": {
+                "title": "Mercedes-AMG Hammer Video 1",
+                "description": "Mercedes-AMG Hammer Video 1."
+            },
+            "video2": {
+                "title": "Hammer Style Edition.",
+                "description": "The Hammer Style Edition combines luxury and performance, with its sleek design and powerful engine delivering an unmatched driving experience."
+            },
+            "video3": {
+                "title": "For the luxury enthusiast.",
+                "description": "The Hammer offers a blend of comfort and performance, making it the perfect choice for those who seek the best of both worlds."
+            },
+            "interior2": {
+                "title": "Discover the new Mercedes-AMG Hammer",
+                "description": "Experience the ultimate luxury with the Mercedes-AMG Hammer."
+            },
+            "bottom": {
+                "title": "Explore More",
+                "description": "Experience the luxury and performance of the Mercedes-AMG Hammer. With its refined interior and powerful engine, the Hammer delivers a driving experience that's second to none."
+            }
+        },
+        "AMGOne": {
+            "mainCard": {
+                "title": "Mercedes-AMG One",
+                "price": "from INR 100,000,000",
+                "technicalSpecifications": {
+                    "power": "1000 hp",
+                    "acceleration": "0-100 km/h in 2.5 s",
+                    "topSpeed": "350 km/h"
+                }
+            },
+            "video1": {
+                "title": "Mercedes-AMG One Video 1",
+                "description": "Mercedes-AMG One Video 1."
+            },
+            "video2": {
+                "title": "One Style Edition.",
+                "description": "The One Style Edition is a masterpiece of design and engineering, with its hybrid powertrain and aerodynamic shape delivering unparalleled performance and luxury."
+            },
+            "video3": {
+                "title": "For the hypercar enthusiast.",
+                "description": "The One is the ultimate hypercar, offering unmatched speed and agility that redefine what's possible on the road and the track."
+            },
+            "interior2": {
+                "title": "Discover the new Mercedes-AMG One",
+                "description": "Experience the future of hypercars with the Mercedes-AMG One."
+            },
+            "bottom": {
+                "title": "Explore More",
+                "description": "Experience the pinnacle of automotive engineering with the Mercedes-AMG One. With its hybrid powertrain and aerodynamic design, the One delivers an unmatched driving experience that's truly extraordinary."
+            }
+        },
+        "GTR": {
+            "mainCard": {
+                "title": "Mercedes-AMG GTR",
+                "price": "from INR 25,000,000",
+                "technicalSpecifications": {
+                    "power": "585 hp",
+                    "acceleration": "0-100 km/h in 3.6 s",
+                    "topSpeed": "320 km/h"
+                }
+            },
+            "video1": {
+                "title": "Mercedes-AMG GTR Video 1",
+                "description": "Mercedes-AMG GTR Video 1."
+            },
+            "video2": {
+                "title": "GTR Style Edition.",
+                "description": "The GTR Style Edition is a track-focused supercar, with its aggressive styling and powerful engine delivering blistering performance on the road and the track."
+            },
+            "video3": {
+                "title": "For the track enthusiast.",
+                "description": "The GTR is designed for those who demand the ultimate performance, with its lightweight construction and advanced technology delivering unmatched speed and agility."
+            },
+            "interior2": {
+                "title": "Discover the new Mercedes-AMG GTR",
+                "description": "Experience the thrill of driving with the Mercedes-AMG GTR."
+            },
+            "bottom": {
+                "title": "Explore More",
+                "description": "Experience the thrill of the track with the Mercedes-AMG GTR. With its aggressive design and track-focused performance, the GTR delivers an adrenaline-pumping driving experience that's second to none."
+            }
+        },
+        "SLK55": {
+            "mainCard": {
+                "title": "Mercedes-AMG SLK 55",
+                "price": "from INR 10,000,000",
+                "technicalSpecifications": {
+                    "power": "415 hp",
+                    "acceleration": "0-100 km/h in 4.1 s",
+                    "topSpeed": "250 km/h"
+                }
+            },
+            "video1": {
+                "title": "Mercedes-AMG SLK 55 Video 1",
+                "description": "Mercedes-AMG SLK 55 Video 1."
+            },
+            "video2": {
+                "title": "SLK 55 Style Edition.",
+                "description": "The SLK 55 Style Edition combines luxury and performance, with its sleek design and powerful engine delivering an exhilarating driving experience."
+            },
+            "video3": {
+                "title": "For the roadster enthusiast.",
+                "description": "The SLK 55 offers the thrill of open-top driving with the performance of a sports car, making it the perfect choice for those who love the freedom of the road."
+            },
+            "interior2": {
+                "title": "Discover the new Mercedes-AMG SLK 55",
+                "description": "Experience the joy of driving with the Mercedes-AMG SLK 55."
+            },
+            "bottom": {
+                "title": "Explore More",
+                "description": "Experience the thrill of open-top driving with the Mercedes-AMG SLK 55. With its powerful engine and luxurious interior, the SLK 55 delivers an exhilarating driving experience that's unmatched in its class."
+            }
+        },
+        "SLSAMG": {
+            "mainCard": {
+                "title": "Mercedes-AMG SLS AMG",
+                "price": "from INR 30,000,000",
+                "technicalSpecifications": {
+                    "power": "622 hp",
+                    "acceleration": "0-100 km/h in 3.5 s",
+                    "topSpeed": "317 km/h"
+                }
+            },
+            "video1": {
+                "title": "Mercedes-AMG SLS AMG Video 1",
+                "description": "Mercedes-AMG SLS AMG Video 1."
+            },
+            "video2": {
+                "title": "SLS AMG Style Edition.",
+                "description": "The SLS AMG Style Edition combines classic design with modern performance, paying homage to its legendary predecessor while pushing the boundaries of automotive excellence."
+            },
+            "video3": {
+                "title": "For the classic car enthusiast.",
+                "description": "The SLS AMG is a modern classic, with its iconic gullwing doors and powerful engine capturing the spirit of the original while delivering cutting-edge performance."
+            },
+            "interior2": {
+                "title": "Discover the new Mercedes-AMG SLS AMG",
+                "description": "Experience the thrill of driving with the Mercedes-AMG SLS AMG."
+            },
+            "bottom": {
+                "title": "Explore More",
+                "description": "Experience the legacy of the iconic Mercedes-AMG SLS AMG. With its timeless design and exhilarating performance, the SLS AMG is a true testament to Mercedes-AMG's commitment to automotive excellence."
+            }
+        }
+    },
+    "Porsche": {
+        "911": {
+            "mainCard": {
+                "title": "Porsche 911",
+                "price": "from INR 15,000,000",
+                "technicalSpecifications": {
+                    "power": "450 hp",
+                    "acceleration": "0-100 km/h in 3.5 s",
+                    "topSpeed": "308 km/h"
+                }
+            },
+            "video1": {
+                "title": "Porsche 911 Video 1",
+                "description": "Porsche 911 Video 1."
+            },
+            "video2": {
+                "title": "911 Style Edition.",
+                "description": "The 911 Style Edition combines iconic design with cutting-edge technology, delivering a driving experience like no other."
+            },
+            "video3": {
+                "title": "For the performance enthusiast.",
+                "description": "The 911 is engineered for performance, with its powerful engine and agile handling ensuring thrills on every drive."
+            },
+            "interior2": {
+                "title": "Discover the new Porsche 911",
+                "description": "Experience the ultimate sports car with the Porsche 911."
+            },
+            "bottom": {
+                "title": "Explore More",
+                "description": "Experience the thrill of driving with the Porsche 911. With its timeless design and exhilarating performance, the 911 is the epitome of automotive excellence."
+            }
+        },
+        "Cayenne": {
+            "mainCard": {
+                "title": "Porsche Cayenne",
+                "price": "from INR 10,000,000",
+                "technicalSpecifications": {
+                    "power": "340 hp",
+                    "acceleration": "0-100 km/h in 6.2 s",
+                    "topSpeed": "245 km/h"
+                }
+            },
+            "video1": {
+                "title": "Porsche Cayenne Video 1",
+                "description": "Porsche Cayenne Video 1."
+            },
+            "video2": {
+                "title": "Cayenne Style Edition.",
+                "description": "The Cayenne Style Edition offers a perfect blend of performance and luxury, with its spacious interior and powerful engine."
+            },
+            "video3": {
+                "title": "For the SUV enthusiast.",
+                "description": "The Cayenne is the perfect SUV for those who demand performance, luxury, and versatility in one package."
+            },
+            "interior2": {
+                "title": "Discover the new Porsche Cayenne",
+                "description": "Experience the ultimate SUV with the Porsche Cayenne."
+            },
+            "bottom": {
+                "title": "Explore More",
+                "description": "Experience the luxury and performance of the Porsche Cayenne. With its spacious interior and powerful engine, the Cayenne delivers an unparalleled driving experience."
+            }
+        },
+        "Cayman": {
+            "mainCard": {
+                "title": "Porsche Cayman",
+                "price": "from INR 8,000,000",
+                "technicalSpecifications": {
+                    "power": "300 hp",
+                    "acceleration": "0-100 km/h in 4.7 s",
+                    "topSpeed": "275 km/h"
+                }
+            },
+            "video1": {
+                "title": "Porsche Cayman Video 1",
+                "description": "Porsche Cayman Video 1."
+            },
+            "video2": {
+                "title": "Cayman Style Edition.",
+                "description": "The Cayman Style Edition offers a perfect balance of performance and elegance, with its sleek design and powerful engine."
+            },
+            "video3": {
+                "title": "For the sports car enthusiast.",
+                "description": "The Cayman is the ultimate sports car, with its mid-engine layout and precise handling delivering an unmatched driving experience."
+            },
+            "interior2": {
+                "title": "Discover the new Porsche Cayman",
+                "description": "Experience the thrill of driving with the Porsche Cayman."
+            },
+            "bottom": {
+                "title": "Explore More",
+                "description": "Experience the excitement of the Porsche Cayman. With its dynamic performance and stunning design, the Cayman is sure to exhilarate at every turn."
+            }
+        },
+        "Macan": {
+            "mainCard": {
+                "title": "Porsche Macan",
+                "price": "from INR 7,000,000",
+                "technicalSpecifications": {
+                    "power": "248 hp",
+                    "acceleration": "0-100 km/h in 6.7 s",
+                    "topSpeed": "227 km/h"
+                }
+            },
+            "video1": {
+                "title": "Porsche Macan Video 1",
+                "description": "Porsche Macan Video 1."
+            },
+            "video2": {
+                "title": "Macan Style Edition.",
+                "description": "The Macan Style Edition offers the perfect combination of performance and practicality, with its spacious interior and sporty design."
+            },
+            "video3": {
+                "title": "For the crossover enthusiast.",
+                "description": "The Macan is the ideal crossover for those who want the driving dynamics of a sports car with the versatility of an SUV."
+            },
+            "interior2": {
+                "title": "Discover the new Porsche Macan",
+                "description": "Experience the best of both worlds with the Porsche Macan."
+            },
+            "bottom": {
+                "title": "Explore More",
+                "description": "Experience the versatility of the Porsche Macan. With its powerful engine and spacious interior, the Macan is ready for any adventure."
+            }
+        },
+        "Panamera": {
+            "mainCard": {
+                "title": "Porsche Panamera",
+                "price": "from INR 12,000,000",
+                "technicalSpecifications": {
+                    "power": "330 hp",
+                    "acceleration": "0-100 km/h in 5.4 s",
+                    "topSpeed": "262 km/h"
+                }
+            },
+            "video1": {
+                "title": "Porsche Panamera Video 1",
+                "description": "Porsche Panamera Video 1."
+            },
+            "video2": {
+                "title": "Panamera Style Edition.",
+                "description": "The Panamera Style Edition combines luxury and performance, with its spacious interior and powerful engine delivering an unmatched driving experience."
+            },
+            "video3": {
+                "title": "For the luxury sedan enthusiast.",
+                "description": "The Panamera offers the ultimate blend of comfort and performance, making it the perfect choice for those who demand the best."
+            },
+            "interior2": {
+                "title": "Discover the new Porsche Panamera",
+                "description": "Experience luxury and performance with the Porsche Panamera."
+            },
+            "bottom": {
+                "title": "Explore More",
+                "description": "Experience the luxury and performance of the Porsche Panamera. With its spacious interior and powerful engine, the Panamera delivers a driving experience that's second to none."
+            }
+        },
+        "Taycan": {
+            "mainCard": {
+                "title": "Porsche Taycan",
+                "price": "from INR 12,000,000",
+                "technicalSpecifications": {
+                    "power": "469 hp",
+                    "acceleration": "0-100 km/h in 4.0 s",
+                    "topSpeed": "230 km/h"
+                }
+            },
+            "video1": {
+                "title": "Porsche Taycan Video 1",
+                "description": "Porsche Taycan Video 1."
+            },
+            "video2": {
+                "title": "Taycan Style Edition.",
+                "description": "The Taycan Style Edition offers the future of electric performance, with its cutting-edge technology and exhilarating driving experience."
+            },
+            "video3": {
+                "title": "For the electric car enthusiast.",
+                "description": "The Taycan is redefining electric performance, with its instant torque and long-range capabilities making it the perfect choice for those who want to go green without sacrificing driving pleasure."
+            },
+            "interior2": {
+                "title": "Discover the new Porsche Taycan",
+                "description": "Experience the future of electric mobility with the Porsche Taycan."
+            },
+            "bottom": {
+                "title": "Explore More",
+                "description": "Experience the thrill of electric performance with the Porsche Taycan. With its cutting-edge technology and exhilarating driving experience, the Taycan is setting new standards for electric vehicles."
+            }
+        }
+    }
+}

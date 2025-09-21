@@ -1,0 +1,1545 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CarVerse</title>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="b.css">
+    <!-- Swiper CSS -->
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script  defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="/static/lib/animate/animate.min.css" rel="stylesheet">
+    <link href="/static/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <!-- <link rel="stylesheet" href="cars.css"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+   
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="b.css">
+    <!-- Swiper CSS -->
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+ 
+   <style>
+    
+/* ////// */
+.loading-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999; /* Ensure the loading overlay is on top of other content */
+}
+
+.loading-animation {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 3px solid;
+  border-color: orange transparent;
+  animation: spin 1s infinite ease-out;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Hide the loading animation when the content is ready */
+.loaded .loading-overlay {
+  display: none;
+}
+
+
+
+.btn-primary{
+    background-color: #26272b !important;
+    border-color: white;
+}
+
+.btn-primary:hover{
+    background-color: black;
+    border: 2.5px solid red;
+}
+
+.btn-outline-primary{
+    color: white !important;
+    border-color: black !important;
+}
+
+
+.btn-outline-primary:hover{
+    background-color: black;
+    border: 2px solid red;
+}
+
+.text-uppercase{
+    padding: 3px;
+    color: white;
+    background-color: #00000045;
+    border-radius: 66px;
+}
+
+.bigtext{
+    font-size: 2.5rem !important;
+}
+h5{
+    font-size: 2.4rem !important;
+}
+
+.btn-light {
+    color: #ffffff;
+    background-color: #000000;
+    border-color: #f8f9fa;
+}
+.btn-light:hover{
+    border-color: red;
+    background-color: black;
+    color: white;
+}
+
+
+
+
+.navbar-nav .nav-link.active:hover {
+            color: white!important;
+            background-color: grey;
+        }
+        .dropdown-item:hover {
+            background-color: #555;
+            color: #fff;
+        }
+        .navbar-nav .nav-link:hover {
+            background-color: #555;
+            color: #fff;
+        }
+        .navbar-nav .nav-link {
+           font-size: 1.2rem;
+           text-decoration: none;
+        }
+        #compare123
+        {
+            margin: 10px;
+            border: 2px solid grey;
+            font-size: 1.2rem;
+            border-radius: 30px;
+            color: white;
+            background-color: black;
+            text-decoration: none;
+        }
+        #compare123:hover
+        {
+            border: 2px solid red;
+            
+        }
+
+    </style>
+   
+</head>
+
+<body>
+
+     <!-- Loading overlay -->
+  <div class="loading-overlay">
+    <div class="loading-animation"></div>
+  </div>
+
+  <script>
+    setTimeout(function() {
+      document.body.classList.add('loaded');
+    }, 1500); // 3 seconds delay
+  </script>
+    <!-- Your content goes here -->
+    <header>
+        <!-- <nav class="navbar navbar-expand-lg bg-dark navbar-light shadow sticky-top p-0" style="background-color: black  !important;">
+            <a class="navbar-brand" href="#" id="carlogo">
+                <img src="wallpapers\Designer.png" alt="CarVerse Logo" width="130" class="d-inline-block align-text-top">
+            </a>
+            <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto p-4 p-lg-0">
+                    <a href="index.html" class="nav-item nav-link" style="color: white;">Home</a>
+                    <a href="about.html" class="nav-item nav-link active" style="color: grey;">About</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" style="color: white;">Brands</a>
+                        <div class="dropdown-menu rounded-0 m-0">
+                            <a href="job-list.html" class="dropdown-item">Porsche</a>
+                            <a href="job-detail.html" class="dropdown-item">Bugatti</a>
+                            <a href="job-list.html" class="dropdown-item">BMW</a>
+                            <a href="job-detail.html" class="dropdown-item">Lamborghini</a>
+                            <a href="job-list.html" class="dropdown-item">Ferrari</a>
+                            <a href="job-detail.html" class="dropdown-item">Ford</a>
+                            <a href="job-list.html" class="dropdown-item">Mercedes-Benz</a>
+                            <a href="job-detail.html" class="dropdown-item">Mclaren</a>
+                        </div>
+                    </div>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" style="color: white;">Dealers</a>
+                        <div class="dropdown-menu rounded-0 m-0">
+                            <a href="job-list.html" class="dropdown-item">Porsche</a>
+                            <a href="job-list.html" class="dropdown-item">BMW</a>
+                            <a href="job-detail.html" class="dropdown-item">Lamborghini</a>
+                            <a href="job-list.html" class="dropdown-item">Ferrari</a>
+                            <a href="job-detail.html" class="dropdown-item">Ford</a>
+                            <a href="job-list.html" class="dropdown-item">Mercedes-Benz</a>
+                            <a href="job-detail.html" class="dropdown-item">Mclaren</a>
+                        </div>
+                    </div>
+                    <a href="contact.html" class="nav-item nav-link" style="color: white;">Discussion Forum</a>
+                </div>
+                <a href="compare.html" class="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block" id="compare123">Compare Cars<i class="fa fa-arrow-right ms-3"></i></a>
+            </div>
+        </nav> -->
+   
+        <nav class="navbar navbar-expand-lg bg-dark navbar-light shadow p-0" style="background-color: black !important;">
+            <a class="navbar-brand" href="#" id="carlogo">
+                <span id="carlogo-text" style="color: white; margin-left: 10%;"></span>
+
+            </a>
+        
+            <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto p-4 p-lg-0">
+                    <a href="index.html" class="nav-item nav-link" style="color: white;">Home</a>
+                    <a href="about.html" class="nav-item nav-link active" style="color: grey;">About</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" style="color: white;">Brands</a>
+                        <div class="dropdown-menu rounded-0 m-0">
+                            <a href="company-specific-details.html?brand=Porsche" class="dropdown-item">Porsche</a>
+                            <a href="company-specific-details.html?brand=Bugatti" class="dropdown-item">Bugatti</a>
+                            <a href="company-specific-details.html?brand=BMW" class="dropdown-item">BMW</a>
+                            <a href="company-specific-details.html?brand=Lamborghini" class="dropdown-item">Lamborghini</a>
+                            <a href="company-specific-details.html?brand=Ferrari" class="dropdown-item">Ferrari</a>
+                            <a href="company-specific-details.html?brand=Ford" class="dropdown-item">Ford</a>
+                            <a href="company-specific-details.html?brand=Mercedes" class="dropdown-item">Mercedes-Benz</a>
+                            <a href="company-specific-details.html?brand=McLaren" class="dropdown-item">Mclaren</a>
+                        </div>
+                    </div>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" style="color: white;">Dealers</a>
+                        <div class="dropdown-menu rounded-0 m-0">
+                            <a href="porschedealer.html" class="dropdown-item">Porsche</a>
+                        <a href="bmw.html" class="dropdown-item">BMW</a>
+                        <a href="lambodealer.html" class="dropdown-item">Lamborghini</a>
+                        <a href="Ferrari.html" class="dropdown-item">Ferrari</a>
+                        <a href="Ford.html" class="dropdown-item">Ford</a>
+                        <a href="Mercedesde.html" class="dropdown-item">Mercedes-Benz</a>
+                        <a href="McLarende.html" class="dropdown-item">Mclaren</a>
+                        </div>
+                    </div>
+                    <a href="signup-free.html" class="nav-item nav-link" style="color: white;">Discussion Forum</a>
+                </div>
+                <a href="compare.html" class="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block" id="compare123">Compare Cars<i class="fa fa-arrow-right ms-3"></i></a>
+            </div>
+        </nav>
+        
+    </header>
+
+    <div class="container-fluid my-5 ">
+        <div class="row">
+            <!-- <div class="col-lg-10 offset-lg-1 "> -->
+            <div class="col-lg-12">
+                <div class="card bg-dark text-white">
+                    <img src="All Cars Specific\Porsche\Cayman\CarImages\main.jpeg" class="card-img" alt="Porsche 718 Cayman"
+                        style="width:100%; ALIGN-SELF: CENTER;">
+                    <div class="card-img-overlay d-flex flex-column justify-content-end">
+                        <div class="mb-auto">
+                            <h5 class="card-title" style="margin-left: 5%;">718 Cayman</h5>
+                            <p class="card-text" style="margin-left: 5%;">from INR 14,772,000</p>
+                            <!-- Technical Specifications -->
+                            <div class="mt-3">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="mb-3" style="margin-left: 16%;">
+                                            <h6>Power (kW)/Power (PS)</h6>
+                                            <p>220 kW/300 PS</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="mb-3">
+                                            <h6>Acceleration 0 - 100 km/h</h6>
+                                            <p>4.9 s</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="mb-3">
+                                            <h6>Top speed</h6>
+                                            <p>275 km/h</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Buttons -->
+                        <div class="d-flex flex-wrap justify-content-around">
+                            <button class="btn btn-light spec-btn mb-2" onclick="showInfo('info1')">Technical Specification
+                                </button>
+                            <button class="btn btn-light spec-btn mb-2" onclick="showInfo('info2')">Body Specification
+                                </button>
+                            <button class="btn btn-light spec-btn mb-2" onclick="showInfo('info3')">Performance and Consumptions</button>
+                            <button class="btn btn-light spec-btn mb-2" onclick="showInfo('info4')">Sound level (approved)
+                                </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   <!-- HTML Structure for Modal -->
+<div id="specModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <div id="specContent"></div>
+    </div>
+</div>
+
+
+
+
+
+<script>
+    // Run the script after the DOM has been completely loaded
+document.addEventListener('DOMContentLoaded', () => {
+    // Get all the card elements
+    const cards = document.querySelectorAll('.card');
+
+    // Loop through each card
+    cards.forEach(card => {
+        // Remove all event listeners
+        card.onmouseover = null;
+        card.onmouseout = null;
+    });
+});
+$(document).ready(function() {
+    // Get all the card elements
+    const cards = document.querySelectorAll('.card');
+
+    // Loop through each card
+    cards.forEach(card => {
+        // Remove all event listeners
+        card.onmouseover = null;
+        card.onmouseout = null;
+    });
+});
+
+</script>
+
+
+
+
+
+
+
+
+    <div class="container-fluid my-5 ">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="video-container">
+                    <video autoplay loop muted class="fillWidth">
+                        <source src="All Cars Specific\Porsche\Cayman\CarImages\video1.mp4" type='video/mp4' />
+                        Your browser does not support HTML5 video. Please upgrade your browser!
+                    </video>
+                    <div class="video-overlay d-flex flex-column justify-content-end">
+                        <div class="mb-auto">
+                            <h5 class="text-white">Performance</h5>
+                            <p class="text-white">What is it that makes the 718 models so special? Their performance,
+                                their handling, their design, their generous amount of space with two luggage
+                                compartments. But most of all: a mid-engined layout that makes all this possible in the
+                                first place.</p>
+                        </div>
+                        <!-- Discover More Button -->
+                        <div class="d-flex justify-content-center">
+                            <a href="#" class="btn btn-light">Discover More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid my-5 ">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="video-container video-container2">
+                    <video autoplay loop muted class="fillWidth">
+                        <source src="All Cars Specific\Porsche\Cayman\CarImages\video2.mp4" type='video/mp4' />
+                        Your browser does not support HTML5 video. Please upgrade your browser!
+                    </video>
+                    <div class="video-overlay d-flex flex-column justify-content-end">
+                        <div class="mb-auto">
+                            <h5 class="text-white">718 Style Edition.</h5>
+                            <p class="text-white">The 718 Boxster Style Edition and the 718 Cayman Style Edition bring
+                                colour to city life, with high-contrast design highlights for the exterior and interior.
+                                This is where creativity meets sportiness – your 718 Style Edition transforms the street
+                                into your very own playground.</p>
+                        </div>
+                        <!-- Discover More Button -->
+                        <div class="d-flex justify-content-center">
+                            <a href="#" class="btn btn-light">Discover More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="container-fluid my-5">
+        <div class="row">
+            <div class="col-12 text-left">
+                <p>6 Images</p>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Left Column with One Image -->
+            <div class="col-lg-4">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="image-gallery">
+                            <img src="All Cars Specific\Porsche\Cayman\CarImages\exterior1.webp" alt="Image 1" class="img-fluid gallery-image">
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="image-gallery">
+                            <img src="All Cars Specific\Porsche\Cayman\CarImages\exterior2.webp" alt="Image 3" class="img-fluid gallery-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Middle Column with Two Images -->
+            <div class="col-lg-4">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="image-gallery">
+                            <img src="All Cars Specific\Porsche\Cayman\CarImages\frontimage.webp" alt="Image 2" class="img-fluid gallery-image">
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="image-gallery">
+                            <img src="All Cars Specific\Porsche\Cayman\CarImages\backimage.webp" alt="Image 3" class="img-fluid gallery-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Right Column with Two Images -->
+            <div class="col-lg-4">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="image-gallery">
+                            <img src="All Cars Specific\Porsche\Cayman\CarImages\Interior.webp" alt="Image 4" class="img-fluid gallery-image">
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="image-gallery">
+                            <img src="All Cars Specific\Porsche\Cayman\CarImages\speedometer.webp" alt="Image 5" class="img-fluid gallery-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Number of Images and Open Gallery Button -->
+        <div class="row">
+            <div class="col-12 text-left">
+                <button class="btn btn-primary mt-3">Open Gallery</button>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+    <section class="container my-5 col-lg-11">
+        <div class="row">
+            <div class="col-lg-6">
+                <video autoplay loop muted class="img-fluid">
+                    <source src="All Cars Specific\Porsche\Cayman\CarImages\video3.mp4" type='video/mp4' />
+                    Your browser does not support HTML5 video. Please upgrade your browser!
+                </video>
+            </div>
+            <div class="col-lg-6">
+                <h3 id="video3Title">Loading...</h3>
+                <p id="video3Description">Loading...</p>
+            </div>
+        </div>
+    </section>
+    
+
+    <main class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="All Cars Specific\Porsche\Cayman\CarImages\interior2.webp" alt="Porsche 718 Cayman" class="img-fluid">
+            </div>
+            <div class="col-md-6">
+                <h2>Porsche 718 Cayman</h2>
+                <p>Discover the new Porsche 718 Cayman. Experience the perfect blend of performance, design, and
+                    technology.</p>
+                <!-- Add more details here -->
+            </div>
+        </div>
+    </main>
+
+    <div class="container-fluid my-5">
+        <div class="row">
+            <div class="col-lg-7">
+                <!-- Swiper -->
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide"><img src="All Cars Specific\Porsche\Cayman\ColorImages\Black\iris.webp" alt="Car Image 1"></div>
+                        <div class="swiper-slide"><img src="All Cars Specific\Porsche\Cayman\ColorImages\Black\iris (1).webp" alt="Car Image 2"></div>
+                        <div class="swiper-slide"><img src="All Cars Specific\Porsche\Cayman\ColorImages\Black\iris (2).webp" alt="Car Image 3"></div>
+                        <div class="swiper-slide"><img src="All Cars Specific\Porsche\Cayman\ColorImages\Black\iris (3).webp" alt="Car Image 4"></div>
+                        <div class="swiper-slide"><img src="All Cars Specific\Porsche\Cayman\ColorImages\Black\iris (4).webp" alt="Car Image 5"></div>
+                        <div class="swiper-slide"><img src="All Cars Specific\Porsche\Cayman\ColorImages\Black\iris (5).webp" alt="Car Image 6"></div>
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                    <!-- Add Navigation -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+
+            <div class="col-lg-3">
+                <!-- Exterior Color Button -->
+
+
+                <div class="config-category accordion-closed">
+                    <div class="configMenu_hdl" onclick="toggleTiles('exteriorColorTiles')">Exterior Colour</div>
+                    <div class="content recommendContainer hideRecommendationFootnote">
+                        <div class="tileColor" id="exteriorColorTiles"
+                            style="max-height: 0; overflow: hidden; transition: max-height 0.5s ease-out;">
+                            <!-- Standard Color -->
+                            <button class="tileColor_1" data-link-id="F0Q" data-option-id="F0Q"
+                                style="background-color: rgb(239, 239, 239);"></button>
+                            <button class="tileColor_1" data-link-id="FA1" data-option-id="FA1"
+                                style="background-color: rgb(0, 0, 0);"></button>
+                            <button class="tileColor_1" data-link-id="FG1" data-option-id="FG1"
+                                style="background-color: rgb(204, 0, 51);"></button>
+                            <button class="tileColor_1" data-link-id="FP3" data-option-id="FP3"
+                                style="background-color: rgb(255, 204, 0);"></button>
+                            <button class="tileColor_1" data-link-id="F1A" data-option-id="F1A"
+                                style="background-color: rgb(0, 25, 75);"></button>
+                            <!-- Metallic Color -->
+                            <!-- <button class="tileColor_1" data-link-id="F2T" data-option-id="F2T"
+                                style="background-color: rgb(0, 0, 0);"></button>
+                            <button class="tileColor_1" data-link-id="FU2" data-option-id="FU2"
+                                style="background-color: rgb(204, 204, 204);"></button> -->
+                    
+                            <!-- <button class="tileColor_1" data-link-id="FN0" data-option-id="FN0"
+                                style="background-color: rgb(51, 51, 51);"></button>
+                            <button class="tileColor_1" data-link-id="FU4" data-option-id="FU4"
+                                style="background-color: rgb(108, 116, 108);"></button> -->
+                            <!-- Special Color -->
+                            <!-- <button class="tileColor_1" data-link-id="F3H" data-option-id="F3H"
+                                style="background-color: rgb(199, 199, 191);"></button>
+                            <button class="tileColor_1" data-link-id="FN2" data-option-id="FN2"
+                                style="background-color: rgb(170, 16, 89);"></button>
+                            <button class="tileColor_1" data-link-id="FU0" data-option-id="FU0"
+                                style="background-color: rgb(106, 108, 112);"></button> -->
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!-- Repeat for other categories -->
+            </div>
+
+
+
+
+
+        </div>
+    </div>
+
+
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            setTimeout(function() {
+                const urlParams = new URLSearchParams(window.location.search);
+                const brand = urlParams.get('brand');
+                const model = urlParams.get('model');
+    
+                if (brand && model) {
+                    console.log("Brand:", brand); // Log the brand for debugging
+                    console.log("Model:", model); // Log the model for debugging
+    
+                    // Update images
+                    const images = document.querySelectorAll('.swiper-container img');
+                    images.forEach(img => {
+                        // Replace the brand and model names in the image path
+                        const originalSrc = img.src;
+                        const splitPath = originalSrc.split('/');
+                        const filename = splitPath[splitPath.length - 1];
+                        const newPath = `All Cars Specific/${brand}/${model}/ColorImages/Black/${filename}`;
+                        console.log("New Image Path:", newPath); // Log the new path for debugging
+                        img.src = newPath;
+                    });
+                }
+            }, 100);
+        });
+    </script>
+
+
+
+
+
+
+  
+<section class="container my-5 col-lg-10">
+    <div class="row">
+        <div class="col-lg-6">
+            <h3 id="bottomTitle">Loading...</h3>
+            <p id="bDescription">Loading...</p>
+        </div>
+        <div class="col-lg-6">
+            <img src="All Cars Specific\Porsche\Cayman\CarImages\bottom.webp" alt="Porsche 718 Cayman" class="img-fluid">
+        </div>
+    </div>
+</section>
+
+
+    <!-- <section class="container my-5 col-lg-10">
+        <div class="row">
+            <div class="video-container">
+                <div class="col-lg-10">
+                    <img src="All Cars Specific\Porsche\Cayman\CarImages\porsche-normal (1).webp" alt="Porsche 718 Cayman" class="img-fluid">
+                </div>
+            </div>
+            <div class="video-overlay d-flex flex-column justify-content-end">
+                <div class="mb-auto">
+                    <h5 class="text-white">718 Style Edition.</h5>
+                    <p class="text-white">The 718 Boxster Style Edition and the 718 Cayman Style Edition bring colour to
+                        city life, with high-contrast design highlights for the exterior and interior. This is where
+                        creativity meets sportiness – your 718 Style Edition transforms the street into your very own
+                        playground.</p>
+                </div>
+                <!- Discover More Button --
+                <div class="d-flex justify-content-center">
+                    <a href="#" class="btn btn-light">Discover More</a>
+                </div>
+            </div>
+            <!- <div class="col-lg-6">
+                <h3>For the sport of it.</h3>
+                <p>The 718 models were made for the sport of it. They are mid-engined roadsters that unite the sporting spirit of the legendary Porsche 718 with the sports car of tomorrow – and transfer it to the roads of today’s world. With one goal: to take the everyday out of every day.</p>
+            </div> --
+        </div>
+    </section> -->
+
+
+
+    <div class="container-fluid" style="margin-bottom: 20px;">
+        <h2 class="text-center my-4">Visit </h2>
+        <div class="row">
+            <!-- Model 1 -->
+            <div class="col-md-3 mb-4">
+                <div class="card custom-card">
+                    <!-- <video class="card-img-top" >
+                        <source src="Companies/comparecars.mp4" type="video/mp4" muted loop>
+                        Your browser does not support the video tag.
+                    </video> -->
+                    <div class="card-body">
+                        <h4 class="card-title">Compare</h4>
+                        <p class="card-text">Compare the cars over various brands</p>
+                        <a href="#" class="btn btn-primary">Compare</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Repeat for other models -->
+            <!-- Model 2 -->
+            <div class="col-md-3 mb-4">
+                <div class="card custom-card">
+                    <!-- <video class="card-img-top" >
+                        <source src="Companies/dealers.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video> -->
+                    <div class="card-body">
+                        <h4 class="card-title">Locate</h4>
+                        <p class="card-text">Find the dealer in India.</p>
+                        <a href="#" class="btn btn-primary">Locate</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Repeat for other models -->
+            <!-- Model 3 -->
+            <div class="col-md-3 mb-4">
+                <div class="card custom-card">
+                    <!-- <video class="card-img-top" >
+                        <source src="Companies/discuss.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video> -->
+                    <div class="card-body">
+                        <h4 class="card-title">Discuss</h4>
+                        <p class="card-text">Discuss with others and buy best cars.</p>
+                        <a href="#" class="btn btn-primary">Discuss</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Repeat for other models -->
+            <!-- Model 4 -->
+            <div class="col-md-3 mb-4">
+                <div class="card custom-card">
+                    <!-- <video class="card-img-top">
+                        <source src="Companies/aboutus.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video> -->
+                    <div class="card-body">
+                        <h4 class="card-title">About Us</h4>
+                        <p class="card-text">Meet our team.</p>
+                        <a href="#" class="btn btn-primary">Build Your Own</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    
+
+    <!-- <footer class="footer bg-light">
+        <div class="container">
+            <span class="text-muted">&copy; 2024 Porsche. All rights reserved.</span>
+        !-- </div> -->
+    <!-- #footer -->
+    <hr style="margin-top: 10%;">
+
+    <div class="container-fluid bg-dark text-white-50 footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s" id="footer1234"
+        style="margin-top: 200px;">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">CarVerse</h5>
+                    <a class="btn btn-link text-white-50" href="">About Us</a>
+                    <a class="btn btn-link text-white-50" href="">Homepage</a>
+                    <a class="btn btn-link text-white-50" href="">Our Services</a>
+                    <a class="btn btn-link text-white-50" href="">Privacy Policy</a>
+                    <a class="btn btn-link text-white-50" href="">Terms & Condition</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">Quick links</h5>
+                    <a class="btn btn-link text-white-50" href="">About Us</a>
+                    <a class="btn btn-link text-white-50" href="">Homepage</a>
+                    <a class="btn btn-link text-white-50" href="">Our Services</a>
+                    <a class="btn btn-link text-white-50" href="">Privacy Policy</a>
+                    <a class="btn btn-link text-white-50" href="">Terms & Condition</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">Contact</h5>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>VIT,Pune , Maharashtra,Pune</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>Carverse@gmail.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">About Us</h5>
+                    <span>
+                        CarVerse is your premier online destination for delving deep into the world of luxury car brands
+                        and their iconic models. Our platform is dedicated to delivering meticulously researched,
+                        engaging.
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- /#footer -->
+</body>
+<script src="car-dynamic.js"></script>
+
+<script>
+
+    
+</script>
+<script>
+    // Function to fetch specifications data
+    async function fetchSpecifications() {
+        const response = await fetch('spec.json');
+        const specifications = await response.json();
+        return specifications;
+    }
+
+    // Function to display specifications in the modal
+    async function showInfo(infoId) {
+        var modal = document.getElementById("specModal");
+        var content = document.getElementById("specContent");
+        var closeBtn = document.getElementsByClassName("close")[0];
+
+        // Function to get URL parameters
+        function getUrlParameter(name) {
+            name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+            var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+            var results = regex.exec(location.search);
+            return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+        }
+
+        // Fetch the specifications data
+        const specifications = await fetchSpecifications();
+
+        // Get the brand and model from the URL
+        const brand = getUrlParameter('brand');
+        const model = getUrlParameter('model');
+
+        // Find the specification by ID
+        const spec = specifications[brand][model].details.find(s => s.id === infoId);
+        const mainCardSpecs = specifications[brand][model].mainCard;
+
+
+        
+// <div style="flex: 1; display: flex; align-items: center;">
+                    //     ${videoOrImage}
+                    // </div>
+        // Set the content based on the specification found
+        if (spec) {
+            let videoOrImage = spec.id === 'info3' || spec.id === 'info4' ? 
+                `<video id="specVideo" width="320" height="240" controls>
+                    <source src="${spec.video}" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>` : 
+                `<img src="${spec.image}" alt="${spec.title}" style="max-width: 100%; border-radius: 10px;">`;
+
+            content.innerHTML = `
+                <div style="display: flex; align-items: center; margin-left: 70px;">
+                    <div style="flex: 1; position: relative; height: 350px; width: 350px; margin-right: 20px; overflow: hidden; border-radius: 10px;">
+                        <img src="${spec.image}" alt="${spec.title}" style="width: 100%; height: 100%; object-fit: cover; filter: blur(8px); z-index: -1; position: absolute; top: 0; left: 0;">
+                        <div style="display: flex; justify-content: center; align-items: center; height: 100%; z-index: 1; position: relative;">
+                            <h1 style="color: #3b1800; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">${spec.title}</h1>
+                        </div>
+                    </div>
+                    
+                </div>
+                <p style="margin-left: 70px; margin-top: 20px; font-size: 18px; line-height: 1.6;">${spec.content}</p>
+                <div class="spec-details">
+                    ${spec.id === 'info1' ? `
+                    <h2>Main Specifications</h2>
+                    <h3>Technical Specifications</h3>
+                    <ul>
+                        <li>Power: ${mainCardSpecs.technicalSpecifications.power}</li>
+                        <li>Acceleration: ${mainCardSpecs.technicalSpecifications.acceleration}</li>
+                        <li>Top Speed: ${mainCardSpecs.technicalSpecifications.topSpeed}</li>
+                    </ul>` : ''}
+                    ${spec.id === 'info2' ? `
+                    <h2>Main Specifications</h2>
+                    <h3>Body Specifications</h3>
+                    <ul>
+                        <li>Length: ${mainCardSpecs.bodySpecifications.length}</li>
+                        <li>Width: ${mainCardSpecs.bodySpecifications.width}</li>
+                        <li>Height: ${mainCardSpecs.bodySpecifications.height}</li>
+                        <li>Wheelbase: ${mainCardSpecs.bodySpecifications.wheelbase}</li>
+                        <li>Turning Circle: ${mainCardSpecs.bodySpecifications.turningCircle}</li>
+                        <li>Unladen Weight: ${mainCardSpecs.bodySpecifications.unladenWeight}</li>
+                        <li>Maximum Load: ${mainCardSpecs.bodySpecifications.maximumLoad}</li>
+                    </ul>` : ''}
+                    ${spec.id === 'info3' ? `
+                    <h2>Main Specifications</h2>
+                    <h3>Performance and Consumptions</h3>
+                    <ul>
+                        <li>Top Speed: ${mainCardSpecs.performanceConsumptions.topSpeed}</li>
+                        <li>Acceleration 0 - 100 km/h: ${mainCardSpecs.performanceConsumptions.acceleration0to100}</li>
+                        <li>Fuel Consumption Urban: ${mainCardSpecs.performanceConsumptions.fuelConsumptionUrban}</li>
+                        <li>CO2 Emissions Low: ${mainCardSpecs.performanceConsumptions.CO2EmissionsLow}</li>
+                    </ul>` : ''}
+                    ${spec.id === 'info4' ? `
+                    <h2>Main Specifications</h2>
+                    <h3>Sound Level (approved)</h3>
+                    <ul>
+                        <li>Stationary Vehicle (Manual): ${mainCardSpecs.soundLevel.stationaryVehicleManual}</li>
+                        <li>Stationary Vehicle (PDK): ${mainCardSpecs.soundLevel.stationaryVehiclePDK}</li>
+                        <li>Stationary Vehicle (rpm): ${mainCardSpecs.soundLevel.stationaryVehicleRPM}</li>
+                        <li>Passing Vehicle: ${mainCardSpecs.soundLevel.passingVehicle}</li>
+                    </ul>` : ''}
+                </div>`;
+
+            // Show the modal
+            modal.style.display = "block";
+
+            // Close the modal when the close button is clicked
+            closeBtn.onclick = function () {
+                modal.style.display = "none";
+            }
+
+            // Close the modal when clicking outside of it
+            window.onclick = function (event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+            }
+        }
+    }
+</script>
+
+
+    <script>
+        
+        // // Function to fetch specifications data
+        // async function fetchSpecifications() {
+        //     const response = await fetch('spec.json');
+        //     const specifications = await response.json();
+        //     return specifications;
+        // }
+    
+        // // Function to show the modal with specifications content
+        // async function showInfo(infoId) {
+        //     var modal = document.getElementById("specModal");
+        //     var content = document.getElementById("specContent");
+        //     var closeBtn = document.getElementsByClassName("close")[0];
+    
+        //     // Fetch the specifications data
+        //     const specifications = await fetchSpecifications();
+    
+        //     // Find the specification by ID
+        //     const spec = specifications.find(s => s.id === infoId);
+    
+        //     // Set the content based on the specification found
+        //     if (spec) {
+        //         let videoOrImage = spec.id === 'info3' ? `<video id="specVideo" width="320" height="240" controls>
+        //                                                     <source src="${spec.video}" type="video/mp4">
+        //                                                     Your browser does not support the video tag.
+        //                                                 </video>` : `<img src="${spec.image}" alt="${spec.title}" style="max-width: 100%; border-radius: 10px;">
+        //                                                 `;
+    
+    
+        //         // Check if the specification ID is 'info4' and include a video with a play button
+        //         if (spec.id === 'info4') {
+        //             videoOrImage = `<video id="specVideo" width="320" height="240" controls>
+        //                                 <source src="${spec.video}" type="video/mp4">
+        //                                 Your browser does not support the video tag.
+        //                             </video>
+        //                             <button id="playButton">Play Video</button>`;
+        //         }
+    
+        //         // Check if the specification ID is 'info1' and include a rotating image
+        //         if (spec.id === 'info1') {
+        //             videoOrImage = `<img class="rotating-image" src="${spec.image}" alt="${spec.title}" style="max-width: 47%; border-radius: 10px; margin-left:25%">`;
+        //         }
+    
+        //         content.innerHTML = `
+        //             <div style="display: flex; align-items: center; margin-left: 70px;">
+        //                 <div style="flex: 1; position: relative; height: 350px; width: 350px; margin-right: 20px; overflow: hidden; border-radius: 10px;">
+        //                     <img src="${spec.image}" alt="${spec.title}" style="width: 100%; height: 100%; object-fit: cover; filter: blur(8px); z-index: -1; position: absolute; top: 0; left: 0;">
+        //                     <div style="display: flex; justify-content: center; align-items: center; height: 100%; z-index: 1; position: relative;">
+        //                         <h1 style="color: #3b1800; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">${spec.title}</h1>
+        //                     </div>
+        //                 </div>
+        //                 <div style="flex: 1; display: flex; align-items: center;">
+        //                     ${videoOrImage}
+        //                 </div>
+        //             </div>
+        //             <p style="margin-left: 70px; margin-top: 20px; font-size: 18px; line-height: 1.6;">${spec.content}</p>
+                    
+    
+        //         `;
+        //    // Check if the specification ID is 'info1' and include a rotating image
+        //         if (spec.id === 'info1') {
+        //             videoOrImage = `<img class="rotating-image" src="${spec.image}" alt="${spec.title}" style="max-width: 47%; border-radius: 10px; margin-left:25%">`;
+        //             content.innerHTML+= `
+        //             <div class="spec-container">
+        //                 <div class="spec-item">
+        //                     <div class="spec-label">Number of cylinders</div>
+        //                     <div class="spec-value">4</div>
+        //                 </div>
+        //                 <div class="spec-item">
+        //                     <div class="spec-label">Bore</div>
+        //                     <div class="spec-value">91,0 mm</div>
+        //                 </div>
+        //                 <div class="spec-item">
+        //                     <div class="spec-label">Stroke</div>
+        //                     <div class="spec-value">76,4 mm</div>
+        //                 </div>
+        //                 <div class="spec-item">
+        //                     <div class="spec-label">Displacement</div>
+        //                     <div class="spec-value">1.988 cm³</div>
+        //                 </div>
+        //                 <div class="spec-item">
+        //                     <div class="spec-label">Power (kW)</div>
+        //                     <div class="spec-value">220 kW</div>
+        //                 </div>
+        //                 <div class="spec-item">
+        //                     <div class="spec-label">RPM point maximum power</div>
+        //                     <div class="spec-value">6.500 1/min</div>
+        //                 </div>
+        //                 <div class="spec-item">
+        //                     <div class="spec-label">Maximum engine speed</div>
+        //                     <div class="spec-value">7.500 1/min</div>
+        //                 </div>
+        //                 <div class="spec-item">
+        //                     <div class="spec-label">Max. torque (Manual)</div>
+        //                     <div class="spec-value">380 Nm</div>
+        //                 </div>
+        //                 <div class="spec-item">
+        //                     <div class="spec-label">RPM range maximum torque</div>
+        //                     <div class="spec-value">2.150 - 4.500 1/min</div>
+        //                 </div>
+        //                 <div class="spec-item">
+        //                     <div class="spec-label">Max. output per liter (kW/l)</div>
+        //                     <div class="spec-value">111,00 kW/l</div>
+        //                 </div>
+        //             </div>
+    
+        //             `;
+        //         }
+        //         if(spec.id === 'info2'){
+        //             content.innerHTML+= `
+        //             <div class="spec-container">
+        //                     <div class="spec-item">
+        //                         <div class="spec-label">Length</div>
+        //                         <div class="spec-value">4.379 mm</div>
+        //                     </div>
+        //                     <div class="spec-item">
+        //                         <div class="spec-label">Width</div>
+        //                         <div class="spec-value">1.801 mm</div>
+        //                     </div>
+        //                     <div class="spec-item">
+        //                         <div class="spec-label">Height</div>
+        //                         <div class="spec-value">1.281 mm</div>
+        //                     </div>
+        //                     <div class="spec-item">
+        //                         <div class="spec-label">Wheelbase</div>
+        //                         <div class="spec-value">2.475 mm</div>
+        //                     </div>
+        //                     <div class="spec-item">
+        //                         <div class="spec-label">Turning circle</div>
+        //                         <div class="spec-value">11,0 m</div>
+        //                     </div>
+        //                     <div class="spec-item">
+        //                         <div class="spec-label">Unladen weight (DIN) (Manual)</div>
+        //                         <div class="spec-value">1.335 kg</div>
+        //                     </div>
+        //                     <div class="spec-item">
+        //                         <div class="spec-label">Maximum load</div>
+        //                         <div class="spec-value">320 kg</div>
+        //                     </div>
+        //                 </div>
+    
+        //             `;
+        //         }
+    
+        //         if(spec.id === 'info3'){
+        //             content.innerHTML+=`
+        //             <div class="spec-container">
+        //                 <div class="spec-item">
+        //                     <div class="spec-label">Top speed</div>
+        //                     <div class="spec-value">275 km/h</div>
+        //                 </div>
+        //                 <div class="spec-item">
+        //                     <div class="spec-label">Acceleration 0 - 100 km/h (Manual)</div>
+        //                     <div class="spec-value">5,1 s</div>
+        //                 </div>
+        //                 <div class="spec-item">
+        //                     <div class="spec-label">Fuel consumption urban (Manual)</div>
+        //                     <div class="spec-value">14,6 - 14,1 l/100 km</div>
+        //                 </div>
+        //                 <div class="spec-item">
+        //                     <div class="spec-label">CO2-emissions low (WLTP) (Manual)</div>
+        //                     <div class="spec-value">330 - 321 g/km</div>
+        //                 </div>
+    
+        //             </div>
+    
+        //             `;
+        //         }
+    
+        //         if(spec.id === 'info4'){
+        //             content.innerHTML+=`
+        //             <div class="spec-container">
+        //             <div class="spec-item">
+        //                 <div class="spec-label">Sound level of stationary vehicle (Manual)</div>
+        //                 <div class="spec-value">90 dB(A)</div>
+        //             </div>
+        //             <div class="spec-item">
+        //                 <div class="spec-label">Sound level of stationary vehicle (PDK)</div>
+        //                 <div class="spec-value">89 dB(A)</div>
+        //             </div>
+        //             <div class="spec-item">
+        //                 <div class="spec-label">Sound level of stationary vehicle (rpm)</div>
+        //                 <div class="spec-value">3.750 1/min</div>
+        //             </div>
+        //             <div class="spec-item">
+        //                 <div class="spec-label">Sound level of passing vehicle</div>
+        //                 <div class="spec-value">69 dB(A)</div>
+        //             </div>
+        //         </div>
+    
+        //             `;
+        //         }
+        //     }
+    
+        //     // Show the modal
+        //     modal.style.display = "block";
+    
+        //     // When the user clicks on <span> (x), close the modal
+        //     closeBtn.onclick = function () {
+        //         modal.style.display = "none";
+        //     }
+    
+        //     // When the user clicks anywhere outside of the modal, close it
+        //     window.onclick = function (event) {
+        //         if (event.target == modal) {
+        //             modal.style.display = "none";
+        //         }
+        //     }
+        // }
+</script>
+    
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var swiper = new Swiper('.swiper-container', {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+        });
+    });
+
+    function toggleTiles(id) {
+        var tiles = document.getElementById(id);
+        if (tiles.style.maxHeight === "0px") {
+            tiles.style.maxHeight = "100%";
+        } else {
+            tiles.style.maxHeight = "0px";
+        }
+    }
+
+    // Get all buttons
+    var buttons = document.querySelectorAll('.tileColor_1');
+    var currentHighlightedButton = null;
+
+    // Add click event listener to each button
+    buttons.forEach(function (button) {
+        button.addEventListener('click', function () {
+            // If there's a previously highlighted button, remove the highlight
+            if (currentHighlightedButton) {
+                currentHighlightedButton.classList.remove('highlighted');
+            }
+            // Add the highlight to the clicked button
+            this.classList.add('highlighted');
+            // Update the current highlighted button
+            currentHighlightedButton = this;
+        });
+    });
+
+
+    // document.addEventListener('DOMContentLoaded', function () {
+    //     var swiper = new Swiper('.swiper-container', {
+    //         slidesPerView: 1,
+    //         spaceBetween: 10,
+    //         navigation: {
+    //             nextEl: '.swiper-button-next',
+    //             prevEl: '.swiper-button-prev',
+    //         },
+    //         pagination: {
+    //             el: '.swiper-pagination',
+    //             clickable: true,
+    //         },
+    //     });
+
+    //     // Fetch the JSON file
+    //     fetch('colorImages.json')
+    //         .then(response => response.json())
+    //         .then(data => {
+    //             // Get all color buttons
+    //             var buttons = document.querySelectorAll('.tileColor_1');
+    //             buttons.forEach(function (button) {
+    //                 button.addEventListener('click', function () {
+    //                     // Store the current slide index
+    //                     var currentSlideIndex = swiper.activeIndex;
+
+    //                     // Get the color ID
+    //                     var colorId = this.getAttribute('data-option-id');
+    //                     // Get the corresponding images
+    //                     var images = data[colorId];
+    //                     // Update the Swiper slider's images and navigate to the current slide instantly
+    //                     updateSwiperImages(swiper, images, currentSlideIndex);
+    //                 });
+    //             });
+
+    //         });
+    // });
+
+
+
+
+    // function updateSwiperImages(swiper, images, currentSlideIndex) {
+    //     // Clear the current slides
+    //     swiper.removeAllSlides();
+    //     // Add new slides based on the images array
+    //     images.forEach(function (image) {
+    //         var slide = document.createElement('div');
+    //         slide.className = 'swiper-slide';
+    //         slide.innerHTML = `<img src="${image}" alt="Car Image">`;
+    //         swiper.appendSlide(slide);
+    //     });
+    //     // Update the Swiper instance
+    //     swiper.update();
+
+    //     // Navigate back to the same slide with instant transition
+    //     swiper.slideTo(currentSlideIndex, 0); // 0 speed for instant transition
+    // }
+
+
+
+
+
+
+
+
+//     document.addEventListener('DOMContentLoaded', function () {
+//     var swiper = new Swiper('.swiper-container', {
+//         slidesPerView: 1,
+//         spaceBetween: 10,
+//         navigation: {
+//             nextEl: '.swiper-button-next',
+//             prevEl: '.swiper-button-prev',
+//         },
+//         pagination: {
+//             el: '.swiper-pagination',
+//             clickable: true,
+//         },
+//     });
+
+//     function toggleTiles(id) {
+//         var tiles = document.getElementById(id);
+//         if (tiles.style.maxHeight === "0px") {
+//             tiles.style.maxHeight = "100%";
+//         } else {
+//             tiles.style.maxHeight = "0px";
+//         }
+//     }
+
+//     // Get all buttons
+//     var buttons = document.querySelectorAll('.tileColor_1');
+//     var currentHighlightedButton = null;
+
+//     // Add click event listener to each button
+//     buttons.forEach(function (button) {
+//         button.addEventListener('click', function () {
+//             // If there's a previously highlighted button, remove the highlight
+//             if (currentHighlightedButton) {
+//                 currentHighlightedButton.classList.remove('highlighted');
+//             }
+//             // Add the highlight to the clicked button
+//             this.classList.add('highlighted');
+//             // Update the current highlighted button
+//             currentHighlightedButton = this;
+//         });
+//     });
+
+//     // Color images data
+//     var colorImages = {
+//         "F0Q": ["All Cars Specific/Porsche/Cayman/ColorImages/White/iris.webp", "All Cars Specific/Porsche/Cayman/ColorImages/White/iris (1).webp", "All Cars Specific/Porsche/Cayman/ColorImages/White/iris (2).webp", "All Cars Specific/Porsche/Cayman/ColorImages/White/iris (3).webp", "All Cars Specific/Porsche/Cayman/ColorImages/White/iris (4).webp", "All Cars Specific/Porsche/Cayman/ColorImages/White/iris (5).webp"],
+//         "FA1": ["All Cars Specific/Porsche/Cayman/ColorImages/Black/iris.webp", "All Cars Specific/Porsche/Cayman/ColorImages/Black/iris (1).webp", "All Cars Specific/Porsche/Cayman/ColorImages/Black/iris (2).webp", "All Cars Specific/Porsche/Cayman/ColorImages/Black/iris (3).webp", "All Cars Specific/Porsche/Cayman/ColorImages/Black/iris (4).webp", "All Cars Specific/Porsche/Cayman/ColorImages/Black/iris (5).webp"],
+//         "FP3": ["All Cars Specific/Porsche/Cayman/ColorImages/Yellow/iris.webp", "All Cars Specific/Porsche/Cayman/ColorImages/Yellow/iris (1).webp", "All Cars Specific/Porsche/Cayman/ColorImages/Yellow/iris (1).webp", "All Cars Specific/Porsche/Cayman/ColorImages/Yellow/iris (1).webp", "All Cars Specific/Porsche/Cayman/ColorImages/Yellow/iris (1).webp", "All Cars Specific/Porsche/Cayman/ColorImages/Yellow/iris (1).webp"],
+//         "FG1": ["All Cars Specific/Porsche/Cayman/ColorImages/Red/iris.webp", "All Cars Specific/Porsche/Cayman/ColorImages/Red/iris (1).webp", "All Cars Specific/Porsche/Cayman/ColorImages/Red/iris (2).webp", "All Cars Specific/Porsche/Cayman/ColorImages/Red/iris (3).webp", "All Cars Specific/Porsche/Cayman/ColorImages/Red/iris (4).webp", "All Cars Specific/Porsche/Cayman/ColorImages/Red/iris (5).webp"],
+//         "F1A": ["All Cars Specific/Porsche/Cayman/ColorImages/Blue/iris.webp", "All Cars Specific/Porsche/Cayman/ColorImages/Blue/iris (1).webp", "All Cars Specific/Porsche/Cayman/ColorImages/Blue/iris (2).webp", "All Cars Specific/Porsche/Cayman/ColorImages/Blue/iris (3).webp", "All Cars Specific/Porsche/Cayman/ColorImages/Blue/iris (4).webp", "All Cars Specific/Porsche/Cayman/ColorImages/Blue/iris (5).webp"]
+//     };
+
+//     // Fetch the JSON file
+//     var buttons = document.querySelectorAll('.tileColor_1');
+//     buttons.forEach(function (button) {
+//         button.addEventListener('click', function () {
+//             // Store the current slide index
+//             var currentSlideIndex = swiper.activeIndex;
+
+//             // Get the color ID
+//             var colorId = this.getAttribute('data-option-id');
+//             // Get the corresponding images
+//             var images = colorImages[colorId];
+//             // Update the Swiper slider's images and navigate to the current slide instantly
+//             updateSwiperImages(swiper, images, currentSlideIndex);
+//         });
+//     });
+// });
+
+// function updateSwiperImages(swiper, images, currentSlideIndex) {
+//     // Clear the current slides
+//     swiper.removeAllSlides();
+//     // Add new slides based on the images array
+//     images.forEach(function (image) {
+//         var slide = document.createElement('div');
+//         slide.className = 'swiper-slide';
+//         slide.innerHTML = `<img src="${image}" alt="Car Image">`;
+//         swiper.appendSlide(slide);
+//     });
+//     // Update the Swiper instance
+//     swiper.update();
+
+//     // Navigate back to the same slide with instant transition
+//     swiper.slideTo(currentSlideIndex, 0); // 0 speed for instant transition
+// }
+
+
+
+
+document.addEventListener('DOMContentLoaded', function () {
+    var swiper = new Swiper('.swiper-container', {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+    });
+
+    function toggleTiles(id) {
+        var tiles = document.getElementById(id);
+        if (tiles.style.maxHeight === "0px") {
+            tiles.style.maxHeight = "100%";
+        } else {
+            tiles.style.maxHeight = "0px";
+        }
+    }
+
+    // Get all buttons
+    var buttons = document.querySelectorAll('.tileColor_1');
+    var currentHighlightedButton = null;
+
+    // Add click event listener to each button
+    buttons.forEach(function (button) {
+        button.addEventListener('click', function () {
+            // If there's a previously highlighted button, remove the highlight
+            if (currentHighlightedButton) {
+                currentHighlightedButton.classList.remove('highlighted');
+            }
+            // Add the highlight to the clicked button
+            this.classList.add('highlighted');
+            // Update the current highlighted button
+            currentHighlightedButton = this;
+        });
+    });
+
+    // Color images data
+    var colorImages = {
+        "F0Q": ["All Cars Specific/{{brand}}/{{model}}/ColorImages/White/iris.webp", "All Cars Specific/{{brand}}/{{model}}/ColorImages/White/iris (1).webp", "All Cars Specific/{{brand}}/{{model}}/ColorImages/White/iris (2).webp", "All Cars Specific/{{brand}}/{{model}}/ColorImages/White/iris (3).webp", "All Cars Specific/{{brand}}/{{model}}/ColorImages/White/iris (4).webp", "All Cars Specific/{{brand}}/{{model}}/ColorImages/White/iris (5).webp"],
+        "FA1": ["All Cars Specific/{{brand}}/{{model}}/ColorImages/Black/iris.webp", "All Cars Specific/{{brand}}/{{model}}/ColorImages/Black/iris (1).webp", "All Cars Specific/{{brand}}/{{model}}/ColorImages/Black/iris (2).webp", "All Cars Specific/{{brand}}/{{model}}/ColorImages/Black/iris (3).webp", "All Cars Specific/{{brand}}/{{model}}/ColorImages/Black/iris (4).webp", "All Cars Specific/{{brand}}/{{model}}/ColorImages/Black/iris (5).webp"],
+        "FP3": ["All Cars Specific/{{brand}}/{{model}}/ColorImages/Yellow/iris.webp", "All Cars Specific/{{brand}}/{{model}}/ColorImages/Yellow/iris (1).webp", "All Cars Specific/{{brand}}/{{model}}/ColorImages/Yellow/iris (2).webp", "All Cars Specific/{{brand}}/{{model}}/ColorImages/Yellow/iris (3).webp", "All Cars Specific/{{brand}}/{{model}}/ColorImages/Yellow/iris (4).webp", "All Cars Specific/{{brand}}/{{model}}/ColorImages/Yellow/iris (5).webp"],
+        "FG1": ["All Cars Specific/{{brand}}/{{model}}/ColorImages/Red/iris.webp", "All Cars Specific/{{brand}}/{{model}}/ColorImages/Red/iris (1).webp", "All Cars Specific/{{brand}}/{{model}}/ColorImages/Red/iris (2).webp", "All Cars Specific/{{brand}}/{{model}}/ColorImages/Red/iris (3).webp", "All Cars Specific/{{brand}}/{{model}}/ColorImages/Red/iris (4).webp", "All Cars Specific/{{brand}}/{{model}}/ColorImages/Red/iris (5).webp"],
+        "F1A": ["All Cars Specific/{{brand}}/{{model}}/ColorImages/Blue/iris.webp", "All Cars Specific/{{brand}}/{{model}}/ColorImages/Blue/iris (1).webp", "All Cars Specific/{{brand}}/{{model}}/ColorImages/Blue/iris (2).webp", "All Cars Specific/{{brand}}/{{model}}/ColorImages/Blue/iris (3).webp", "All Cars Specific/{{brand}}/{{model}}/ColorImages/Blue/iris (4).webp", "All Cars Specific/{{brand}}/{{model}}/ColorImages/Blue/iris (5).webp"]
+    };
+
+    // Fetch the JSON file
+    var buttons = document.querySelectorAll('.tileColor_1');
+    buttons.forEach(function (button) {
+        button.addEventListener('click', function () {
+            // Store the current slide index
+            var currentSlideIndex = swiper.activeIndex;
+
+            // Get the color ID
+            var colorId = this.getAttribute('data-option-id');
+            // Get the corresponding images
+            var images = colorImages[colorId].map(image => image.replace('{{brand}}', brand).replace('{{model}}', model));
+            // Update the Swiper slider's images and navigate to the current slide instantly
+            updateSwiperImages(swiper, images, currentSlideIndex);
+        });
+    });
+
+    // Update images based on URL parameters
+    const urlParams = new URLSearchParams(window.location.search);
+    const brand = urlParams.get('brand');
+    const model = urlParams.get('model');
+
+    if (brand && model) {
+        console.log("Brand:", brand); // Log the brand for debugging
+        console.log("Model:", model); // Log the model for debugging
+
+        const images = document.querySelectorAll('img');
+        images.forEach(img => {
+            // Replace the brand and model names in the image path
+            const originalSrc = img.src;
+            const splitPath = originalSrc.split('/');
+            const filename = splitPath[splitPath.length - 1];
+            const newPath = `All Cars Specific/${brand}/${model}/CarImages/${filename}`;
+            console.log("New Image Path:", newPath); // Log the new path for debugging
+            img.src = newPath;
+        });
+
+        const swiperImages = document.querySelectorAll('.swiper-container img');
+        swiperImages.forEach(img => {
+            // Replace the brand and model names in the image path
+            const originalSrc = img.src;
+            const splitPath = originalSrc.split('/');
+            const filename = splitPath[splitPath.length - 1];
+            const newPath = `All Cars Specific/${brand}/${model}/ColorImages/Black/${filename}`;
+            console.log("New Swiper Image Path:", newPath); // Log the new path for debugging
+            img.src = newPath;
+        });
+    }
+});
+
+function updateSwiperImages(swiper, images, currentSlideIndex) {
+    // Clear the current slides
+    swiper.removeAllSlides();
+    // Add new slides based on the images array
+    images.forEach(function (image) {
+        var slide = document.createElement('div');
+        slide.className = 'swiper-slide';
+        slide.innerHTML = `<img src="${image}" alt="Car Image">`;
+        swiper.appendSlide(slide);
+    });
+    // Update the Swiper instance
+    swiper.update();
+
+    // Navigate back to the same slide with instant transition
+    swiper.slideTo(currentSlideIndex, 0); // 0 speed for instant transition
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    // Video
+    document.addEventListener('DOMContentLoaded', function () {
+        // Get the video element
+        var video = document.querySelector('.video-container2 video');
+
+        // Get the video container
+        var videoContainer = document.querySelector('.video-container2');
+
+        // Play the video when the mouse enters the container
+        videoContainer.addEventListener('mouseenter', function () {
+            video.play();
+        });
+
+        // Pause the video when the mouse leaves the container
+        videoContainer.addEventListener('mouseleave', function () {
+            video.pause();
+        });
+    });
+  // function updateSwiperImages(swiper, images) {
+    //     // Clear the current slides
+    //     swiper.removeAllSlides();
+    //     // Add new slides based on the images array
+    //     images.forEach(function (image) {
+    //         var slide = document.createElement('div');
+    //         slide.className = 'swiper-slide';
+    //         slide.innerHTML = `<img src="${image}" alt="Car Image">`;
+    //         swiper.appendSlide(slide);
+    //     });
+    //     // Update the Swiper instance
+    //     swiper.update();
+    // }
+</script>
+<script>
+    // Function to get URL parameters
+    function getUrlParameter(name) {
+        name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+        var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+        var results = regex.exec(location.search);
+        return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+    };
+
+    // Function to set the model name as text content of the span element
+    function setModelName() {
+        var modelName = getUrlParameter('model');
+        var carLogoText = document.getElementById('carlogo-text');
+        if (carLogoText) {
+            carLogoText.textContent = modelName;
+        }
+    }
+
+    // Call the setModelName function when the page loads
+    window.addEventListener('load', setModelName);
+</script>
+
+<script src="car-dynamic.js"></script>
+
+
+
+<!-- jQuery -->
+<!-- Bootstrap JS -->
+<!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Bootstrap JS and jQuery -->
+
+</html>

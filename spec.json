@@ -1,0 +1,2366 @@
+{
+    "Ferrari": {
+        "812 Superfast": {
+            "details": [
+                {
+                    "id": "info1",
+                    "title": "Technical Specification",
+                    "image": "Specs/blueprint.webp",
+                    "content": "This is the detailed specification for Specification 1. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info2",
+                    "title": "Body",
+                    "image": "Specs/engine1.jpg",
+                    "content": "This is the detailed specification for Specification 2. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info3",
+                    "title": "Performance and Consumptions",
+                    "video": "path/to/video4.mp4",
+                    "content": "This is the detailed specification for Specification 3. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info4",
+                    "title": "Sound level (type approved based on UN-R 51)",
+                    "video": "Specs/Caymann Sound.mp4",
+                    "content": "This is the detailed specification for Specification 4. It includes various aspects such as performance, design, and features."
+                }
+            ],
+            "mainCard": {
+                "technicalSpecifications": {
+                    "power": "220 kW/300 PS",
+                    "acceleration": "4.9 s",
+                    "topSpeed": "275 km/h"
+                },
+                "bodySpecifications": {
+                    "length": "4.379 mm",
+                    "width": "1.801 mm",
+                    "height": "1.281 mm",
+                    "wheelbase": "2.475 mm",
+                    "turningCircle": "11,0 m",
+                    "unladenWeight": "1.335 kg",
+                    "maximumLoad": "320 kg"
+                },
+                "performanceConsumptions": {
+                    "topSpeed": "275 km/h",
+                    "acceleration0to100": "5.1 s",
+                    "fuelConsumptionUrban": "14.6 - 14.1 l/100 km",
+                    "CO2EmissionsLow": "330 - 321 g/km"
+                },
+                "soundLevel": {
+                    "stationaryVehicleManual": "90 dB(A)",
+                    "stationaryVehiclePDK": "89 dB(A)",
+                    "stationaryVehicleRPM": "3.750 1/min",
+                    "passingVehicle": "69 dB(A)"
+                }
+            }
+        },
+        "Evolution": {
+            "details": [
+                {
+                    "id": "info1",
+                    "title": "Technical Specification",
+                    "image": "Specs/blueprint.webp",
+                    "content": "This is the detailed specification for Specification 1. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info2",
+                    "title": "Body",
+                    "image": "Specs/engine1.jpg",
+                    "content": "This is the detailed specification for Specification 2. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info3",
+                    "title": "Performance and Consumptions",
+                    "video": "path/to/video4.mp4",
+                    "content": "This is the detailed specification for Specification 3. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info4",
+                    "title": "Sound level (type approved based on UN-R 51)",
+                    "video": "Specs/Caymann Sound.mp4",
+                    "content": "This is the detailed specification for Specification 4. It includes various aspects such as performance, design, and features."
+                }
+            ],
+            "mainCard": {
+                "technicalSpecifications": {
+                    "power": "220 kW/300 PS",
+                    "acceleration": "4.9 s",
+                    "topSpeed": "275 km/h"
+                },
+                "bodySpecifications": {
+                    "length": "4.379 mm",
+                    "width": "1.801 mm",
+                    "height": "1.281 mm",
+                    "wheelbase": "2.475 mm",
+                    "turningCircle": "11,0 m",
+                    "unladenWeight": "1.335 kg",
+                    "maximumLoad": "320 kg"
+                },
+                "performanceConsumptions": {
+                    "topSpeed": "275 km/h",
+                    "acceleration0to100": "5.1 s",
+                    "fuelConsumptionUrban": "14.6 - 14.1 l/100 km",
+                    "CO2EmissionsLow": "330 - 321 g/km"
+                },
+                "soundLevel": {
+                    "stationaryVehicleManual": "90 dB(A)",
+                    "stationaryVehiclePDK": "89 dB(A)",
+                    "stationaryVehicleRPM": "3.750 1/min",
+                    "passingVehicle": "69 dB(A)"
+                }
+            }
+        },
+        "Italia": {
+            "details": [
+                {
+                    "id": "info1",
+                    "title": "Technical Specification",
+                    "image": "Specs/blueprint.webp",
+                    "content": "This is the detailed specification for Specification 1. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info2",
+                    "title": "Body",
+                    "image": "Specs/engine1.jpg",
+                    "content": "This is the detailed specification for Specification 2. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info3",
+                    "title": "Performance and Consumptions",
+                    "video": "path/to/video4.mp4",
+                    "content": "This is the detailed specification for Specification 3. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info4",
+                    "title": "Sound level (type approved based on UN-R 51)",
+                    "video": "Specs/Caymann Sound.mp4",
+                    "content": "This is the detailed specification for Specification 4. It includes various aspects such as performance, design, and features."
+                }
+            ],
+            "mainCard": {
+                "technicalSpecifications": {
+                    "power": "220 kW/300 PS",
+                    "acceleration": "4.9 s",
+                    "topSpeed": "275 km/h"
+                },
+                "bodySpecifications": {
+                    "length": "4.379 mm",
+                    "width": "1.801 mm",
+                    "height": "1.281 mm",
+                    "wheelbase": "2.475 mm",
+                    "turningCircle": "11,0 m",
+                    "unladenWeight": "1.335 kg",
+                    "maximumLoad": "320 kg"
+                },
+                "performanceConsumptions": {
+                    "topSpeed": "275 km/h",
+                    "acceleration0to100": "5.1 s",
+                    "fuelConsumptionUrban": "14.6 - 14.1 l/100 km",
+                    "CO2EmissionsLow": "330 - 321 g/km"
+                },
+                "soundLevel": {
+                    "stationaryVehicleManual": "90 dB(A)",
+                    "stationaryVehiclePDK": "89 dB(A)",
+                    "stationaryVehicleRPM": "3.750 1/min",
+                    "passingVehicle": "69 dB(A)"
+                }
+            }
+        },
+        "FF50": {
+            "details": [
+                {
+                    "id": "info1",
+                    "title": "Technical Specification",
+                    "image": "Specs/blueprint.webp",
+                    "content": "This is the detailed specification for Specification 1. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info2",
+                    "title": "Body",
+                    "image": "Specs/engine1.jpg",
+                    "content": "This is the detailed specification for Specification 2. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info3",
+                    "title": "Performance and Consumptions",
+                    "video": "path/to/video4.mp4",
+                    "content": "This is the detailed specification for Specification 3. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info4",
+                    "title": "Sound level (type approved based on UN-R 51)",
+                    "video": "Specs/Caymann Sound.mp4",
+                    "content": "This is the detailed specification for Specification 4. It includes various aspects such as performance, design, and features."
+                }
+            ],
+            "mainCard": {
+                "technicalSpecifications": {
+                    "power": "220 kW/300 PS",
+                    "acceleration": "4.9 s",
+                    "topSpeed": "275 km/h"
+                },
+                "bodySpecifications": {
+                    "length": "4.379 mm",
+                    "width": "1.801 mm",
+                    "height": "1.281 mm",
+                    "wheelbase": "2.475 mm",
+                    "turningCircle": "11,0 m",
+                    "unladenWeight": "1.335 kg",
+                    "maximumLoad": "320 kg"
+                },
+                "performanceConsumptions": {
+                    "topSpeed": "275 km/h",
+                    "acceleration0to100": "5.1 s",
+                    "fuelConsumptionUrban": "14.6 - 14.1 l/100 km",
+                    "CO2EmissionsLow": "330 - 321 g/km"
+                },
+                "soundLevel": {
+                    "stationaryVehicleManual": "90 dB(A)",
+                    "stationaryVehiclePDK": "89 dB(A)",
+                    "stationaryVehicleRPM": "3.750 1/min",
+                    "passingVehicle": "69 dB(A)"
+                }
+            }
+        },
+        "Pista": {
+            "details": [
+                {
+                    "id": "info1",
+                    "title": "Technical Specification",
+                    "image": "Specs/blueprint.webp",
+                    "content": "This is the detailed specification for Specification 1. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info2",
+                    "title": "Body",
+                    "image": "Specs/engine1.jpg",
+                    "content": "This is the detailed specification for Specification 2. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info3",
+                    "title": "Performance and Consumptions",
+                    "video": "path/to/video4.mp4",
+                    "content": "This is the detailed specification for Specification 3. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info4",
+                    "title": "Sound level (type approved based on UN-R 51)",
+                    "video": "Specs/Caymann Sound.mp4",
+                    "content": "This is the detailed specification for Specification 4. It includes various aspects such as performance, design, and features."
+                }
+            ],
+            "mainCard": {
+                "technicalSpecifications": {
+                    "power": "220 kW/300 PS",
+                    "acceleration": "4.9 s",
+                    "topSpeed": "275 km/h"
+                },
+                "bodySpecifications": {
+                    "length": "4.379 mm",
+                    "width": "1.801 mm",
+                    "height": "1.281 mm",
+                    "wheelbase": "2.475 mm",
+                    "turningCircle": "11,0 m",
+                    "unladenWeight": "1.335 kg",
+                    "maximumLoad": "320 kg"
+                },
+                "performanceConsumptions": {
+                    "topSpeed": "275 km/h",
+                    "acceleration0to100": "5.1 s",
+                    "fuelConsumptionUrban": "14.6 - 14.1 l/100 km",
+                    "CO2EmissionsLow": "330 - 321 g/km"
+                },
+                "soundLevel": {
+                    "stationaryVehicleManual": "90 dB(A)",
+                    "stationaryVehiclePDK": "89 dB(A)",
+                    "stationaryVehicleRPM": "3.750 1/min",
+                    "passingVehicle": "69 dB(A)"
+                }
+            }
+        },
+        "Portofino": {
+            "details": [
+                {
+                    "id": "info1",
+                    "title": "Technical Specification",
+                    "image": "Specs/blueprint.webp",
+                    "content": "This is the detailed specification for Specification 1. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info2",
+                    "title": "Body",
+                    "image": "Specs/engine1.jpg",
+                    "content": "This is the detailed specification for Specification 2. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info3",
+                    "title": "Performance and Consumptions",
+                    "video": "path/to/video4.mp4",
+                    "content": "This is the detailed specification for Specification 3. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info4",
+                    "title": "Sound level (type approved based on UN-R 51)",
+                    "video": "Specs/Caymann Sound.mp4",
+                    "content": "This is the detailed specification for Specification 4. It includes various aspects such as performance, design, and features."
+                }
+            ],
+            "mainCard": {
+                "technicalSpecifications": {
+                    "power": "220 kW/300 PS",
+                    "acceleration": "4.9 s",
+                    "topSpeed": "275 km/h"
+                },
+                "bodySpecifications": {
+                    "length": "4.379 mm",
+                    "width": "1.801 mm",
+                    "height": "1.281 mm",
+                    "wheelbase": "2.475 mm",
+                    "turningCircle": "11,0 m",
+                    "unladenWeight": "1.335 kg",
+                    "maximumLoad": "320 kg"
+                },
+                "performanceConsumptions": {
+                    "topSpeed": "275 km/h",
+                    "acceleration0to100": "5.1 s",
+                    "fuelConsumptionUrban": "14.6 - 14.1 l/100 km",
+                    "CO2EmissionsLow": "330 - 321 g/km"
+                },
+                "soundLevel": {
+                    "stationaryVehicleManual": "90 dB(A)",
+                    "stationaryVehiclePDK": "89 dB(A)",
+                    "stationaryVehicleRPM": "3.750 1/min",
+                    "passingVehicle": "69 dB(A)"
+                }
+            }
+        }
+    },
+    "Lamborghini": {
+        "Aventador": {
+            "details": [
+                {
+                    "id": "info1",
+                    "title": "Technical Specification",
+                    "image": "Specs/blueprint.webp",
+                    "content": "This is the detailed specification for Specification 1. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info2",
+                    "title": "Body",
+                    "image": "Specs/engine1.jpg",
+                    "content": "This is the detailed specification for Specification 2. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info3",
+                    "title": "Performance and Consumptions",
+                    "video": "path/to/video4.mp4",
+                    "content": "This is the detailed specification for Specification 3. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info4",
+                    "title": "Sound level (type approved based on UN-R 51)",
+                    "video": "Specs/Caymann Sound.mp4",
+                    "content": "This is the detailed specification for Specification 4. It includes various aspects such as performance, design, and features."
+                }
+            ],
+            "mainCard": {
+                "technicalSpecifications": {
+                    "power": "220 kW/300 PS",
+                    "acceleration": "4.9 s",
+                    "topSpeed": "275 km/h"
+                },
+                "bodySpecifications": {
+                    "length": "4.379 mm",
+                    "width": "1.801 mm",
+                    "height": "1.281 mm",
+                    "wheelbase": "2.475 mm",
+                    "turningCircle": "11,0 m",
+                    "unladenWeight": "1.335 kg",
+                    "maximumLoad": "320 kg"
+                },
+                "performanceConsumptions": {
+                    "topSpeed": "275 km/h",
+                    "acceleration0to100": "5.1 s",
+                    "fuelConsumptionUrban": "14.6 - 14.1 l/100 km",
+                    "CO2EmissionsLow": "330 - 321 g/km"
+                },
+                "soundLevel": {
+                    "stationaryVehicleManual": "90 dB(A)",
+                    "stationaryVehiclePDK": "89 dB(A)",
+                    "stationaryVehicleRPM": "3.750 1/min",
+                    "passingVehicle": "69 dB(A)"
+                }
+            }
+        },
+        "Countach": {
+            "details": [
+                {
+                    "id": "info1",
+                    "title": "Technical Specification",
+                    "image": "Specs/blueprint.webp",
+                    "content": "This is the detailed specification for Specification 1. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info2",
+                    "title": "Body",
+                    "image": "Specs/engine1.jpg",
+                    "content": "This is the detailed specification for Specification 2. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info3",
+                    "title": "Performance and Consumptions",
+                    "video": "path/to/video4.mp4",
+                    "content": "This is the detailed specification for Specification 3. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info4",
+                    "title": "Sound level (type approved based on UN-R 51)",
+                    "video": "Specs/Caymann Sound.mp4",
+                    "content": "This is the detailed specification for Specification 4. It includes various aspects such as performance, design, and features."
+                }
+            ],
+            "mainCard": {
+                "technicalSpecifications": {
+                    "power": "220 kW/300 PS",
+                    "acceleration": "4.9 s",
+                    "topSpeed": "275 km/h"
+                },
+                "bodySpecifications": {
+                    "length": "4.379 mm",
+                    "width": "1.801 mm",
+                    "height": "1.281 mm",
+                    "wheelbase": "2.475 mm",
+                    "turningCircle": "11,0 m",
+                    "unladenWeight": "1.335 kg",
+                    "maximumLoad": "320 kg"
+                },
+                "performanceConsumptions": {
+                    "topSpeed": "275 km/h",
+                    "acceleration0to100": "5.1 s",
+                    "fuelConsumptionUrban": "14.6 - 14.1 l/100 km",
+                    "CO2EmissionsLow": "330 - 321 g/km"
+                },
+                "soundLevel": {
+                    "stationaryVehicleManual": "90 dB(A)",
+                    "stationaryVehiclePDK": "89 dB(A)",
+                    "stationaryVehicleRPM": "3.750 1/min",
+                    "passingVehicle": "69 dB(A)"
+                }
+            }
+        },
+        "Diablo": {
+            "details": [
+                {
+                    "id": "info1",
+                    "title": "Technical Specification",
+                    "image": "Specs/blueprint.webp",
+                    "content": "This is the detailed specification for Specification 1. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info2",
+                    "title": "Body",
+                    "image": "Specs/engine1.jpg",
+                    "content": "This is the detailed specification for Specification 2. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info3",
+                    "title": "Performance and Consumptions",
+                    "video": "path/to/video4.mp4",
+                    "content": "This is the detailed specification for Specification 3. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info4",
+                    "title": "Sound level (type approved based on UN-R 51)",
+                    "video": "Specs/Caymann Sound.mp4",
+                    "content": "This is the detailed specification for Specification 4. It includes various aspects such as performance, design, and features."
+                }
+            ],
+            "mainCard": {
+                "technicalSpecifications": {
+                    "power": "220 kW/300 PS",
+                    "acceleration": "4.9 s",
+                    "topSpeed": "275 km/h"
+                },
+                "bodySpecifications": {
+                    "length": "4.379 mm",
+                    "width": "1.801 mm",
+                    "height": "1.281 mm",
+                    "wheelbase": "2.475 mm",
+                    "turningCircle": "11,0 m",
+                    "unladenWeight": "1.335 kg",
+                    "maximumLoad": "320 kg"
+                },
+                "performanceConsumptions": {
+                    "topSpeed": "275 km/h",
+                    "acceleration0to100": "5.1 s",
+                    "fuelConsumptionUrban": "14.6 - 14.1 l/100 km",
+                    "CO2EmissionsLow": "330 - 321 g/km"
+                },
+                "soundLevel": {
+                    "stationaryVehicleManual": "90 dB(A)",
+                    "stationaryVehiclePDK": "89 dB(A)",
+                    "stationaryVehicleRPM": "3.750 1/min",
+                    "passingVehicle": "69 dB(A)"
+                }
+            }
+        },
+        "Huracane": {
+            "details": [
+                {
+                    "id": "info1",
+                    "title": "Technical Specification",
+                    "image": "Specs/blueprint.webp",
+                    "content": "This is the detailed specification for Specification 1. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info2",
+                    "title": "Body",
+                    "image": "Specs/engine1.jpg",
+                    "content": "This is the detailed specification for Specification 2. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info3",
+                    "title": "Performance and Consumptions",
+                    "video": "path/to/video4.mp4",
+                    "content": "This is the detailed specification for Specification 3. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info4",
+                    "title": "Sound level (type approved based on UN-R 51)",
+                    "video": "Specs/Caymann Sound.mp4",
+                    "content": "This is the detailed specification for Specification 4. It includes various aspects such as performance, design, and features."
+                }
+            ],
+            "mainCard": {
+                "technicalSpecifications": {
+                    "power": "220 kW/300 PS",
+                    "acceleration": "4.9 s",
+                    "topSpeed": "275 km/h"
+                },
+                "bodySpecifications": {
+                    "length": "4.379 mm",
+                    "width": "1.801 mm",
+                    "height": "1.281 mm",
+                    "wheelbase": "2.475 mm",
+                    "turningCircle": "11,0 m",
+                    "unladenWeight": "1.335 kg",
+                    "maximumLoad": "320 kg"
+                },
+                "performanceConsumptions": {
+                    "topSpeed": "275 km/h",
+                    "acceleration0to100": "5.1 s",
+                    "fuelConsumptionUrban": "14.6 - 14.1 l/100 km",
+                    "CO2EmissionsLow": "330 - 321 g/km"
+                },
+                "soundLevel": {
+                    "stationaryVehicleManual": "90 dB(A)",
+                    "stationaryVehiclePDK": "89 dB(A)",
+                    "stationaryVehicleRPM": "3.750 1/min",
+                    "passingVehicle": "69 dB(A)"
+                }
+            }
+        },
+        "Urus": {
+            "details": [
+                {
+                    "id": "info1",
+                    "title": "Technical Specification",
+                    "image": "Specs/blueprint.webp",
+                    "content": "This is the detailed specification for Specification 1. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info2",
+                    "title": "Body",
+                    "image": "Specs/engine1.jpg",
+                    "content": "This is the detailed specification for Specification 2. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info3",
+                    "title": "Performance and Consumptions",
+                    "video": "path/to/video4.mp4",
+                    "content": "This is the detailed specification for Specification 3. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info4",
+                    "title": "Sound level (type approved based on UN-R 51)",
+                    "video": "Specs/Caymann Sound.mp4",
+                    "content": "This is the detailed specification for Specification 4. It includes various aspects such as performance, design, and features."
+                }
+            ],
+            "mainCard": {
+                "technicalSpecifications": {
+                    "power": "220 kW/300 PS",
+                    "acceleration": "4.9 s",
+                    "topSpeed": "275 km/h"
+                },
+                "bodySpecifications": {
+                    "length": "4.379 mm",
+                    "width": "1.801 mm",
+                    "height": "1.281 mm",
+                    "wheelbase": "2.475 mm",
+                    "turningCircle": "11,0 m",
+                    "unladenWeight": "1.335 kg",
+                    "maximumLoad": "320 kg"
+                },
+                "performanceConsumptions": {
+                    "topSpeed": "275 km/h",
+                    "acceleration0to100": "5.1 s",
+                    "fuelConsumptionUrban": "14.6 - 14.1 l/100 km",
+                    "CO2EmissionsLow": "330 - 321 g/km"
+                },
+                "soundLevel": {
+                    "stationaryVehicleManual": "90 dB(A)",
+                    "stationaryVehiclePDK": "89 dB(A)",
+                    "stationaryVehicleRPM": "3.750 1/min",
+                    "passingVehicle": "69 dB(A)"
+                }
+            }
+        },
+        "Veneno": {
+            "details": [
+                {
+                    "id": "info1",
+                    "title": "Technical Specification",
+                    "image": "Specs/blueprint.webp",
+                    "content": "This is the detailed specification for Specification 1. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info2",
+                    "title": "Body",
+                    "image": "Specs/engine1.jpg",
+                    "content": "This is the detailed specification for Specification 2. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info3",
+                    "title": "Performance and Consumptions",
+                    "video": "path/to/video4.mp4",
+                    "content": "This is the detailed specification for Specification 3. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info4",
+                    "title": "Sound level (type approved based on UN-R 51)",
+                    "video": "Specs/Caymann Sound.mp4",
+                    "content": "This is the detailed specification for Specification 4. It includes various aspects such as performance, design, and features."
+                }
+            ],
+            "mainCard": {
+                "technicalSpecifications": {
+                    "power": "220 kW/300 PS",
+                    "acceleration": "4.9 s",
+                    "topSpeed": "275 km/h"
+                },
+                "bodySpecifications": {
+                    "length": "4.379 mm",
+                    "width": "1.801 mm",
+                    "height": "1.281 mm",
+                    "wheelbase": "2.475 mm",
+                    "turningCircle": "11,0 m",
+                    "unladenWeight": "1.335 kg",
+                    "maximumLoad": "320 kg"
+                },
+                "performanceConsumptions": {
+                    "topSpeed": "275 km/h",
+                    "acceleration0to100": "5.1 s",
+                    "fuelConsumptionUrban": "14.6 - 14.1 l/100 km",
+                    "CO2EmissionsLow": "330 - 321 g/km"
+                },
+                "soundLevel": {
+                    "stationaryVehicleManual": "90 dB(A)",
+                    "stationaryVehiclePDK": "89 dB(A)",
+                    "stationaryVehicleRPM": "3.750 1/min",
+                    "passingVehicle": "69 dB(A)"
+                }
+            }
+        }
+       
+    }, 
+    "BMW": {
+        "I8": {
+            "details": [
+                {
+                    "id": "info1",
+                    "title": "Technical Specification",
+                    "image": "Specs/blueprint.webp",
+                    "content": "This is the detailed specification for I8. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info2",
+                    "title": "Body",
+                    "image": "Specs/engine1.jpg",
+                    "content": "This is the detailed specification for I8. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info3",
+                    "title": "Performance and Consumptions",
+                    "video": "path/to/video4.mp4",
+                    "content": "This is the detailed specification for I8. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info4",
+                    "title": "Sound level (type approved based on UN-R 51)",
+                    "video": "Specs/Caymann Sound.mp4",
+                    "content": "This is the detailed specification for I8. It includes various aspects such as performance, design, and features."
+                }
+            ],
+            "mainCard": {
+                "technicalSpecifications": {
+                    "power": "220 kW/300 PS",
+                    "acceleration": "4.9 s",
+                    "topSpeed": "275 km/h"
+                },
+                "bodySpecifications": {
+                    "length": "4.379 mm",
+                    "width": "1.801 mm",
+                    "height": "1.281 mm",
+                    "wheelbase": "2.475 mm",
+                    "turningCircle": "11,0 m",
+                    "unladenWeight": "1.335 kg",
+                    "maximumLoad": "320 kg"
+                },
+                "performanceConsumptions": {
+                    "topSpeed": "275 km/h",
+                    "acceleration0to100": "5.1 s",
+                    "fuelConsumptionUrban": "14.6 - 14.1 l/100 km",
+                    "CO2EmissionsLow": "330 - 321 g/km"
+                },
+                "soundLevel": {
+                    "stationaryVehicleManual": "90 dB(A)",
+                    "stationaryVehiclePDK": "89 dB(A)",
+                    "stationaryVehicleRPM": "3.750 1/min",
+                    "passingVehicle": "69 dB(A)"
+                }
+            }
+        },
+        "M3 GTR": {
+            "details": [
+                {
+                    "id": "info1",
+                    "title": "Technical Specification",
+                    "image": "Specs/blueprint.webp",
+                    "content": "This is the detailed specification for I8. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info2",
+                    "title": "Body",
+                    "image": "Specs/engine1.jpg",
+                    "content": "This is the detailed specification for I8. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info3",
+                    "title": "Performance and Consumptions",
+                    "video": "path/to/video4.mp4",
+                    "content": "This is the detailed specification for I8. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info4",
+                    "title": "Sound level (type approved based on UN-R 51)",
+                    "video": "Specs/Caymann Sound.mp4",
+                    "content": "This is the detailed specification for I8. It includes various aspects such as performance, design, and features."
+                }
+            ],
+            "mainCard": {
+                "technicalSpecifications": {
+                    "power": "220 kW/300 PS",
+                    "acceleration": "4.9 s",
+                    "topSpeed": "275 km/h"
+                },
+                "bodySpecifications": {
+                    "length": "4.379 mm",
+                    "width": "1.801 mm",
+                    "height": "1.281 mm",
+                    "wheelbase": "2.475 mm",
+                    "turningCircle": "11,0 m",
+                    "unladenWeight": "1.335 kg",
+                    "maximumLoad": "320 kg"
+                },
+                "performanceConsumptions": {
+                    "topSpeed": "275 km/h",
+                    "acceleration0to100": "5.1 s",
+                    "fuelConsumptionUrban": "14.6 - 14.1 l/100 km",
+                    "CO2EmissionsLow": "330 - 321 g/km"
+                },
+                "soundLevel": {
+                    "stationaryVehicleManual": "90 dB(A)",
+                    "stationaryVehiclePDK": "89 dB(A)",
+                    "stationaryVehicleRPM": "3.750 1/min",
+                    "passingVehicle": "69 dB(A)"
+                }
+            }
+        },
+        "M4 COUPE": {
+            "details": [
+                {
+                    "id": "info1",
+                    "title": "Technical Specification",
+                    "image": "Specs/blueprint.webp",
+                    "content": "This is the detailed specification for I8. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info2",
+                    "title": "Body",
+                    "image": "Specs/engine1.jpg",
+                    "content": "This is the detailed specification for I8. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info3",
+                    "title": "Performance and Consumptions",
+                    "video": "path/to/video4.mp4",
+                    "content": "This is the detailed specification for I8. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info4",
+                    "title": "Sound level (type approved based on UN-R 51)",
+                    "video": "Specs/Caymann Sound.mp4",
+                    "content": "This is the detailed specification for I8. It includes various aspects such as performance, design, and features."
+                }
+            ],
+            "mainCard": {
+                "technicalSpecifications": {
+                    "power": "220 kW/300 PS",
+                    "acceleration": "4.9 s",
+                    "topSpeed": "275 km/h"
+                },
+                "bodySpecifications": {
+                    "length": "4.379 mm",
+                    "width": "1.801 mm",
+                    "height": "1.281 mm",
+                    "wheelbase": "2.475 mm",
+                    "turningCircle": "11,0 m",
+                    "unladenWeight": "1.335 kg",
+                    "maximumLoad": "320 kg"
+                },
+                "performanceConsumptions": {
+                    "topSpeed": "275 km/h",
+                    "acceleration0to100": "5.1 s",
+                    "fuelConsumptionUrban": "14.6 - 14.1 l/100 km",
+                    "CO2EmissionsLow": "330 - 321 g/km"
+                },
+                "soundLevel": {
+                    "stationaryVehicleManual": "90 dB(A)",
+                    "stationaryVehiclePDK": "89 dB(A)",
+                    "stationaryVehicleRPM": "3.750 1/min",
+                    "passingVehicle": "69 dB(A)"
+                }
+            }
+        },
+        "M5": {
+            "details": [
+                {
+                    "id": "info1",
+                    "title": "Technical Specification",
+                    "image": "Specs/blueprint.webp",
+                    "content": "This is the detailed specification for I8. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info2",
+                    "title": "Body",
+                    "image": "Specs/engine1.jpg",
+                    "content": "This is the detailed specification for I8. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info3",
+                    "title": "Performance and Consumptions",
+                    "video": "path/to/video4.mp4",
+                    "content": "This is the detailed specification for I8. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info4",
+                    "title": "Sound level (type approved based on UN-R 51)",
+                    "video": "Specs/Caymann Sound.mp4",
+                    "content": "This is the detailed specification for I8. It includes various aspects such as performance, design, and features."
+                }
+            ],
+            "mainCard": {
+                "technicalSpecifications": {
+                    "power": "220 kW/300 PS",
+                    "acceleration": "4.9 s",
+                    "topSpeed": "275 km/h"
+                },
+                "bodySpecifications": {
+                    "length": "4.379 mm",
+                    "width": "1.801 mm",
+                    "height": "1.281 mm",
+                    "wheelbase": "2.475 mm",
+                    "turningCircle": "11,0 m",
+                    "unladenWeight": "1.335 kg",
+                    "maximumLoad": "320 kg"
+                },
+                "performanceConsumptions": {
+                    "topSpeed": "275 km/h",
+                    "acceleration0to100": "5.1 s",
+                    "fuelConsumptionUrban": "14.6 - 14.1 l/100 km",
+                    "CO2EmissionsLow": "330 - 321 g/km"
+                },
+                "soundLevel": {
+                    "stationaryVehicleManual": "90 dB(A)",
+                    "stationaryVehiclePDK": "89 dB(A)",
+                    "stationaryVehicleRPM": "3.750 1/min",
+                    "passingVehicle": "69 dB(A)"
+                }
+            }
+        },
+        "M6 COUPE": {
+            "details": [
+                {
+                    "id": "info1",
+                    "title": "Technical Specification",
+                    "image": "Specs/blueprint.webp",
+                    "content": "This is the detailed specification for I8. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info2",
+                    "title": "Body",
+                    "image": "Specs/engine1.jpg",
+                    "content": "This is the detailed specification for I8. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info3",
+                    "title": "Performance and Consumptions",
+                    "video": "path/to/video4.mp4",
+                    "content": "This is the detailed specification for I8. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info4",
+                    "title": "Sound level (type approved based on UN-R 51)",
+                    "video": "Specs/Caymann Sound.mp4",
+                    "content": "This is the detailed specification for I8. It includes various aspects such as performance, design, and features."
+                }
+            ],
+            "mainCard": {
+                "technicalSpecifications": {
+                    "power": "220 kW/300 PS",
+                    "acceleration": "4.9 s",
+                    "topSpeed": "275 km/h"
+                },
+                "bodySpecifications": {
+                    "length": "4.379 mm",
+                    "width": "1.801 mm",
+                    "height": "1.281 mm",
+                    "wheelbase": "2.475 mm",
+                    "turningCircle": "11,0 m",
+                    "unladenWeight": "1.335 kg",
+                    "maximumLoad": "320 kg"
+                },
+                "performanceConsumptions": {
+                    "topSpeed": "275 km/h",
+                    "acceleration0to100": "5.1 s",
+                    "fuelConsumptionUrban": "14.6 - 14.1 l/100 km",
+                    "CO2EmissionsLow": "330 - 321 g/km"
+                },
+                "soundLevel": {
+                    "stationaryVehicleManual": "90 dB(A)",
+                    "stationaryVehiclePDK": "89 dB(A)",
+                    "stationaryVehicleRPM": "3.750 1/min",
+                    "passingVehicle": "69 dB(A)"
+                }
+            }
+        },
+        "ROADSTER": {
+            "details": [
+                {
+                    "id": "info1",
+                    "title": "Technical Specification",
+                    "image": "Specs/blueprint.webp",
+                    "content": "This is the detailed specification for I8. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info2",
+                    "title": "Body",
+                    "image": "Specs/engine1.jpg",
+                    "content": "This is the detailed specification for I8. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info3",
+                    "title": "Performance and Consumptions",
+                    "video": "path/to/video4.mp4",
+                    "content": "This is the detailed specification for I8. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info4",
+                    "title": "Sound level (type approved based on UN-R 51)",
+                    "video": "Specs/Caymann Sound.mp4",
+                    "content": "This is the detailed specification for I8. It includes various aspects such as performance, design, and features."
+                }
+            ],
+            "mainCard": {
+                "technicalSpecifications": {
+                    "power": "220 kW/300 PS",
+                    "acceleration": "4.9 s",
+                    "topSpeed": "275 km/h"
+                },
+                "bodySpecifications": {
+                    "length": "4.379 mm",
+                    "width": "1.801 mm",
+                    "height": "1.281 mm",
+                    "wheelbase": "2.475 mm",
+                    "turningCircle": "11,0 m",
+                    "unladenWeight": "1.335 kg",
+                    "maximumLoad": "320 kg"
+                },
+                "performanceConsumptions": {
+                    "topSpeed": "275 km/h",
+                    "acceleration0to100": "5.1 s",
+                    "fuelConsumptionUrban": "14.6 - 14.1 l/100 km",
+                    "CO2EmissionsLow": "330 - 321 g/km"
+                },
+                "soundLevel": {
+                    "stationaryVehicleManual": "90 dB(A)",
+                    "stationaryVehiclePDK": "89 dB(A)",
+                    "stationaryVehicleRPM": "3.750 1/min",
+                    "passingVehicle": "69 dB(A)"
+                }
+            }
+        }
+    },
+    "Porsche": {
+        "Cayman": {
+            "details": [
+                {
+                    "id": "info1",
+                    "title": "Technical Specification",
+                    "image": "Specs/blueprint.webp",
+                    "content": "This is the detailed specification for Cayman. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info2",
+                    "title": "Body",
+                    "image": "Specs/engine1.jpg",
+                    "content": "This is the detailed specification for Cayman. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info3",
+                    "title": "Performance and Consumptions",
+                    "video": "path/to/video4.mp4",
+                    "content": "This is the detailed specification for Cayman. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info4",
+                    "title": "Sound level (type approved based on UN-R 51)",
+                    "video": "Specs/Caymann Sound.mp4",
+                    "content": "This is the detailed specification for Cayman. It includes various aspects such as performance, design, and features."
+                }
+            ],
+            "mainCard": {
+                "technicalSpecifications": {
+                    "power": "220 kW/300 PS",
+                    "acceleration": "4.9 s",
+                    "topSpeed": "275 km/h"
+                },
+                "bodySpecifications": {
+                    "length": "4.379 mm",
+                    "width": "1.801 mm",
+                    "height": "1.281 mm",
+                    "wheelbase": "2.475 mm",
+                    "turningCircle": "11,0 m",
+                    "unladenWeight": "1.335 kg",
+                    "maximumLoad": "320 kg"
+                },
+                "performanceConsumptions": {
+                    "topSpeed": "275 km/h",
+                    "acceleration0to100": "5.1 s",
+                    "fuelConsumptionUrban": "14.6 - 14.1 l/100 km",
+                    "CO2EmissionsLow": "330 - 321 g/km"
+                },
+                "soundLevel": {
+                    "stationaryVehicleManual": "90 dB(A)",
+                    "stationaryVehiclePDK": "89 dB(A)",
+                    "stationaryVehicleRPM": "3.750 1/min",
+                    "passingVehicle": "69 dB(A)"
+                }
+            }
+        },
+        "Cayenne": {
+            "details": [
+                {
+                    "id": "info1",
+                    "title": "Technical Specification",
+                    "image": "Specs/blueprint.webp",
+                    "content": "This is the detailed specification for Cayman. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info2",
+                    "title": "Body",
+                    "image": "Specs/engine1.jpg",
+                    "content": "This is the detailed specification for Cayman. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info3",
+                    "title": "Performance and Consumptions",
+                    "video": "path/to/video4.mp4",
+                    "content": "This is the detailed specification for Cayman. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info4",
+                    "title": "Sound level (type approved based on UN-R 51)",
+                    "video": "Specs/Caymann Sound.mp4",
+                    "content": "This is the detailed specification for Cayman. It includes various aspects such as performance, design, and features."
+                }
+            ],
+            "mainCard": {
+                "technicalSpecifications": {
+                    "power": "220 kW/300 PS",
+                    "acceleration": "4.9 s",
+                    "topSpeed": "275 km/h"
+                },
+                "bodySpecifications": {
+                    "length": "4.379 mm",
+                    "width": "1.801 mm",
+                    "height": "1.281 mm",
+                    "wheelbase": "2.475 mm",
+                    "turningCircle": "11,0 m",
+                    "unladenWeight": "1.335 kg",
+                    "maximumLoad": "320 kg"
+                },
+                "performanceConsumptions": {
+                    "topSpeed": "275 km/h",
+                    "acceleration0to100": "5.1 s",
+                    "fuelConsumptionUrban": "14.6 - 14.1 l/100 km",
+                    "CO2EmissionsLow": "330 - 321 g/km"
+                },
+                "soundLevel": {
+                    "stationaryVehicleManual": "90 dB(A)",
+                    "stationaryVehiclePDK": "89 dB(A)",
+                    "stationaryVehicleRPM": "3.750 1/min",
+                    "passingVehicle": "69 dB(A)"
+                }
+            }
+        },
+        "911": {
+            "details": [
+                {
+                    "id": "info1",
+                    "title": "Technical Specification",
+                    "image": "Specs/blueprint.webp",
+                    "content": "This is the detailed specification for Cayman. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info2",
+                    "title": "Body",
+                    "image": "Specs/engine1.jpg",
+                    "content": "This is the detailed specification for Cayman. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info3",
+                    "title": "Performance and Consumptions",
+                    "video": "path/to/video4.mp4",
+                    "content": "This is the detailed specification for Cayman. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info4",
+                    "title": "Sound level (type approved based on UN-R 51)",
+                    "video": "Specs/Caymann Sound.mp4",
+                    "content": "This is the detailed specification for Cayman. It includes various aspects such as performance, design, and features."
+                }
+            ],
+            "mainCard": {
+                "technicalSpecifications": {
+                    "power": "220 kW/300 PS",
+                    "acceleration": "4.9 s",
+                    "topSpeed": "275 km/h"
+                },
+                "bodySpecifications": {
+                    "length": "4.379 mm",
+                    "width": "1.801 mm",
+                    "height": "1.281 mm",
+                    "wheelbase": "2.475 mm",
+                    "turningCircle": "11,0 m",
+                    "unladenWeight": "1.335 kg",
+                    "maximumLoad": "320 kg"
+                },
+                "performanceConsumptions": {
+                    "topSpeed": "275 km/h",
+                    "acceleration0to100": "5.1 s",
+                    "fuelConsumptionUrban": "14.6 - 14.1 l/100 km",
+                    "CO2EmissionsLow": "330 - 321 g/km"
+                },
+                "soundLevel": {
+                    "stationaryVehicleManual": "90 dB(A)",
+                    "stationaryVehiclePDK": "89 dB(A)",
+                    "stationaryVehicleRPM": "3.750 1/min",
+                    "passingVehicle": "69 dB(A)"
+                }
+            }
+        },
+        "Macan": {
+            "details": [
+                {
+                    "id": "info1",
+                    "title": "Technical Specification",
+                    "image": "Specs/blueprint.webp",
+                    "content": "This is the detailed specification for Cayman. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info2",
+                    "title": "Body",
+                    "image": "Specs/engine1.jpg",
+                    "content": "This is the detailed specification for Cayman. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info3",
+                    "title": "Performance and Consumptions",
+                    "video": "path/to/video4.mp4",
+                    "content": "This is the detailed specification for Cayman. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info4",
+                    "title": "Sound level (type approved based on UN-R 51)",
+                    "video": "Specs/Caymann Sound.mp4",
+                    "content": "This is the detailed specification for Cayman. It includes various aspects such as performance, design, and features."
+                }
+            ],
+            "mainCard": {
+                "technicalSpecifications": {
+                    "power": "220 kW/300 PS",
+                    "acceleration": "4.9 s",
+                    "topSpeed": "275 km/h"
+                },
+                "bodySpecifications": {
+                    "length": "4.379 mm",
+                    "width": "1.801 mm",
+                    "height": "1.281 mm",
+                    "wheelbase": "2.475 mm",
+                    "turningCircle": "11,0 m",
+                    "unladenWeight": "1.335 kg",
+                    "maximumLoad": "320 kg"
+                },
+                "performanceConsumptions": {
+                    "topSpeed": "275 km/h",
+                    "acceleration0to100": "5.1 s",
+                    "fuelConsumptionUrban": "14.6 - 14.1 l/100 km",
+                    "CO2EmissionsLow": "330 - 321 g/km"
+                },
+                "soundLevel": {
+                    "stationaryVehicleManual": "90 dB(A)",
+                    "stationaryVehiclePDK": "89 dB(A)",
+                    "stationaryVehicleRPM": "3.750 1/min",
+                    "passingVehicle": "69 dB(A)"
+                }
+            }
+        },
+        "Panamera": {
+            "details": [
+                {
+                    "id": "info1",
+                    "title": "Technical Specification",
+                    "image": "Specs/blueprint.webp",
+                    "content": "This is the detailed specification for Cayman. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info2",
+                    "title": "Body",
+                    "image": "Specs/engine1.jpg",
+                    "content": "This is the detailed specification for Cayman. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info3",
+                    "title": "Performance and Consumptions",
+                    "video": "path/to/video4.mp4",
+                    "content": "This is the detailed specification for Cayman. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info4",
+                    "title": "Sound level (type approved based on UN-R 51)",
+                    "video": "Specs/Caymann Sound.mp4",
+                    "content": "This is the detailed specification for Cayman. It includes various aspects such as performance, design, and features."
+                }
+            ],
+            "mainCard": {
+                "technicalSpecifications": {
+                    "power": "220 kW/300 PS",
+                    "acceleration": "4.9 s",
+                    "topSpeed": "275 km/h"
+                },
+                "bodySpecifications": {
+                    "length": "4.379 mm",
+                    "width": "1.801 mm",
+                    "height": "1.281 mm",
+                    "wheelbase": "2.475 mm",
+                    "turningCircle": "11,0 m",
+                    "unladenWeight": "1.335 kg",
+                    "maximumLoad": "320 kg"
+                },
+                "performanceConsumptions": {
+                    "topSpeed": "275 km/h",
+                    "acceleration0to100": "5.1 s",
+                    "fuelConsumptionUrban": "14.6 - 14.1 l/100 km",
+                    "CO2EmissionsLow": "330 - 321 g/km"
+                },
+                "soundLevel": {
+                    "stationaryVehicleManual": "90 dB(A)",
+                    "stationaryVehiclePDK": "89 dB(A)",
+                    "stationaryVehicleRPM": "3.750 1/min",
+                    "passingVehicle": "69 dB(A)"
+                }
+            }
+        },
+        "Taycan": {
+            "details": [
+                {
+                    "id": "info1",
+                    "title": "Technical Specification",
+                    "image": "Specs/blueprint.webp",
+                    "content": "This is the detailed specification for Cayman. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info2",
+                    "title": "Body",
+                    "image": "Specs/engine1.jpg",
+                    "content": "This is the detailed specification for Cayman. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info3",
+                    "title": "Performance and Consumptions",
+                    "video": "path/to/video4.mp4",
+                    "content": "This is the detailed specification for Cayman. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info4",
+                    "title": "Sound level (type approved based on UN-R 51)",
+                    "video": "Specs/Caymann Sound.mp4",
+                    "content": "This is the detailed specification for Cayman. It includes various aspects such as performance, design, and features."
+                }
+            ],
+            "mainCard": {
+                "technicalSpecifications": {
+                    "power": "220 kW/300 PS",
+                    "acceleration": "4.9 s",
+                    "topSpeed": "275 km/h"
+                },
+                "bodySpecifications": {
+                    "length": "4.379 mm",
+                    "width": "1.801 mm",
+                    "height": "1.281 mm",
+                    "wheelbase": "2.475 mm",
+                    "turningCircle": "11,0 m",
+                    "unladenWeight": "1.335 kg",
+                    "maximumLoad": "320 kg"
+                },
+                "performanceConsumptions": {
+                    "topSpeed": "275 km/h",
+                    "acceleration0to100": "5.1 s",
+                    "fuelConsumptionUrban": "14.6 - 14.1 l/100 km",
+                    "CO2EmissionsLow": "330 - 321 g/km"
+                },
+                "soundLevel": {
+                    "stationaryVehicleManual": "90 dB(A)",
+                    "stationaryVehiclePDK": "89 dB(A)",
+                    "stationaryVehicleRPM": "3.750 1/min",
+                    "passingVehicle": "69 dB(A)"
+                }
+            }
+        }
+    },
+    "Bugatti": {
+        "Challenger": {
+            "details": [
+                {
+                    "id": "info1",
+                    "title": "Technical Specification",
+                    "image": "Specs/blueprint.webp",
+                    "content": "This is the detailed specification for Challenger. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info2",
+                    "title": "Body",
+                    "image": "Specs/engine1.jpg",
+                    "content": "This is the detailed specification for Challenger. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info3",
+                    "title": "Performance and Consumptions",
+                    "video": "path/to/video4.mp4",
+                    "content": "This is the detailed specification for Challenger. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info4",
+                    "title": "Sound level (type approved based on UN-R 51)",
+                    "video": "Specs/Caymann Sound.mp4",
+                    "content": "This is the detailed specification for Challenger. It includes various aspects such as performance, design, and features."
+                }
+            ],
+            "mainCard": {
+                "technicalSpecifications": {
+                    "power": "220 kW/300 PS",
+                    "acceleration": "4.9 s",
+                    "topSpeed": "275 km/h"
+                },
+                "bodySpecifications": {
+                    "length": "4.379 mm",
+                    "width": "1.801 mm",
+                    "height": "1.281 mm",
+                    "wheelbase": "2.475 mm",
+                    "turningCircle": "11,0 m",
+                    "unladenWeight": "1.335 kg",
+                    "maximumLoad": "320 kg"
+                },
+                "performanceConsumptions": {
+                    "topSpeed": "275 km/h",
+                    "acceleration0to100": "5.1 s",
+                    "fuelConsumptionUrban": "14.6 - 14.1 l/100 km",
+                    "CO2EmissionsLow": "330 - 321 g/km"
+                },
+                "soundLevel": {
+                    "stationaryVehicleManual": "90 dB(A)",
+                    "stationaryVehiclePDK": "89 dB(A)",
+                    "stationaryVehicleRPM": "3.750 1/min",
+                    "passingVehicle": "69 dB(A)"
+                }
+            }
+        },
+        "Chiron": {
+            "details": [
+                {
+                    "id": "info1",
+                    "title": "Technical Specification",
+                    "image": "Specs/blueprint.webp",
+                    "content": "This is the detailed specification for Challenger. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info2",
+                    "title": "Body",
+                    "image": "Specs/engine1.jpg",
+                    "content": "This is the detailed specification for Challenger. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info3",
+                    "title": "Performance and Consumptions",
+                    "video": "path/to/video4.mp4",
+                    "content": "This is the detailed specification for Challenger. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info4",
+                    "title": "Sound level (type approved based on UN-R 51)",
+                    "video": "Specs/Caymann Sound.mp4",
+                    "content": "This is the detailed specification for Challenger. It includes various aspects such as performance, design, and features."
+                }
+            ],
+            "mainCard": {
+                "technicalSpecifications": {
+                    "power": "220 kW/300 PS",
+                    "acceleration": "4.9 s",
+                    "topSpeed": "275 km/h"
+                },
+                "bodySpecifications": {
+                    "length": "4.379 mm",
+                    "width": "1.801 mm",
+                    "height": "1.281 mm",
+                    "wheelbase": "2.475 mm",
+                    "turningCircle": "11,0 m",
+                    "unladenWeight": "1.335 kg",
+                    "maximumLoad": "320 kg"
+                },
+                "performanceConsumptions": {
+                    "topSpeed": "275 km/h",
+                    "acceleration0to100": "5.1 s",
+                    "fuelConsumptionUrban": "14.6 - 14.1 l/100 km",
+                    "CO2EmissionsLow": "330 - 321 g/km"
+                },
+                "soundLevel": {
+                    "stationaryVehicleManual": "90 dB(A)",
+                    "stationaryVehiclePDK": "89 dB(A)",
+                    "stationaryVehicleRPM": "3.750 1/min",
+                    "passingVehicle": "69 dB(A)"
+                }
+            }
+        },
+        "DIVO": {
+            "details": [
+                {
+                    "id": "info1",
+                    "title": "Technical Specification",
+                    "image": "Specs/blueprint.webp",
+                    "content": "This is the detailed specification for Challenger. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info2",
+                    "title": "Body",
+                    "image": "Specs/engine1.jpg",
+                    "content": "This is the detailed specification for Challenger. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info3",
+                    "title": "Performance and Consumptions",
+                    "video": "path/to/video4.mp4",
+                    "content": "This is the detailed specification for Challenger. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info4",
+                    "title": "Sound level (type approved based on UN-R 51)",
+                    "video": "Specs/Caymann Sound.mp4",
+                    "content": "This is the detailed specification for Challenger. It includes various aspects such as performance, design, and features."
+                }
+            ],
+            "mainCard": {
+                "technicalSpecifications": {
+                    "power": "220 kW/300 PS",
+                    "acceleration": "4.9 s",
+                    "topSpeed": "275 km/h"
+                },
+                "bodySpecifications": {
+                    "length": "4.379 mm",
+                    "width": "1.801 mm",
+                    "height": "1.281 mm",
+                    "wheelbase": "2.475 mm",
+                    "turningCircle": "11,0 m",
+                    "unladenWeight": "1.335 kg",
+                    "maximumLoad": "320 kg"
+                },
+                "performanceConsumptions": {
+                    "topSpeed": "275 km/h",
+                    "acceleration0to100": "5.1 s",
+                    "fuelConsumptionUrban": "14.6 - 14.1 l/100 km",
+                    "CO2EmissionsLow": "330 - 321 g/km"
+                },
+                "soundLevel": {
+                    "stationaryVehicleManual": "90 dB(A)",
+                    "stationaryVehiclePDK": "89 dB(A)",
+                    "stationaryVehicleRPM": "3.750 1/min",
+                    "passingVehicle": "69 dB(A)"
+                }
+            }
+        },
+        "GTR2017": {
+            "details": [
+                {
+                    "id": "info1",
+                    "title": "Technical Specification",
+                    "image": "Specs/blueprint.webp",
+                    "content": "This is the detailed specification for Challenger. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info2",
+                    "title": "Body",
+                    "image": "Specs/engine1.jpg",
+                    "content": "This is the detailed specification for Challenger. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info3",
+                    "title": "Performance and Consumptions",
+                    "video": "path/to/video4.mp4",
+                    "content": "This is the detailed specification for Challenger. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info4",
+                    "title": "Sound level (type approved based on UN-R 51)",
+                    "video": "Specs/Caymann Sound.mp4",
+                    "content": "This is the detailed specification for Challenger. It includes various aspects such as performance, design, and features."
+                }
+            ],
+            "mainCard": {
+                "technicalSpecifications": {
+                    "power": "220 kW/300 PS",
+                    "acceleration": "4.9 s",
+                    "topSpeed": "275 km/h"
+                },
+                "bodySpecifications": {
+                    "length": "4.379 mm",
+                    "width": "1.801 mm",
+                    "height": "1.281 mm",
+                    "wheelbase": "2.475 mm",
+                    "turningCircle": "11,0 m",
+                    "unladenWeight": "1.335 kg",
+                    "maximumLoad": "320 kg"
+                },
+                "performanceConsumptions": {
+                    "topSpeed": "275 km/h",
+                    "acceleration0to100": "5.1 s",
+                    "fuelConsumptionUrban": "14.6 - 14.1 l/100 km",
+                    "CO2EmissionsLow": "330 - 321 g/km"
+                },
+                "soundLevel": {
+                    "stationaryVehicleManual": "90 dB(A)",
+                    "stationaryVehiclePDK": "89 dB(A)",
+                    "stationaryVehicleRPM": "3.750 1/min",
+                    "passingVehicle": "69 dB(A)"
+                }
+            }
+        },
+        "SuperSport": {
+            "details": [
+                {
+                    "id": "info1",
+                    "title": "Technical Specification",
+                    "image": "Specs/blueprint.webp",
+                    "content": "This is the detailed specification for Challenger. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info2",
+                    "title": "Body",
+                    "image": "Specs/engine1.jpg",
+                    "content": "This is the detailed specification for Challenger. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info3",
+                    "title": "Performance and Consumptions",
+                    "video": "path/to/video4.mp4",
+                    "content": "This is the detailed specification for Challenger. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info4",
+                    "title": "Sound level (type approved based on UN-R 51)",
+                    "video": "Specs/Caymann Sound.mp4",
+                    "content": "This is the detailed specification for Challenger. It includes various aspects such as performance, design, and features."
+                }
+            ],
+            "mainCard": {
+                "technicalSpecifications": {
+                    "power": "220 kW/300 PS",
+                    "acceleration": "4.9 s",
+                    "topSpeed": "275 km/h"
+                },
+                "bodySpecifications": {
+                    "length": "4.379 mm",
+                    "width": "1.801 mm",
+                    "height": "1.281 mm",
+                    "wheelbase": "2.475 mm",
+                    "turningCircle": "11,0 m",
+                    "unladenWeight": "1.335 kg",
+                    "maximumLoad": "320 kg"
+                },
+                "performanceConsumptions": {
+                    "topSpeed": "275 km/h",
+                    "acceleration0to100": "5.1 s",
+                    "fuelConsumptionUrban": "14.6 - 14.1 l/100 km",
+                    "CO2EmissionsLow": "330 - 321 g/km"
+                },
+                "soundLevel": {
+                    "stationaryVehicleManual": "90 dB(A)",
+                    "stationaryVehiclePDK": "89 dB(A)",
+                    "stationaryVehicleRPM": "3.750 1/min",
+                    "passingVehicle": "69 dB(A)"
+                }
+            }
+        },
+        "VEYRON": {
+            "details": [
+                {
+                    "id": "info1",
+                    "title": "Technical Specification",
+                    "image": "Specs/blueprint.webp",
+                    "content": "This is the detailed specification for Challenger. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info2",
+                    "title": "Body",
+                    "image": "Specs/engine1.jpg",
+                    "content": "This is the detailed specification for Challenger. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info3",
+                    "title": "Performance and Consumptions",
+                    "video": "path/to/video4.mp4",
+                    "content": "This is the detailed specification for Challenger. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info4",
+                    "title": "Sound level (type approved based on UN-R 51)",
+                    "video": "Specs/Caymann Sound.mp4",
+                    "content": "This is the detailed specification for Challenger. It includes various aspects such as performance, design, and features."
+                }
+            ],
+            "mainCard": {
+                "technicalSpecifications": {
+                    "power": "220 kW/300 PS",
+                    "acceleration": "4.9 s",
+                    "topSpeed": "275 km/h"
+                },
+                "bodySpecifications": {
+                    "length": "4.379 mm",
+                    "width": "1.801 mm",
+                    "height": "1.281 mm",
+                    "wheelbase": "2.475 mm",
+                    "turningCircle": "11,0 m",
+                    "unladenWeight": "1.335 kg",
+                    "maximumLoad": "320 kg"
+                },
+                "performanceConsumptions": {
+                    "topSpeed": "275 km/h",
+                    "acceleration0to100": "5.1 s",
+                    "fuelConsumptionUrban": "14.6 - 14.1 l/100 km",
+                    "CO2EmissionsLow": "330 - 321 g/km"
+                },
+                "soundLevel": {
+                    "stationaryVehicleManual": "90 dB(A)",
+                    "stationaryVehiclePDK": "89 dB(A)",
+                    "stationaryVehicleRPM": "3.750 1/min",
+                    "passingVehicle": "69 dB(A)"
+                }
+            }
+        }
+    },
+    "Ford": {
+        "Mustang": {
+            "details": [
+                {
+                    "id": "info1",
+                    "title": "Technical Specification",
+                    "image": "Specs/blueprint.webp",
+                    "content": "This is the detailed specification for Mustang. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info2",
+                    "title": "Body",
+                    "image": "Specs/engine1.jpg",
+                    "content": "This is the detailed specification for Mustang. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info3",
+                    "title": "Performance and Consumptions",
+                    "video": "path/to/video4.mp4",
+                    "content": "This is the detailed specification for Mustang. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info4",
+                    "title": "Sound level (type approved based on UN-R 51)",
+                    "video": "Specs/Caymann Sound.mp4",
+                    "content": "This is the detailed specification for Mustang. It includes various aspects such as performance, design, and features."
+                }
+            ],
+            "mainCard": {
+                "technicalSpecifications": {
+                    "power": "220 kW/300 PS",
+                    "acceleration": "4.9 s",
+                    "topSpeed": "275 km/h"
+                },
+                "bodySpecifications": {
+                    "length": "4.379 mm",
+                    "width": "1.801 mm",
+                    "height": "1.281 mm",
+                    "wheelbase": "2.475 mm",
+                    "turningCircle": "11,0 m",
+                    "unladenWeight": "1.335 kg",
+                    "maximumLoad": "320 kg"
+                },
+                "performanceConsumptions": {
+                    "topSpeed": "275 km/h",
+                    "acceleration0to100": "5.1 s",
+                    "fuelConsumptionUrban": "14.6 - 14.1 l/100 km",
+                    "CO2EmissionsLow": "330 - 321 g/km"
+                },
+                "soundLevel": {
+                    "stationaryVehicleManual": "90 dB(A)",
+                    "stationaryVehiclePDK": "89 dB(A)",
+                    "stationaryVehicleRPM": "3.750 1/min",
+                    "passingVehicle": "69 dB(A)"
+                }
+            }
+        },
+        "GT": {
+            "details": [
+                {
+                    "id": "info1",
+                    "title": "Technical Specification",
+                    "image": "Specs/blueprint.webp",
+                    "content": "This is the detailed specification for Mustang. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info2",
+                    "title": "Body",
+                    "image": "Specs/engine1.jpg",
+                    "content": "This is the detailed specification for Mustang. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info3",
+                    "title": "Performance and Consumptions",
+                    "video": "path/to/video4.mp4",
+                    "content": "This is the detailed specification for Mustang. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info4",
+                    "title": "Sound level (type approved based on UN-R 51)",
+                    "video": "Specs/Caymann Sound.mp4",
+                    "content": "This is the detailed specification for Mustang. It includes various aspects such as performance, design, and features."
+                }
+            ],
+            "mainCard": {
+                "technicalSpecifications": {
+                    "power": "220 kW/300 PS",
+                    "acceleration": "4.9 s",
+                    "topSpeed": "275 km/h"
+                },
+                "bodySpecifications": {
+                    "length": "4.379 mm",
+                    "width": "1.801 mm",
+                    "height": "1.281 mm",
+                    "wheelbase": "2.475 mm",
+                    "turningCircle": "11,0 m",
+                    "unladenWeight": "1.335 kg",
+                    "maximumLoad": "320 kg"
+                },
+                "performanceConsumptions": {
+                    "topSpeed": "275 km/h",
+                    "acceleration0to100": "5.1 s",
+                    "fuelConsumptionUrban": "14.6 - 14.1 l/100 km",
+                    "CO2EmissionsLow": "330 - 321 g/km"
+                },
+                "soundLevel": {
+                    "stationaryVehicleManual": "90 dB(A)",
+                    "stationaryVehiclePDK": "89 dB(A)",
+                    "stationaryVehicleRPM": "3.750 1/min",
+                    "passingVehicle": "69 dB(A)"
+                }
+            }
+        },
+        "Raptor": {
+            "details": [
+                {
+                    "id": "info1",
+                    "title": "Technical Specification",
+                    "image": "Specs/blueprint.webp",
+                    "content": "This is the detailed specification for Mustang. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info2",
+                    "title": "Body",
+                    "image": "Specs/engine1.jpg",
+                    "content": "This is the detailed specification for Mustang. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info3",
+                    "title": "Performance and Consumptions",
+                    "video": "path/to/video4.mp4",
+                    "content": "This is the detailed specification for Mustang. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info4",
+                    "title": "Sound level (type approved based on UN-R 51)",
+                    "video": "Specs/Caymann Sound.mp4",
+                    "content": "This is the detailed specification for Mustang. It includes various aspects such as performance, design, and features."
+                }
+            ],
+            "mainCard": {
+                "technicalSpecifications": {
+                    "power": "220 kW/300 PS",
+                    "acceleration": "4.9 s",
+                    "topSpeed": "275 km/h"
+                },
+                "bodySpecifications": {
+                    "length": "4.379 mm",
+                    "width": "1.801 mm",
+                    "height": "1.281 mm",
+                    "wheelbase": "2.475 mm",
+                    "turningCircle": "11,0 m",
+                    "unladenWeight": "1.335 kg",
+                    "maximumLoad": "320 kg"
+                },
+                "performanceConsumptions": {
+                    "topSpeed": "275 km/h",
+                    "acceleration0to100": "5.1 s",
+                    "fuelConsumptionUrban": "14.6 - 14.1 l/100 km",
+                    "CO2EmissionsLow": "330 - 321 g/km"
+                },
+                "soundLevel": {
+                    "stationaryVehicleManual": "90 dB(A)",
+                    "stationaryVehiclePDK": "89 dB(A)",
+                    "stationaryVehicleRPM": "3.750 1/min",
+                    "passingVehicle": "69 dB(A)"
+                }
+            }
+        },
+        "Model 4": {
+            "details": [
+                {
+                    "id": "info1",
+                    "title": "Technical Specification",
+                    "image": "Specs/blueprint.webp",
+                    "content": "This is the detailed specification for Mustang. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info2",
+                    "title": "Body",
+                    "image": "Specs/engine1.jpg",
+                    "content": "This is the detailed specification for Mustang. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info3",
+                    "title": "Performance and Consumptions",
+                    "video": "path/to/video4.mp4",
+                    "content": "This is the detailed specification for Mustang. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info4",
+                    "title": "Sound level (type approved based on UN-R 51)",
+                    "video": "Specs/Caymann Sound.mp4",
+                    "content": "This is the detailed specification for Mustang. It includes various aspects such as performance, design, and features."
+                }
+            ],
+            "mainCard": {
+                "technicalSpecifications": {
+                    "power": "220 kW/300 PS",
+                    "acceleration": "4.9 s",
+                    "topSpeed": "275 km/h"
+                },
+                "bodySpecifications": {
+                    "length": "4.379 mm",
+                    "width": "1.801 mm",
+                    "height": "1.281 mm",
+                    "wheelbase": "2.475 mm",
+                    "turningCircle": "11,0 m",
+                    "unladenWeight": "1.335 kg",
+                    "maximumLoad": "320 kg"
+                },
+                "performanceConsumptions": {
+                    "topSpeed": "275 km/h",
+                    "acceleration0to100": "5.1 s",
+                    "fuelConsumptionUrban": "14.6 - 14.1 l/100 km",
+                    "CO2EmissionsLow": "330 - 321 g/km"
+                },
+                "soundLevel": {
+                    "stationaryVehicleManual": "90 dB(A)",
+                    "stationaryVehiclePDK": "89 dB(A)",
+                    "stationaryVehicleRPM": "3.750 1/min",
+                    "passingVehicle": "69 dB(A)"
+                }
+            }
+        },
+        "Model 5": {
+            "details": [
+                {
+                    "id": "info1",
+                    "title": "Technical Specification",
+                    "image": "Specs/blueprint.webp",
+                    "content": "This is the detailed specification for Mustang. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info2",
+                    "title": "Body",
+                    "image": "Specs/engine1.jpg",
+                    "content": "This is the detailed specification for Mustang. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info3",
+                    "title": "Performance and Consumptions",
+                    "video": "path/to/video4.mp4",
+                    "content": "This is the detailed specification for Mustang. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info4",
+                    "title": "Sound level (type approved based on UN-R 51)",
+                    "video": "Specs/Caymann Sound.mp4",
+                    "content": "This is the detailed specification for Mustang. It includes various aspects such as performance, design, and features."
+                }
+            ],
+            "mainCard": {
+                "technicalSpecifications": {
+                    "power": "220 kW/300 PS",
+                    "acceleration": "4.9 s",
+                    "topSpeed": "275 km/h"
+                },
+                "bodySpecifications": {
+                    "length": "4.379 mm",
+                    "width": "1.801 mm",
+                    "height": "1.281 mm",
+                    "wheelbase": "2.475 mm",
+                    "turningCircle": "11,0 m",
+                    "unladenWeight": "1.335 kg",
+                    "maximumLoad": "320 kg"
+                },
+                "performanceConsumptions": {
+                    "topSpeed": "275 km/h",
+                    "acceleration0to100": "5.1 s",
+                    "fuelConsumptionUrban": "14.6 - 14.1 l/100 km",
+                    "CO2EmissionsLow": "330 - 321 g/km"
+                },
+                "soundLevel": {
+                    "stationaryVehicleManual": "90 dB(A)",
+                    "stationaryVehiclePDK": "89 dB(A)",
+                    "stationaryVehicleRPM": "3.750 1/min",
+                    "passingVehicle": "69 dB(A)"
+                }
+            }
+        },
+        "Model 6": {
+            "details": [
+                {
+                    "id": "info1",
+                    "title": "Technical Specification",
+                    "image": "Specs/blueprint.webp",
+                    "content": "This is the detailed specification for Mustang. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info2",
+                    "title": "Body",
+                    "image": "Specs/engine1.jpg",
+                    "content": "This is the detailed specification for Mustang. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info3",
+                    "title": "Performance and Consumptions",
+                    "video": "path/to/video4.mp4",
+                    "content": "This is the detailed specification for Mustang. It includes various aspects such as performance, design, and features."
+                },
+                {
+                    "id": "info4",
+                    "title": "Sound level (type approved based on UN-R 51)",
+                    "video": "Specs/Caymann Sound.mp4",
+                    "content": "This is the detailed specification for Mustang. It includes various aspects such as performance, design, and features."
+                }
+            ],
+            "mainCard": {
+                "technicalSpecifications": {
+                    "power": "220 kW/300 PS",
+                    "acceleration": "4.9 s",
+                    "topSpeed": "275 km/h"
+                },
+                "bodySpecifications": {
+                    "length": "4.379 mm",
+                    "width": "1.801 mm",
+                    "height": "1.281 mm",
+                    "wheelbase": "2.475 mm",
+                    "turningCircle": "11,0 m",
+                    "unladenWeight": "1.335 kg",
+                    "maximumLoad": "320 kg"
+                },
+                "performanceConsumptions": {
+                    "topSpeed": "275 km/h",
+                    "acceleration0to100": "5.1 s",
+                    "fuelConsumptionUrban": "14.6 - 14.1 l/100 km",
+                    "CO2EmissionsLow": "330 - 321 g/km"
+                },
+                "soundLevel": {
+                    "stationaryVehicleManual": "90 dB(A)",
+                    "stationaryVehiclePDK": "89 dB(A)",
+                    "stationaryVehicleRPM": "3.750 1/min",
+                    "passingVehicle": "69 dB(A)"
+                }
+            }
+        }
+    },
+    "McLaren": {
+          "Spider": {
+            "details": [
+              {
+                "id": "info1",
+                "title": "Technical Specification",
+                "image": "Specs/blueprint.webp",
+                "content": "This is the detailed specification for Spider. It includes various aspects such as performance, design, and features."
+              },
+              {
+                "id": "info2",
+                "title": "Body",
+                "image": "Specs/engine1.jpg",
+                "content": "This is the detailed specification for Spider. It includes various aspects such as performance, design, and features."
+              },
+              {
+                "id": "info3",
+                "title": "Performance and Consumptions",
+                "video": "path/to/video4.mp4",
+                "content": "This is the detailed specification for Spider. It includes various aspects such as performance, design, and features."
+              },
+              {
+                "id": "info4",
+                "title": "Sound level (type approved based on UN-R 51)",
+                "video": "Specs/Caymann Sound.mp4",
+                "content": "This is the detailed specification for Spider. It includes various aspects such as performance, design, and features."
+              }
+            ],
+            "mainCard": {
+              "technicalSpecifications": {
+                "power": "220 kW/300 PS",
+                "acceleration": "4.9 s",
+                "topSpeed": "275 km/h"
+              },
+              "bodySpecifications": {
+                "length": "4.379 mm",
+                "width": "1.801 mm",
+                "height": "1.281 mm",
+                "wheelbase": "2.475 mm",
+                "turningCircle": "11,0 m",
+                "unladenWeight": "1.335 kg",
+                "maximumLoad": "320 kg"
+              },
+              "performanceConsumptions": {
+                "topSpeed": "275 km/h",
+                "acceleration0to100": "5.1 s",
+                "fuelConsumptionUrban": "14.6 - 14.1 l/100 km",
+                "CO2EmissionsLow": "330 - 321 g/km"
+              },
+              "soundLevel": {
+                "stationaryVehicleManual": "90 dB(A)",
+                "stationaryVehiclePDK": "89 dB(A)",
+                "stationaryVehicleRPM": "3.750 1/min",
+                "passingVehicle": "69 dB(A)"
+              }
+            }
+          },
+          "570S Coupe": {
+            "details": [
+                {
+                  "id": "info1",
+                  "title": "Technical Specification",
+                  "image": "Specs/blueprint.webp",
+                  "content": "This is the detailed specification for Spider. It includes various aspects such as performance, design, and features."
+                },
+                {
+                  "id": "info2",
+                  "title": "Body",
+                  "image": "Specs/engine1.jpg",
+                  "content": "This is the detailed specification for Spider. It includes various aspects such as performance, design, and features."
+                },
+                {
+                  "id": "info3",
+                  "title": "Performance and Consumptions",
+                  "video": "path/to/video4.mp4",
+                  "content": "This is the detailed specification for Spider. It includes various aspects such as performance, design, and features."
+                },
+                {
+                  "id": "info4",
+                  "title": "Sound level (type approved based on UN-R 51)",
+                  "video": "Specs/Caymann Sound.mp4",
+                  "content": "This is the detailed specification for Spider. It includes various aspects such as performance, design, and features."
+                }
+              ],
+              "mainCard": {
+                "technicalSpecifications": {
+                  "power": "220 kW/300 PS",
+                  "acceleration": "4.9 s",
+                  "topSpeed": "275 km/h"
+                },
+                "bodySpecifications": {
+                  "length": "4.379 mm",
+                  "width": "1.801 mm",
+                  "height": "1.281 mm",
+                  "wheelbase": "2.475 mm",
+                  "turningCircle": "11,0 m",
+                  "unladenWeight": "1.335 kg",
+                  "maximumLoad": "320 kg"
+                },
+                "performanceConsumptions": {
+                  "topSpeed": "275 km/h",
+                  "acceleration0to100": "5.1 s",
+                  "fuelConsumptionUrban": "14.6 - 14.1 l/100 km",
+                  "CO2EmissionsLow": "330 - 321 g/km"
+                },
+                "soundLevel": {
+                  "stationaryVehicleManual": "90 dB(A)",
+                  "stationaryVehiclePDK": "89 dB(A)",
+                  "stationaryVehicleRPM": "3.750 1/min",
+                  "passingVehicle": "69 dB(A)"
+                }
+              }          },
+          "McLaren P1": {
+            "details": [
+                {
+                  "id": "info1",
+                  "title": "Technical Specification",
+                  "image": "Specs/blueprint.webp",
+                  "content": "This is the detailed specification for Spider. It includes various aspects such as performance, design, and features."
+                },
+                {
+                  "id": "info2",
+                  "title": "Body",
+                  "image": "Specs/engine1.jpg",
+                  "content": "This is the detailed specification for Spider. It includes various aspects such as performance, design, and features."
+                },
+                {
+                  "id": "info3",
+                  "title": "Performance and Consumptions",
+                  "video": "path/to/video4.mp4",
+                  "content": "This is the detailed specification for Spider. It includes various aspects such as performance, design, and features."
+                },
+                {
+                  "id": "info4",
+                  "title": "Sound level (type approved based on UN-R 51)",
+                  "video": "Specs/Caymann Sound.mp4",
+                  "content": "This is the detailed specification for Spider. It includes various aspects such as performance, design, and features."
+                }
+              ],
+              "mainCard": {
+                "technicalSpecifications": {
+                  "power": "220 kW/300 PS",
+                  "acceleration": "4.9 s",
+                  "topSpeed": "275 km/h"
+                },
+                "bodySpecifications": {
+                  "length": "4.379 mm",
+                  "width": "1.801 mm",
+                  "height": "1.281 mm",
+                  "wheelbase": "2.475 mm",
+                  "turningCircle": "11,0 m",
+                  "unladenWeight": "1.335 kg",
+                  "maximumLoad": "320 kg"
+                },
+                "performanceConsumptions": {
+                  "topSpeed": "275 km/h",
+                  "acceleration0to100": "5.1 s",
+                  "fuelConsumptionUrban": "14.6 - 14.1 l/100 km",
+                  "CO2EmissionsLow": "330 - 321 g/km"
+                },
+                "soundLevel": {
+                  "stationaryVehicleManual": "90 dB(A)",
+                  "stationaryVehiclePDK": "89 dB(A)",
+                  "stationaryVehicleRPM": "3.750 1/min",
+                  "passingVehicle": "69 dB(A)"
+                }
+              }          },
+          "McLaren Senna": {
+            "details": [
+                {
+                  "id": "info1",
+                  "title": "Technical Specification",
+                  "image": "Specs/blueprint.webp",
+                  "content": "This is the detailed specification for Spider. It includes various aspects such as performance, design, and features."
+                },
+                {
+                  "id": "info2",
+                  "title": "Body",
+                  "image": "Specs/engine1.jpg",
+                  "content": "This is the detailed specification for Spider. It includes various aspects such as performance, design, and features."
+                },
+                {
+                  "id": "info3",
+                  "title": "Performance and Consumptions",
+                  "video": "path/to/video4.mp4",
+                  "content": "This is the detailed specification for Spider. It includes various aspects such as performance, design, and features."
+                },
+                {
+                  "id": "info4",
+                  "title": "Sound level (type approved based on UN-R 51)",
+                  "video": "Specs/Caymann Sound.mp4",
+                  "content": "This is the detailed specification for Spider. It includes various aspects such as performance, design, and features."
+                }
+              ],
+              "mainCard": {
+                "technicalSpecifications": {
+                  "power": "220 kW/300 PS",
+                  "acceleration": "4.9 s",
+                  "topSpeed": "275 km/h"
+                },
+                "bodySpecifications": {
+                  "length": "4.379 mm",
+                  "width": "1.801 mm",
+                  "height": "1.281 mm",
+                  "wheelbase": "2.475 mm",
+                  "turningCircle": "11,0 m",
+                  "unladenWeight": "1.335 kg",
+                  "maximumLoad": "320 kg"
+                },
+                "performanceConsumptions": {
+                  "topSpeed": "275 km/h",
+                  "acceleration0to100": "5.1 s",
+                  "fuelConsumptionUrban": "14.6 - 14.1 l/100 km",
+                  "CO2EmissionsLow": "330 - 321 g/km"
+                },
+                "soundLevel": {
+                  "stationaryVehicleManual": "90 dB(A)",
+                  "stationaryVehiclePDK": "89 dB(A)",
+                  "stationaryVehicleRPM": "3.750 1/min",
+                  "passingVehicle": "69 dB(A)"
+                }
+              }          },
+          "Mclaren Speedtail": {
+            "details": [
+                {
+                  "id": "info1",
+                  "title": "Technical Specification",
+                  "image": "Specs/blueprint.webp",
+                  "content": "This is the detailed specification for Spider. It includes various aspects such as performance, design, and features."
+                },
+                {
+                  "id": "info2",
+                  "title": "Body",
+                  "image": "Specs/engine1.jpg",
+                  "content": "This is the detailed specification for Spider. It includes various aspects such as performance, design, and features."
+                },
+                {
+                  "id": "info3",
+                  "title": "Performance and Consumptions",
+                  "video": "path/to/video4.mp4",
+                  "content": "This is the detailed specification for Spider. It includes various aspects such as performance, design, and features."
+                },
+                {
+                  "id": "info4",
+                  "title": "Sound level (type approved based on UN-R 51)",
+                  "video": "Specs/Caymann Sound.mp4",
+                  "content": "This is the detailed specification for Spider. It includes various aspects such as performance, design, and features."
+                }
+              ],
+              "mainCard": {
+                "technicalSpecifications": {
+                  "power": "220 kW/300 PS",
+                  "acceleration": "4.9 s",
+                  "topSpeed": "275 km/h"
+                },
+                "bodySpecifications": {
+                  "length": "4.379 mm",
+                  "width": "1.801 mm",
+                  "height": "1.281 mm",
+                  "wheelbase": "2.475 mm",
+                  "turningCircle": "11,0 m",
+                  "unladenWeight": "1.335 kg",
+                  "maximumLoad": "320 kg"
+                },
+                "performanceConsumptions": {
+                  "topSpeed": "275 km/h",
+                  "acceleration0to100": "5.1 s",
+                  "fuelConsumptionUrban": "14.6 - 14.1 l/100 km",
+                  "CO2EmissionsLow": "330 - 321 g/km"
+                },
+                "soundLevel": {
+                  "stationaryVehicleManual": "90 dB(A)",
+                  "stationaryVehiclePDK": "89 dB(A)",
+                  "stationaryVehicleRPM": "3.750 1/min",
+                  "passingVehicle": "69 dB(A)"
+                }
+              }          },
+          "765LT": {
+            "details": [
+                {
+                  "id": "info1",
+                  "title": "Technical Specification",
+                  "image": "Specs/blueprint.webp",
+                  "content": "This is the detailed specification for Spider. It includes various aspects such as performance, design, and features."
+                },
+                {
+                  "id": "info2",
+                  "title": "Body",
+                  "image": "Specs/engine1.jpg",
+                  "content": "This is the detailed specification for Spider. It includes various aspects such as performance, design, and features."
+                },
+                {
+                  "id": "info3",
+                  "title": "Performance and Consumptions",
+                  "video": "path/to/video4.mp4",
+                  "content": "This is the detailed specification for Spider. It includes various aspects such as performance, design, and features."
+                },
+                {
+                  "id": "info4",
+                  "title": "Sound level (type approved based on UN-R 51)",
+                  "video": "Specs/Caymann Sound.mp4",
+                  "content": "This is the detailed specification for Spider. It includes various aspects such as performance, design, and features."
+                }
+              ],
+              "mainCard": {
+                "technicalSpecifications": {
+                  "power": "220 kW/300 PS",
+                  "acceleration": "4.9 s",
+                  "topSpeed": "275 km/h"
+                },
+                "bodySpecifications": {
+                  "length": "4.379 mm",
+                  "width": "1.801 mm",
+                  "height": "1.281 mm",
+                  "wheelbase": "2.475 mm",
+                  "turningCircle": "11,0 m",
+                  "unladenWeight": "1.335 kg",
+                  "maximumLoad": "320 kg"
+                },
+                "performanceConsumptions": {
+                  "topSpeed": "275 km/h",
+                  "acceleration0to100": "5.1 s",
+                  "fuelConsumptionUrban": "14.6 - 14.1 l/100 km",
+                  "CO2EmissionsLow": "330 - 321 g/km"
+                },
+                "soundLevel": {
+                  "stationaryVehicleManual": "90 dB(A)",
+                  "stationaryVehiclePDK": "89 dB(A)",
+                  "stationaryVehicleRPM": "3.750 1/min",
+                  "passingVehicle": "69 dB(A)"
+                }
+              }          }
+    }
+      
+    
+}

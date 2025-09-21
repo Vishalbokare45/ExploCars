@@ -1,0 +1,554 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400');
+
+* {
+    margin: 0;
+    padding: 0;
+    /* background-color: #000;
+    color: #eee; */
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.banner {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background: url('images/bg2.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+/* 
+h2 {
+    position: relative;
+    color: #fff;
+    font-size: 10rem;
+} */
+
+.clouds {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    pointer-events: none;
+}
+
+.clouds img {
+    position: absolute;
+    bottom: 0;
+    max-width: 100%;
+    animation: animate calc(2s * var(--i)) linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        opacity: 0;
+        transform: scale(1);
+    }
+
+    25%,
+    75% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        transform: scale(3);
+    }
+}
+
+section {
+    padding: 20px 40px;
+}
+
+section h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+    h2 {
+        font-size: 8rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    h2 {
+        font-size: 6rem;
+    }
+
+    h1 {
+        font-size: 1.2rem;
+    }
+}
+
+/* CSS */
+.button-50 {
+    appearance: button;
+    background-color: #000;
+    background-image: none;
+    border: 1px solid #000;
+    border-radius: 4px;
+    box-shadow: #fff 4px 4px 0 0, #000 4px 4px 0 1px;
+    box-sizing: border-box;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    font-family: ITCAvantGardeStd-Bk, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 0 5px 10px 0;
+    overflow: visible;
+    padding: 12px 40px;
+    text-align: center;
+    text-transform: none;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    margin: 20px;
+}
+
+.button-50:focus {
+    text-decoration: none;
+}
+
+.button-50:hover {
+    text-decoration: none;
+}
+
+.button-50:active {
+    box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+    outline: 0;
+}
+
+.button-50:not([disabled]):active {
+    box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+    transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+    .button-50 {
+        padding: 12px 50px;
+    }
+}
+
+.contact-us {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+    background-image: url('images/contactus.jpg');
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+}
+
+.cont {
+    position: relative;
+    display: block;
+    width: 35%;
+    height: 500px;
+    margin: 60px auto;
+    padding: 5px 20px;
+}
+
+.contact-us h1 {
+    color: #fff;
+    font-size: 70px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.contact {
+    width: 100%;
+    height: 330px;
+    padding: 25px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 40px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 8px 0px #0e0e0e;
+    background-color: rgba(255, 255, 255, 0.12);
+}
+
+.c1,
+.c2,
+.c3,
+.c4 {
+    display: inline-block;
+    color: #fff;
+    height: 35px;
+    font-size: 20px;
+    margin: 10px 5px;
+    padding: 0 0 0 10px;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.45);
+    background-color: rgba(255, 255, 255, 0.28);
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #fff;
+    font-size: 18px
+}
+
+.c1,
+.c2 {
+    width: 45%;
+}
+
+.c3,
+.c4 {
+    width: 94%;
+}
+
+.c4 {
+    height: 90px;
+    padding: 5px 10px;
+}
+
+.discover-more img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.discover-more .para {
+    float: left;
+    width: calc(100% - 900px);
+    /* Adjust this width as needed */
+    margin-right: 30px;
+    /* Add some spacing between text and image */
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.about-us .para {
+    text-align: justify;
+    width: auto;
+    height: auto;
+}
+
+* {
+    font-family: Nunito, sans-serif;
+  }
+  
+  .text-blk {
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    line-height: 20px;
+    color: white;
+    font-size: 14px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 40px;
+    margin-left: 0px;
+  }
+  
+  .responsive-container-block {
+    min-height: 75px;
+    height: fit-content;
+    width: 100%;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    justify-content: flex-start;
+  }
+  
+  .responsive-container-block.bigContainer {
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(51, 51, 51);
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    margin: 0 0 0 0;
+  }
+  
+  .responsive-container-block.Container {
+    max-width: 1320px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    margin-right: auto;
+    margin-bottom: 80px;
+    margin-left: auto;
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+  }
+  
+  .responsive-container-block.leftSide {
+    width: auto;
+    align-items: flex-start;
+    padding-top: 5px;
+    padding-right: 0px;
+    padding-bottom: 5px;
+    padding-left: 0px;
+    flex-direction: column;
+    position: static;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    max-width: 300px;
+  }
+  
+  .text-blk.heading {
+    font-size: 55px;
+    line-height: 60px;
+    font-weight:bolder;
+    color: #ffffff;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 40px;
+    margin-left: 0px;
+  }
+  
+  .text-blk.btn {
+    color: rgb(0, 178, 235);
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(160, 121, 0, 0.2) 0px 12px 35px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    cursor: pointer;
+  }
+  
+  .responsive-container-block.rightSide {
+    width: 675px;
+    position: relative;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    display: flex;
+    height: 700px;
+    min-height: auto;
+  }
+  
+  .number1img {
+    margin-top: 39%;
+    margin-right: 80%;
+    margin-bottom: 29%;
+    margin-left: 0px;
+    height: 32%;
+    width: 20%;
+    position: absolute;
+  }
+  
+  .number2img {
+    margin-top: 19%;
+    margin-right: 42%;
+    margin-bottom: 42%;
+    margin-left: 23%;
+    width: 35%;
+    height: 39%;
+    position: absolute;
+  }
+  
+  .number3img {
+    width: 13%;
+    height: 21%;
+    position: absolute;
+    margin-top: 62%;
+    margin-right: 64%;
+    margin-bottom: 30%;
+    margin-left: 23%;
+  }
+  
+  .number4vid {
+    width: 34%;
+    height: 33%;
+    position: absolute;
+    margin-top: 62%;
+    margin-right: 27%;
+    margin-bottom: 0px;
+    margin-left: 39%;
+  }
+  
+  .number5img {
+    position: absolute;
+    width: 13%;
+    height: 21%;
+    margin-top: 38%;
+    margin-right: 27%;
+    margin-bottom: 41%;
+    margin-left: 60%;
+  }
+  
+  .number6img {
+    position: absolute;
+    margin-top: 0px;
+    margin-right: 3%;
+    margin-bottom: 67%;
+    margin-left: 62%;
+    width: 35%;
+    height: 33%;
+  }
+  
+  .number7img {
+    position: absolute;
+    width: 25%;
+    margin-top: 40%;
+    margin-right: 0px;
+    margin-bottom: 18%;
+    margin-left: 75%;
+    height: 42%;
+  }
+  
+  .text-blk.subHeading {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  
+  @media (max-width: 1024px) {
+    .responsive-container-block.Container {
+      flex-direction: column-reverse;
+    }
+  
+    .text-blk.heading {
+      text-align: center;
+      max-width: 370px;
+    }
+  
+    .text-blk.subHeading {
+      text-align: center;
+    }
+  
+    .responsive-container-block.leftSide {
+      align-items: center;
+      max-width: 480px;
+    }
+  
+    .responsive-container-block.rightSide {
+      margin-top: 0px;
+      margin-right: auto;
+      margin-bottom: 100px;
+      margin-left: auto;
+    }
+  
+    .responsive-container-block.rightSide {
+      margin: 0 auto 70px auto;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .responsive-container-block.rightSide {
+      width: 450px;
+      height: 450px;
+    }
+  
+    .responsive-container-block.leftSide {
+      max-width: 450px;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .number1img {
+      display: none;
+    }
+  
+    .number2img {
+      display: none;
+    }
+  
+    .number3img {
+      display: none;
+    }
+  
+    .number5img {
+      display: none;
+    }
+  
+    .number6img {
+      display: none;
+    }
+  
+    .number7img {
+      display: none;
+    }
+  
+    .responsive-container-block.rightSide {
+      width: 100%;
+      height: 250px;
+      margin-top: 0px;
+      margin-right: 0px;
+      margin-bottom: 100px;
+      margin-left: 0px;
+    }
+  
+    .number4vid {
+      position: static;
+      margin-top: 0px;
+      margin-right: auto;
+      margin-bottom: 0px;
+      margin-left: auto;
+      width: 100%;
+      height: 100%;
+    }
+  
+    .text-blk.heading {
+      font-size: 25px;
+      line-height: 40px;
+      max-width: 370px;
+      width: auto;
+    }
+  
+    .text-blk.subHeading {
+      font-size: 14px;
+      line-height: 25px;
+    }
+  
+    .responsive-container-block.leftSide {
+      width: 100%;
+    }
+  }
+
+ 

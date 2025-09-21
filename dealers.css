@@ -1,0 +1,91 @@
+
+element.style {
+}
+* {
+    font-family: Porsche Next, Arial Narrow, Arial, Heiti SC, SimHei, sans-serif;
+}
+
+user agent stylesheet
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Porsche Next', 'Arial Narrow', Arial, 'Heiti SC', SimHei, sans-serif;
+    line-height: calc(6px + 2.125ex);
+    letter-spacing: normal;
+    text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+}
+body {
+    --swiper-pagination-bullet-inactive-opacity: .8;
+}
+style attribute {
+    --cssHideLayer: unset;
+    --ucvh: 1354px;
+}
+
+:root {
+    --color_1: #d5001c;
+    --color_2: #000000;
+    --color_3: #313639;
+    --color_4: #505356;
+    --color_5: #000;
+    --color_6: #fff;
+    --color_7: #fff;
+    --color_8: d5001c;
+    --color_9: #FFF;
+    --font_family_1: "Porsche Next", "Arial Narrow", sans-serif;
+    --background_color_1: #494e51;
+    --background_color_2: rgba(0, 0, 0, 0.6);
+    --background_color_3: #FFFFFF;
+    --background_color_4: #313639;
+    --background_color_5: #d5001c;
+    --border_color_1: #494e51;
+    --border_color_2: #FFFFFF;
+    --border_color_3: #d5001c;
+    --buttonsRight: #313639;
+    --buttonsborder: #000000;
+    --buttonsRightColor: #fff;
+    --buttonleft: #fff;
+    --footer: linear-gradient(180deg, rgba(255, 255, 255, 0) 0, rgba(0, 0, 0, 0.1) 100%);
+    --footer1: #fff;
+    --checkboxText: #000;
+    --checkbox: #000;
+    --checkboxBackground: #fff;
+    --toggle: #000;
+    --toggleHover: #d5001c;
+    --buttonsrighthover: #d5001c;
+    --brcolorhover: #fff;
+    --buttonLeftHover: #fff;
+    --buttonLeftColor: #000;
+    --buttonLeftColorHover: #d5001c;
+    --borderHover: #d5001c;
+    --titleColor: #000;
+    --scriptColor: #000;
+    --linkcolor: #494e51;
+    --background: #fff;
+    --darkWBackground: #fff;
+    --darkWfontColor: #010205;
+    --darkWFontsize: 14px;
+    --darkWLineheight: 24px;
+    --darkWborderColor: #000000;
+    --darkWLabel: #fff;
+    --darkWCheckboxBorder: #000;
+    --darkWCheckboxDisbaled: #494e51;
+    --layer4: #000;
+    --searchbackground: #fff;
+    --searchColor: #000;
+
+}
+.hydrated, .ssr {
+    visibility: inherit;
+}
+:root {
+    --swiper-navigation-size: 44px;
+}
+:root {
+    --swiper-theme-color: #007aff;
+}

@@ -1,0 +1,118 @@
+{
+  "Ferrari": {
+      "812 Superfast": {
+          "details": [
+              {
+                  "id": "info1",
+                  "title": "JSONTechnical Specification",
+                  "image": "Specs/blueprint.webp",
+                  "content": "This is the detailed specification for Specification 1. It includes various aspects such as performance, design, and features."
+              },
+              {
+                  "id": "info2",
+                  "title": "Body",
+                  "image": "Specs/engine1.jpg",
+                  "content": "This is the detailed specification for Specification 2. It includes various aspects such as performance, design, and features."
+              },
+              {
+                  "id": "info3",
+                  "title": "Performance and Consumptions",
+                  "video": "path/to/video4.mp4",
+                  "content": "This is the detailed specification for Specification 3. It includes various aspects such as performance, design, and features."
+              },
+              {
+                  "id": "info4",
+                  "title": "Sound level (type approved based on UN-R 51)",
+                  "video": "Specs/Caymann Sound.mp4",
+                  "content": "This is the detailed specification for Specification 4. It includes various aspects such as performance, design, and features."
+              }
+          ],
+          "mainCard": {
+              "technicalSpecifications": {
+                  "power": "220 kW/300 PS",
+                  "acceleration": "4.9 s",
+                  "topSpeed": "275 km/h"
+              },
+              "bodySpecifications": {
+                  "length": "4.379 mm",
+                  "width": "1.801 mm",
+                  "height": "1.281 mm",
+                  "wheelbase": "2.475 mm",
+                  "turningCircle": "11,0 m",
+                  "unladenWeight": "1.335 kg",
+                  "maximumLoad": "320 kg"
+              },
+              "performanceConsumptions": {
+                  "topSpeed": "275 km/h",
+                  "acceleration0to100": "5.1 s",
+                  "fuelConsumptionUrban": "14.6 - 14.1 l/100 km",
+                  "CO2EmissionsLow": "330 - 321 g/km"
+              },
+              "soundLevel": {
+                  "stationaryVehicleManual": "90 dB(A)",
+                  "stationaryVehiclePDK": "89 dB(A)",
+                  "stationaryVehicleRPM": "3.750 1/min",
+                  "passingVehicle": "69 dB(A)"
+              }
+          }
+      }
+  },
+  "Lamborghini": {
+    "Aventador": {
+        "details": [
+            {
+                "id": "info1",
+                "title": "JSONTechnical Specification",
+                "image": "Specs/blueprint.webp",
+                "content": "This is the detailed specification for Specification 1. It includes various aspects such as performance, design, and features."
+            },
+            {
+                "id": "info2",
+                "title": "Body",
+                "image": "Specs/engine1.jpg",
+                "content": "This is the detailed specification for Specification 2. It includes various aspects such as performance, design, and features."
+            },
+            {
+                "id": "info3",
+                "title": "Performance and Consumptions",
+                "video": "path/to/video4.mp4",
+                "content": "This is the detailed specification for Specification 3. It includes various aspects such as performance, design, and features."
+            },
+            {
+                "id": "info4",
+                "title": "Sound level (type approved based on UN-R 51)",
+                "video": "Specs/Caymann Sound.mp4",
+                "content": "This is the detailed specification for Specification 4. It includes various aspects such as performance, design, and features."
+            }
+        ],
+        "mainCard": {
+            "technicalSpecifications": {
+                "power": "220 kW/300 PS",
+                "acceleration": "4.9 s",
+                "topSpeed": "275 km/h"
+            },
+            "bodySpecifications": {
+                "length": "4.379 mm",
+                "width": "1.801 mm",
+                "height": "1.281 mm",
+                "wheelbase": "2.475 mm",
+                "turningCircle": "11,0 m",
+                "unladenWeight": "1.335 kg",
+                "maximumLoad": "320 kg"
+            },
+            "performanceConsumptions": {
+                "topSpeed": "275 km/h",
+                "acceleration0to100": "5.1 s",
+                "fuelConsumptionUrban": "14.6 - 14.1 l/100 km",
+                "CO2EmissionsLow": "330 - 321 g/km"
+            },
+            "soundLevel": {
+                "stationaryVehicleManual": "90 dB(A)",
+                "stationaryVehiclePDK": "89 dB(A)",
+                "stationaryVehicleRPM": "3.750 1/min",
+                "passingVehicle": "69 dB(A)"
+            }
+        }
+    }
+}
+}

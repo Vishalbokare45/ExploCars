@@ -1,0 +1,213 @@
+{
+    
+        "Porsche": {
+          "Cayman": {
+            "mainCard": {
+              "title": "718 Cayman",
+              "price": "from INR 14,772,000",
+              "technicalSpecifications": {
+                "power": "220 kW/300 PS",
+                "acceleration": "4.9 s",
+                "topSpeed": "275 km/h"
+              }
+            },
+            "video1": {
+              "title": "718 Cayman Performance",
+              "description": "What is it that makes the 718 models so special? Their performance, their handling, their design, their generous amount of space with two luggage compartments. But most of all: a mid-engined layout that makes all this possible in the first place."
+            },
+            "video2": {
+              "title": "718 Cayman Style Edition",
+              "description": "The 718 Boxster Style Edition and the 718 Cayman Style Edition bring colour to city life, with high-contrast design highlights for the exterior and interior. This is where creativity meets sportiness – your 718 Style Edition transforms the street into your very own playground."
+            },
+            "video3": {
+              "title": "718 Cayman For the sport of it.",
+              "description": "The 718 models were made for the sport of it. They are mid-engined roadsters that unite the sporting spirit of the legendary Porsche 718 with the sports car of tomorrow – and transfer it to the roads of today’s world. With one goal: to take the everyday out of every day."
+            }
+          },
+          "Cayenne": {
+              "mainCard": {
+                "title": "Cayenne",
+                "price": "from INR 80,000,000",
+                "technicalSpecifications": {
+                  "power": "404 kW/550 PS",
+                  "acceleration": "4.1 s",
+                  "topSpeed": "286 km/h"
+                }
+              },
+              "video1": {
+                "title": "Cayenne Performance",
+                "description": "Discover the exceptional performance of the Porsche Cayenne. With its powerful engines, precise handling, and innovative technology, the Cayenne offers an exhilarating driving experience like no other."
+              },
+              "video2": {
+                "title": "Cayenne Design",
+                "description": "Experience the striking design of the Porsche Cayenne. From its sleek lines to its dynamic proportions, every aspect of the Cayenne's design is crafted to make a bold statement on the road."
+              },
+              "video3": {
+                "title": "Cayenne Versatility",
+                "description": "Explore the versatility of the Porsche Cayenne. With its spacious interior, advanced features, and adaptable performance, the Cayenne is ready for any adventure, whether it's on the open road or off the beaten path."
+              }
+            },
+            "911": {
+                "mainCard": {
+                  "title": "911",
+                  "price": "from INR 15,000,000",
+                  "technicalSpecifications": {
+                    "power": "331 kW/450 PS",
+                    "acceleration": "3.5 s",
+                    "topSpeed": "308 km/h"
+                  }
+                },
+                "video1": {
+                  "title": "911 Performance",
+                  "description": "Experience the legendary performance of the Porsche 911. With its powerful engine, agile handling, and iconic design, the 911 delivers an exhilarating driving experience like no other."
+                },
+                "video2": {
+                  "title": "911 Design",
+                  "description": "Discover the timeless design of the Porsche 911. From its distinctive silhouette to its aerodynamic features, every aspect of the 911's design is crafted to evoke passion and excitement."
+                },
+                "video3": {
+                  "title": "911 Technology",
+                  "description": "Explore the advanced technology of the Porsche 911. With its innovative features and cutting-edge systems, the 911 offers unmatched performance, comfort, and convenience on the road."
+                }
+              },
+              "Macan": {
+                "mainCard": {
+                  "title": "Macan",
+                  "price": "from INR 7,000,000",
+                  "technicalSpecifications": {
+                    "power": "185 kW/252 PS",
+                    "acceleration": "6.7 s",
+                    "topSpeed": "225 km/h"
+                  }
+                },
+                "video1": {
+                  "title": "Macan Performance",
+                  "description": "Experience the dynamic performance of the Porsche Macan. With its powerful engine, agile handling, and versatile capabilities, the Macan delivers an exhilarating driving experience on any road."
+                },
+                "video2": {
+                  "title": "Macan Design",
+                  "description": "Discover the bold design of the Porsche Macan. From its sleek lines to its muscular stance, the Macan's design embodies the spirit of Porsche performance and innovation."
+                },
+                "video3": {
+                  "title": "Macan Technology",
+                  "description": "Explore the advanced technology of the Porsche Macan. With its innovative features and intuitive systems, the Macan offers unmatched comfort, convenience, and connectivity on every journey."
+                }
+              },
+              "Panamera": {
+                "mainCard": {
+                  "title": "Panamera",
+                  "price": "from INR 12,000,000",
+                  "technicalSpecifications": {
+                    "power": "243 kW/330 PS",
+                    "acceleration": "5.4 s",
+                    "topSpeed": "264 km/h"
+                  }
+                },
+                "video1": {
+                  "title": "Panamera Performance",
+                  "description": "Experience the exhilarating performance of the Porsche Panamera. With its powerful engine, responsive handling, and luxurious amenities, the Panamera offers a driving experience like no other."
+                },
+                "video2": {
+                  "title": "Panamera Design",
+                  "description": "Discover the sophisticated design of the Porsche Panamera. From its sleek profile to its elegant details, every aspect of the Panamera's design is crafted to elevate your driving experience."
+                },
+                "video3": {
+                  "title": "Panamera Technology",
+                  "description": "Explore the innovative technology of the Porsche Panamera. With its advanced features and intelligent systems, the Panamera delivers unmatched performance, comfort, and connectivity on every journey."
+                }
+              },
+              "Taycan": {
+                "mainCard": {
+                  "title": "Taycan",
+                  "price": "from INR 15,000,000",
+                  "technicalSpecifications": {
+                    "power": "440 kW/600 PS",
+                    "acceleration": "2.8 s",
+                    "topSpeed": "260 km/h"
+                  }
+                },
+                "video1": {
+                  "title": "Taycan Performance",
+                  "description": "Experience the electrifying performance of the Porsche Taycan. With its powerful electric motors, instant torque, and lightning-fast acceleration, the Taycan delivers an exhilarating driving experience like no other."
+                },
+                "video2": {
+                  "title": "Taycan Design",
+                  "description": "Discover the innovative design of the Porsche Taycan. From its aerodynamic shape to its futuristic features, every aspect of the Taycan's design is crafted to push the boundaries of electric mobility."
+                },
+                "video3": {
+                  "title": "Taycan Technology",
+                  "description": "Explore the cutting-edge technology of the Porsche Taycan. With its advanced features and intelligent systems, the Taycan offers unmatched performance, efficiency, and connectivity for the electric future."
+                }
+              }
+        }
+      ,
+    "Ferrari": {
+        "812 Superfast": {
+            "mainCard": {
+                "title": "JSON718 Cayman",
+                "price": "from INR 14,772,000",
+                "technicalSpecifications": {
+                    "power": "220 kW/300 PS",
+                    "acceleration": "4.9 s",
+                    "topSpeed": "275 km/h"
+                }
+            },
+            "video1": {
+                "title": "JSON Title for Ferrari 812 Superfast Video 1",
+                "description": "Description for Ferrari 812 Superfast Video 1."
+            }, 
+            "video2": {
+                "title": "JSON 812 Style Edition.",
+                "description": "The 718 Boxster Style Edition and the 718 Cayman Style Edition bring colour to city life, with high-contrast design highlights for the exterior and interior. This is where creativity meets sportiness – your 718 Style Edition transforms the street into your very own playground."
+            },
+            "video3": {
+                "title": "JSON For the sport of it.",
+                "description": "The 718 models were made for the sport of it. They are mid-engined roadsters that unite the sporting spirit of the legendary Porsche 718 with the sports car of tomorrow – and transfer it to the roads of today’s world. With one goal: to take the everyday out of every day."
+            },
+            "interior2": {
+                "title": "JSON Discover the new Porsche 718 Cayman",
+                "description": "Experience the perfect blend of performance, design, and technology."
+            },
+            "bottom": {
+                "title": "JSON Title for Bottom Section",
+                "description": "Description for Bottom Section."
+            }
+        }
+      
+    },
+    "Lamborghini": {
+        "Aventador": {
+            "mainCard": {
+                "title": "JSON718 Cayman",
+                "price": "from INR 14,772,000",
+                "technicalSpecifications": {
+                    "power": "220 kW/300 PS",
+                    "acceleration": "4.9 s",
+                    "topSpeed": "275 km/h"
+                }
+            },
+            "video1": {
+                "title": "JSON Title for Ferrari 812 Superfast Video 1",
+                "description": "Description for Ferrari 812 Superfast Video 1."
+            }, 
+            "video2": {
+                "title": "JSON 812 Style Edition.",
+                "description": "The 718 Boxster Style Edition and the 718 Cayman Style Edition bring colour to city life, with high-contrast design highlights for the exterior and interior. This is where creativity meets sportiness – your 718 Style Edition transforms the street into your very own playground."
+            },
+            "video3": {
+                "title": "JSON For the sport of it.",
+                "description": "The 718 models were made for the sport of it. They are mid-engined roadsters that unite the sporting spirit of the legendary Porsche 718 with the sports car of tomorrow – and transfer it to the roads of today’s world. With one goal: to take the everyday out of every day."
+            },
+            "interior": {
+                "title": "JSON Discover the new Porsche 718 Cayman",
+                "description": "Experience the perfect blend of performance, design, and technology."
+            },
+            "bottom": {
+                "title": "JSON Title for Bottom Section",
+                "description": "Description for Bottom Section."
+            }
+        }
+      
+    }
+    
+}

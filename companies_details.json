@@ -1,0 +1,324 @@
+{
+  "BMW": {
+    "brand":{
+      "name": "BMW"
+    },
+    "carousal": [
+      {
+        "title": "Electric driving pleasure",
+        "description": "The new BMW i4 M50."
+      },
+      {
+        "title": "Ultimate performance meets sustainability",
+        "description": "The new BMW iX."
+      },
+      {
+        "title": "Innovation redefined",
+        "description": "The new BMW 7 Series."
+      },
+      {
+        "title": "Iconic design, electrifying performance",
+        "description": "The new BMW iX3."
+      }
+    ],    
+    "discover":{
+      "title": "Discover the Future of Driving BMW",
+      "description": "Experience the unparalleled performance and design of BMW."  
+    },
+    "models": [
+      "I8",
+      "M3 GTR",
+      "M4 COUPE",
+      "M5",
+      "M6 COUPE",
+      "ROADSTER"
+    ],
+    "overview": {
+      "title": "Overview",
+      "description": "BMW introduces the i4 M50, an electric high-performance vehicle that merges BMW's legacy of dynamic performance with cutting-edge electric technology, marking a new era of driving excitement and sustainability."
+    },
+    "highlights": {
+      "title": "Highlights",
+      "description": "The BMW i4 M50 delivers electrifying performance with a powerful electric powertrain producing up to 544 horsepower, propelling it from 0 to 60 mph in just 3.9 seconds. Equipped with BMW's advanced electric drive system and high-capacity battery, the i4 M50 offers impressive range and fast-charging capability. With its sporty design, precise handling, luxurious interior, and the latest driver-assistance and connectivity technology, the i4 M50 embodies BMW's commitment to both exhilarating performance and sustainable driving. Availability may vary by country; contact your local BMW dealer for more information."
+    }
+  },
+  "Porsche": {
+    "carousal": [
+      {
+        "title": "Unleash the thrill",
+        "description": "The new Porsche Taycan Turbo S Cross Turismo."
+      },
+      {
+        "title": "Pure performance, electrified",
+        "description": "The new Porsche 911 Turbo S."
+      },
+      {
+        "title": "Iconic design, legendary performance",
+        "description": "The new Porsche 718 Cayman GT4."
+      },
+      {
+        "title": "Power and precision",
+        "description": "The new Porsche Panamera Turbo S E-Hybrid."
+      }
+    ],
+    "discover":{
+      "title": "Discover the Future of Driving Porsche",
+      "description": "Experience the unparalleled performance and design of Porsche."  
+    },
+    "models": [
+      "Cayman",
+      "Cayenne",
+      "911",
+      "Macan",
+      "Panamera",
+      "Taycan"
+    ],
+    "overview": {
+      "title": "Overview",
+      "description": "Porsche, renowned for its iconic sports cars, introduced the Taycan Turbo S Cross Turismo, an electric high-performance vehicle that combines cutting-edge technology with Porsche's legacy of driving excellence. As Porsche celebrates its legacy, the Taycan Turbo S Cross Turismo marks a new chapter in the company's history, offering unparalleled performance, advanced technology, and a thrilling driving experience."
+    },
+    "highlights": {
+      "title": "Highlights",
+      "description": "The Taycan Turbo S Cross Turismo boasts exceptional performance, delivering up to 750 horsepower, accelerating from 0 to 60 mph in just 2.7 seconds. Equipped with Porsche's innovative electric drive system and state-of-the-art battery, it offers impressive range and quick charging capabilities. Enhanced by Porsche's legendary driving dynamics, including all-wheel drive and Porsche Torque Vectoring Plus, it ensures an unrivaled driving experience. With a spacious interior, ample cargo space, and rugged all-road capability, it's both practical and thrilling. Availability may vary by country; contact your local Porsche dealer for more information."
+    }
+  },
+  "Lamborghini" :{
+    "carousal": [
+      {
+        "title": "Electrifying performance",
+        "description": "Introducing the Lamborghini Revuelto, the first HPEV hybrid super sports car."
+      },
+      {
+        "title": "Unprecedented driving emotions",
+        "description": "Experience the ultimate thrill with the Lamborghini Revuelto."
+      },
+      {
+        "title": "Power and innovation combined",
+        "description": "The Lamborghini Revuelto sets a new benchmark in performance and technology."
+      },
+      {
+        "title": "Legendary performance, redefined",
+        "description": "Discover the future of driving with the Lamborghini Revuelto."
+      }
+    ],
+    "discover":{
+      "title": "Discover the Future of Driving Lamborghini",
+      "description": "Experience the unparalleled performance and design of Lamborghini."  
+    },
+    "models": [
+      "Aventador",
+      "Countach",
+      "Diablo",
+      "Huracane",
+      "Urus",
+      "Veneno"
+    ],
+    "overview": {
+      "title": "Overview",
+      "description": "Lamborghini unveils the Revuelto, the first HPEV (High Performance Electrified Vehicle) hybrid super sports car, just before its 60th anniversary. With the Revuelto, Lamborghini sets a new benchmark in performance, on-board technology, and driving pleasure, harnessing the power of hybridization to elevate performance and driving emotions to unprecedented levels."
+    },
+    "highlights": {
+      "title": "Highlights",
+      "description": "The Lamborghini Revuelto features a powertrain delivering 1015 CV total, combining the power of a brand-new 12-cylinder internal combustion engine with three high-density electric motors and a groundbreaking transversal dual-clutch e-gearbox. This setup provides an ultimate thrill, reaching unparalleled performance levels. The Revuelto represents a new era for Lamborghini, blending its iconic design and thrilling performance with cutting-edge hybrid technology, ensuring an electrifying driving experience like never before. Availability of Lamborghini models may vary by country; for more information, contact your local dealer."
+    }
+  },
+  "Bugatti" :{
+    "carousal": [
+      {
+        "title": "A tribute to excellence",
+        "description": "Introducing the Bugatti Centodieci, a tribute to the iconic EB110."
+      },
+      {
+        "title": "Engineering masterpiece",
+        "description": "Experience the pinnacle of automotive engineering with the Bugatti Centodieci."
+      },
+      {
+        "title": "Limited edition luxury",
+        "description": "Own a piece of automotive history with the Bugatti Centodieci."
+      },
+      {
+        "title": "Unmatched performance, unrivaled luxury",
+        "description": "Discover the ultimate expression of automotive luxury with the Bugatti Centodieci."
+      }
+    ],
+    "discover":{
+      "title": "Discover the Future of Driving Bugatti",
+      "description": "Experience the unparalleled performance and design of Bugatti."  
+    },
+    "models": [
+      "Chiron",
+      "DIVO",
+      "GTR2017",
+      "SuperSport",
+      "VEYRON"
+    ],
+    "overview": {
+      "title": "Overview",
+      "description": "Bugatti introduces the Centodieci, a tribute to the iconic EB110 and a celebration of the brand's heritage and innovation. As Bugatti marks its legacy, the Centodieci embodies the pinnacle of engineering excellence, combining breathtaking design with unparalleled performance."
+    },
+    "highlights": {
+      "title": "Highlights",
+      "description": "The Bugatti Centodieci boasts a powerful 8.0-liter quad-turbocharged W16 engine, delivering an astonishing 1600 horsepower. With a 0-60 mph acceleration time of just 2.4 seconds and a top speed of 236 mph, the Centodieci offers an unmatched driving experience. Its aerodynamic design, lightweight construction, and advanced technology ensure exceptional performance and handling. Limited to just 10 units worldwide, the Bugatti Centodieci represents the ultimate expression of automotive luxury and exclusivity. For more information and availability, please contact Bugatti."
+    }
+  },
+  "Ferrari" :{
+    "carousal": [
+      {
+        "title": "Electrifying performance",
+        "description": "Introducing the Ferrari SF90 Stradale, a groundbreaking plug-in hybrid supercar."
+      },
+      {
+        "title": "Unparalleled driving excitement",
+        "description": "Experience the thrill of the Ferrari SF90 Stradale."
+      },
+      {
+        "title": "The future of performance",
+        "description": "The Ferrari SF90 Stradale sets new standards in innovation and performance."
+      },
+      {
+        "title": "Legendary performance, redefined",
+        "description": "Discover the future of driving with the Ferrari SF90 Stradale."
+      }
+    ],
+    "discover":{
+      "title": "Discover the Future of Driving Ferrari",
+      "description": "Experience the unparalleled performance and design of Ferrari."  
+    },
+    "models": [
+      "812 Superfast",
+      "Evolution",
+      "Italia",
+      "FF50",
+      "Pista",
+      "Portofino"
+    ],
+    "overview": {
+      "title": "Overview",
+      "description": "Ferrari introduces the SF90 Stradale, a groundbreaking plug-in hybrid supercar, marking a new era of electrified performance and driving excitement. Combining Ferrari's legendary performance with cutting-edge hybrid technology, the SF90 Stradale represents the pinnacle of engineering excellence and driving pleasure."
+    },
+    "highlights": {
+      "title": "Highlights",
+      "description": "The Ferrari SF90 Stradale features a powerful hybrid powertrain, delivering a total of 1000 horsepower, making it the most powerful production Ferrari ever. With a 0-60 mph acceleration time of just 2.5 seconds and a top speed of over 211 mph, the SF90 Stradale offers blistering performance. Its advanced aerodynamics, lightweight construction, and innovative hybrid system ensure exceptional handling and efficiency. Equipped with state-of-the-art technology and luxurious amenities, the SF90 Stradale redefines the supercar experience. Availability of Ferrari models may vary by country; for more information, please contact your local Ferrari dealer."
+    }
+  },
+  "Ford" :{
+    "carousal": [
+      {
+        "title": "Iconic heritage, electrified future",
+        "description": "Introducing the Ford Mustang Mach-E GT Performance Edition."
+      },
+      {
+        "title": "Unleash the power of electric",
+        "description": "Experience the thrill of the Ford Mustang Mach-E GT Performance Edition."
+      },
+      {
+        "title": "Performance redefined",
+        "description": "The Ford Mustang Mach-E GT Performance Edition combines power and sustainability."
+      },
+      {
+        "title": "Electric driving, iconic design",
+        "description": "Discover the future of performance with the Ford Mustang Mach-E GT Performance Edition."
+      }
+    ],
+    "discover":{
+      "title": "Discover the Future of Driving FORD",
+      "description": "Experience the unparalleled performance and design of FORD."  
+    },
+    "models": [
+      "Mustang",
+      "GT",
+      "Raptor",
+      "Model 4",
+      "Model 5",
+      "Model 6"
+    ],
+    "overview": {
+      "title": "Overview",
+      "description": "Ford unveils the Mustang Mach-E GT Performance Edition, combining the iconic Mustang heritage with cutting-edge electric technology. As Ford embraces the future of automotive innovation, the Mustang Mach-E GT Performance Edition represents the next chapter in the evolution of the legendary Mustang lineup."
+    },
+    "highlights": {
+      "title": "Highlights",
+      "description": "The Ford Mustang Mach-E GT Performance Edition delivers exhilarating performance with dual electric motors producing up to 480 horsepower and 634 lb-ft of torque, propelling it from 0 to 60 mph in just 3.5 seconds. Its extended-range battery provides an EPA-estimated range of up to 270 miles, ensuring long-distance driving confidence. With its sleek design, spacious interior, and advanced technology, including Ford's SYNC 4A infotainment system and Ford Co-Pilot360 driver-assistance features, the Mustang Mach-E GT Performance Edition offers a thrilling driving experience with uncompromising style and comfort. Availability may vary by country; contact your local Ford dealer for more information."
+    }
+  },
+  "Mercedes" :{
+    "carousal": [
+      {
+        "title": "Luxury meets electrification",
+        "description": "Introducing the Mercedes-Benz EQS, setting new standards in innovation and luxury."
+      },
+      {
+        "title": "The future of electric luxury",
+        "description": "Experience the unparalleled luxury of the Mercedes-Benz EQS."
+      },
+      {
+        "title": "Innovative design, sustainable performance",
+        "description": "The Mercedes-Benz EQS combines cutting-edge technology with timeless elegance."
+      },
+      {
+        "title": "Driving excellence, redefined",
+        "description": "Discover the future of driving with the Mercedes-Benz EQS."
+      }
+    ],
+    "discover":{
+      "title": "Discover the Future of Driving Mercedes",
+      "description": "Experience the unparalleled performance and design of Mercedes."  
+    },
+    "models": [
+      "AMG ONE",
+      "AMG HAMMER",
+      "GTR",
+      "SLK 55",
+      "SLK AMG",
+      "AMG COUPE BLACK"
+    ],
+    "overview": {
+      "title": "Overview",
+      "description": "Mercedes-Benz introduces the EQS, a luxury electric sedan that sets new standards in innovation, performance, and sustainability. As Mercedes-Benz continues its commitment to electric mobility, the EQS represents the future of luxury driving, combining advanced technology with the timeless elegance and craftsmanship synonymous with the Mercedes-Benz brand."
+    },
+    "highlights": {
+      "title": "Highlights",
+      "description": "The Mercedes-Benz EQS boasts a state-of-the-art electric drivetrain, delivering up to 516 horsepower and a range of over 400 miles on a single charge. Its luxurious interior features the latest in automotive technology, including the MBUX Hyperscreen, a curved, 56-inch widescreen display that spans the entire width of the dashboard. With its aerodynamic design, cutting-edge driver-assistance systems, and unparalleled comfort, the EQS offers a driving experience that redefines luxury. Availability may vary by country; contact your local Mercedes-Benz dealer for more information."
+    }
+  },
+  "McLaren": {
+    "carousal": [
+      {
+        "title": "Pure performance, uncompromising design",
+        "description": "Introducing the McLaren Artura, setting new standards in performance and innovation."
+      },
+      {
+        "title": "Experience the thrill of pure speed",
+        "description": "Discover the exhilarating performance of the McLaren Artura."
+      },
+      {
+        "title": "Innovative design, cutting-edge technology",
+        "description": "The McLaren Artura combines advanced technology with breathtaking design."
+      },
+      {
+        "title": "Performance redefined",
+        "description": "Experience the future of driving with the McLaren Artura."
+      }
+    ],
+    "discover":{
+      "title": "Discover the Future of Driving with McLaren",
+      "description": "Experience the ultimate in performance and design with McLaren."  
+    },
+    "models": [
+      "Spider",
+      "570S Coupe",
+      "McLaren P1",
+      "McLaren Senna",
+      "Mclaren Speedtail",
+      "765LT"
+    ],
+    "overview": {
+      "title": "Overview",
+      "description": "McLaren introduces the Artura, a next-generation high-performance hybrid supercar that pushes the boundaries of speed and innovation. Combining McLaren's legendary performance with cutting-edge hybrid technology, the Artura represents the future of automotive excellence."
+    },
+    "highlights": {
+      "title": "Highlights",
+      "description": "The McLaren Artura features a powerful hybrid powertrain, delivering a total of 680 horsepower and 720 Nm of torque, propelling it from 0 to 60 mph in just 3.0 seconds. Its lightweight construction, advanced aerodynamics, and innovative technology ensure exceptional performance and handling. With its stunning design, luxurious interior, and state-of-the-art features, the Artura offers an unparalleled driving experience. Availability may vary by country; contact your local McLaren dealer for more information."
+    }
+  }
+}

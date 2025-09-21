@@ -1,0 +1,45 @@
+#iframe-container {
+    position: absolute;
+    z-index: 999; /* Adjust this value as needed to ensure the iframe appears above other elements */
+    top: 155%;
+    margin-left: 15%;
+}
+.navbar-nav .nav-link.active:hover {
+    color: white!important;
+    background-color: grey;
+}
+.dropdown-item:hover {
+    background-color: #555;
+    color: #fff;
+}
+.navbar-nav .nav-link:hover {
+    background-color: #555;
+    color: #fff;
+}
+.navbar-nav .nav-link {
+   font-size: 1.2rem;
+   text-decoration: none;
+}
+#compare123
+{
+    margin: 10px;
+    border: 2px solid grey;
+    font-size: 1.2rem;
+    border-radius: 30px;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+}
+#compare123:hover
+{
+    border: 2px solid red;
+    
+}
+.footer
+{   padding-top: 500px;
+    margin-top: 50px;
+}
+.body
+{
+    margin-bottom: 200px;
+}

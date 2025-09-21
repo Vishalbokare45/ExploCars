@@ -1,0 +1,474 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+/* 
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+ */
+
+/* //////////// FOR THE SPORT OF IT  */
+section {
+    background-color: #f8f9fa; /* Light background color */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Padding inside the section */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+h3 {
+    color: #343a40; /* Darker text for headings */
+    margin-bottom: 15px; /* Space between heading and text */
+}
+
+p {
+    color: #495057; /* Slightly lighter text for paragraphs */
+    line-height: 1.6; /* Improved readability */
+}
+
+img {
+    border-radius: 10px; /* Rounded corners for the image */
+}
+
+
+
+
+/* /////////// OPEN GALLERY */
+.image-gallery {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.image-gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.image-gallery button {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+    /* .card-img-overlay {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.card:hover .card-img-overlay {
+    opacity: 1;
+} */
+
+        /* .card-img-overlay {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.card:hover .card-img-overlay {
+    opacity: 1;
+} */
+
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    /* Customizable height */
+    overflow: hidden;
+}
+
+.video-container video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+    background-position: center;
+}
+
+.video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent background */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 20px;
+    box-sizing: border-box;
+    opacity: 0;
+    /* Initially hidden */
+    transition: opacity 0.3s ease;
+    /* Smooth transition */
+}
+
+.video-container:hover .video-overlay {
+    opacity: 1;
+    /* Reveal on hover */
+}
+
+.video-overlay h5,
+.video-overlay p {
+    color: #fff;
+    margin: 0;
+}
+
+.video-overlay .btn {
+    color: #000;
+    background-color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* ////////////////////////////////////////////////// */
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    /* Hide non-active slides */
+}
+
+.swiper-slide {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Make images fit the div */
+}
+
+
+/* /////////////////TILES */
+/* .color-tiles {
+display: flex;
+flex-wrap: wrap;
+list-style: none;
+padding: 0;
+transition: max-height 0.5s ease-out;
+max-height: 0;
+overflow: hidden;
+}
+
+.color-tile {
+width: 20%;
+height: 50px;
+margin-right: 5%;
+margin-bottom: 5%;
+border: none;
+background-color: transparent;
+cursor: pointer;
+transition: transform 0.3s ease;
+}
+
+.color-tile:active, .color-tile:focus {
+transform: scale(1.2);
+background-color: transparent !important;
+box-shadow: none !important;
+outline: none !important;
+} */
+/* .configMenu_hdl {
+cursor: pointer;
+padding: 10px;
+background-color: #f8f9fa;
+border: 1px solid #dee2e6;
+border-radius: 4px;
+display: flex;
+margin-bottom: 10px;
+}
+
+.tileColor {
+list-style: none;
+padding: 0;
+margin: 0;
+display: flex;
+flex-wrap: wrap;
+}
+
+.tileColor_1 {
+width: 25%;
+padding: 10px;
+box-sizing: border-box;
+cursor: pointer;
+transition: transform 0.3s ease;
+}
+
+.tileColor_1:hover {
+transform: scale(1.1);
+}
+
+.tileColor_1 span {
+display: block;
+width: 100%;
+height: 50px;
+}
+.tileColor {
+list-style: none;
+padding: 0;
+margin: 0;
+display: flex;
+flex-wrap: wrap;
+overflow: hidden;
+max-height: 0;
+transition: max-height 0.5s ease-out;
+will-change: max-height; /* This line is optional but can improve performance *
+}
+
+.tileColor.open {
+max-height: 1000px; /* This value should be larger than the actual height of the content *
+} */
+.configMenu_hdl {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.tileColor {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.5s ease-out;
+    will-change: max-height;
+    /* This line is optional but can improve performance */
+    justify-content: space-between;
+    /* Distribute space evenly between buttons */
+}
+
+
+.tileColor.open {
+    max-height: 1000px;
+    /* This value should be larger than the actual height of the content */
+}
+
+.tileColor_1 {
+    width: 25%;
+    padding: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    border: none;
+    /* Remove default button border */
+    background-color: transparent;
+    /* Ensure the background color is applied */
+    appearance: none;
+    /* Remove default browser styling */
+    -webkit-appearance: none;
+    /* For Safari */
+    -moz-appearance: none;
+    /* For Firefox */
+    outline: none;
+    /* Remove focus outline */
+    margin: 5px;
+    /* Add space around the buttons */
+}
+
+.tileColor_1:hover {
+    transform: scale(1.1);
+}
+
+/* Ensure the buttons look like tiles */
+.tileColor_1::before {
+    content: "";
+    display: block;
+    padding-top: 100%;
+    /* Maintain aspect ratio */
+}
+
+.tileColor_1.highlighted {
+    transform: scale(1.1);
+    /* Increase size */
+    background-color: #f0f0f0;
+    /* Example highlight color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    /* Optional shadow for highlighted state */
+    border: 5px solid black;
+}
+
+/*  
+.color-tiles {
+display: flex;
+flex-wrap: wrap;
+list-style: none;
+padding: 0;
+}
+
+.color-tile {
+width: 20%;
+height: 50px;
+margin-right: 5%;
+margin-bottom: 5%;
+border: none; * Remove default button border *
+background-color: transparent; * Ensure the background color is applied *
+cursor: pointer;
+transition: transform 0.3s ease; * Smooth transition for scaling /
+}
+
+.color-tile:nth-child(4n) {
+margin-right: 0;
+}
+
+.color-tile:active, .color-tile:focus {
+transform: scale(1.2); /Increase size on click /
+}
+/ Override Bootstrap's default button styles for .color-tile *
+.color-tile:active, .color-tile:focus {
+background-color: transparent !important; / Ensure no background color appears on mouse press *
+box-shadow: none !important; / Remove any box shadow that might be applied /
+outline: none !important; * Remove any outline that might be applied /
+}
+
+
+.color-tile.selected {
+border: 2px solid #000; / Example border for selected tile/
+background-color: #f0f0f0; / Example background color for selected tile /
+}
+
+
+
+.color-tile.selected {
+transform: scale(1.2);
+border: 2px solid; / Visual cue for selected color
+} */
+
+
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 90%;
+    height: 80%;
+    /* Adjust height as needed */
+    overflow: auto;
+    /* Enable scrolling if content overflows */
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+
+.gallery-image {
+    height: auto;
+    /* Maintain aspect ratio */
+    max-height: 300px;
+    /* Adjust as needed */
+    object-fit: cover;
+    /* Cover the area without stretching */
+    margin-bottom: 15px;
+    /* Add some space between images */
+    transition: transform 0.3s ease;
+    /* Smooth transition for hover effect */
+}
+
+.gallery-image:hover {
+    transform: scale(1.05);
+    /* Slightly enlarge on hover */
+}
+
+/* ////// ROTATING IMAGE ////////*/
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.rotating-image {
+    animation: rotate 10s linear infinite;
+}
+
+
+
+
+
+.spec-container {
+display: flex;
+flex-direction: column;
+gap: 20px;
+padding: 20px;
+background-color: #f5f5f5; /* Light background for contrast */
+border-radius: 10px; /* Rounded corners */
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.spec-item {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px;
+background-color: #fff; /* White background for each item */
+border-radius: 5px; /* Rounded corners for each item */
+}
+
+.spec-label {
+font-weight: bold;
+color: #333; /* Dark text for labels */
+}
+
+.spec-value {
+color: #666; /* Lighter text for values */
+}
+#specVideo{
+width: 100% !important;
+}

@@ -1,0 +1,1004 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compare Cars</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="/static/lib/animate/animate.min.css" rel="stylesheet">
+    <link href="/static/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="cars.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+    <style>
+        .navbar-nav .nav-link.active:hover {
+            color: white !important;
+            background-color: grey;
+        }
+
+        .dropdown-item:hover {
+            background-color: #555;
+            color: #fff;
+        }
+
+        .navbar-nav .nav-link:hover {
+            background-color: #555;
+            color: #fff;
+        }
+
+        .navbar-nav .nav-link {
+            font-size: 1.2rem;
+            text-decoration: none;
+        }
+
+        #compare123 {
+            margin: 10px;
+            border: 2px solid grey;
+            font-size: 1.2rem;
+            border-radius: 30px;
+            color: white;
+            background-color: black;
+            text-decoration: none;
+        }
+
+        #compare123:hover {
+            border: 2px solid red;
+
+        }
+
+        .footer {
+            padding-top: 500px;
+            margin-top: 50px;
+        }
+
+        .body {
+            margin-bottom: 200px;
+            /* zoom: 75%;
+            -moz-transform: scale(0.75);
+            -webkit-transform: scale(0.75);
+            -o-transform: scale(0.75);
+            -ms-transform: scale(0.75);
+            transform: scale(0.75);
+            -moz-transform-origin: top left;
+            -webkit-transform-origin: top left;
+            -o-transform-origin: top left;
+            -ms-transform-origin: top left;
+            transform-origin: top left; */
+        }
+    </style>
+    <script>
+        window.onload = function() {
+            document.body.style.zoom = "75%";
+        };
+    </script>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-dark navbar-light shadow p-0" style="background-color: black  !important;">
+        <a class="navbar-brand" href="#index.html" id="carlogo">
+            <img src="uploads/logo/Designer.png" alt="CarVerse Logo" width="80" class="d-inline-block align-text-top">
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link" style="color: white;">Home</a>
+                <a href="ourteam.html" class="nav-item nav-link active" style="color: grey;">About</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"
+                        style="color: white;">Brands</a>
+                    <div class="dropdown-menu rounded-0 m-0">
+                        <a href="company-specific-details.html?brand=Porsche" class="dropdown-item">Porsche</a>
+                        <a href="company-specific-details.html?brand=Bugatti" class="dropdown-item">Bugatti</a>
+                        <a href="company-specific-details.html?brand=BMW" class="dropdown-item">BMW</a>
+                        <a href="company-specific-details.html?brand=Lamborghini" class="dropdown-item">Lamborghini</a>
+                        <a href="company-specific-details.html?brand=Ferrari" class="dropdown-item">Ferrari</a>
+                        <a href="company-specific-details.html?brand=Ford" class="dropdown-item">Ford</a>
+                        <a href="company-specific-details.html?brand=Mercedes" class="dropdown-item">Mercedes-Benz</a>
+                        <a href="company-specific-details.html?brand=McLaren" class="dropdown-item">Mclaren</a>
+                    </div>
+                </div>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"
+                        style="color: white;">Dealers</a>
+                    <div class="dropdown-menu rounded-0 m-0">
+                        <a href="porschedealer.html" class="dropdown-item">Porsche</a>
+                        <a href="bmw.html" class="dropdown-item">BMW</a>
+                        <a href="lambodealer.html" class="dropdown-item">Lamborghini</a>
+                        <a href="Ferrari.html" class="dropdown-item">Ferrari</a>
+                        <a href="Ford.html" class="dropdown-item">Ford</a>
+                        <a href="Mercedesde.html" class="dropdown-item">Mercedes-Benz</a>
+                        <a href="McLarende.html" class="dropdown-item">Mclaren</a>
+                    </div>
+                </div>
+                <a href="signup-free.html" class="nav-item nav-link" style="color: white;">Discussion Forum</a>
+            </div>
+            <a href="compare.html" class="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block"
+                id="compare123">Compare Cars<i class="fa fa-arrow-right ms-3"></i></a>
+        </div>
+    </nav>
+
+
+    <div class="front">
+        <div class="row" id="titlerow">
+            <div class="col-sm-12" id="front_text">
+                CarCompare
+            </div>
+            <div class="col-sm-12" id="bottom_text">
+                Discover the Best Match: Compare Cars to Uncover the Ideal Vehicle for You.
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container" id="filterdiv">
+        <div class="row">
+            <div class="col-sm-12" id="filtertitle">
+                Car brands
+            </div>
+            <div class="col-sm-12">
+                <button class="btn btn-primary brand-button" id="filterbutton" data-brand="all">All Brands</button>
+            </div>
+            <div class="col-sm-12">
+                <button class="btn btn-primary brand-button" id="filterbutton" data-brand="Bugatti">Bugatti</button>
+            </div>
+            <div class="col-sm-12">
+                <button class="btn btn-primary brand-button" id="filterbutton" data-brand="Ferrari">Ferrari</button>
+            </div>
+            <div class="col-sm-12">
+                <button class="btn btn-primary brand-button" id="filterbutton" data-brand="Porsche">Porsche</button>
+            </div>
+            <div class="col-sm-12">
+                <button class="btn btn-primary brand-button" id="filterbutton" data-brand="Ford">Ford</button>
+            </div>
+            <div class="col-sm-12">
+                <button class="btn btn-primary brand-button" id="filterbutton"
+                    data-brand="Lamborghini">Lamborghini</button>
+            </div>
+            <div class="col-sm-12">
+                <button class="btn btn-primary brand-button" id="filterbutton"
+                    data-brand="Mercedes-Benz">Mercedes-Benz</button>
+            </div>
+            <div class="col-sm-12">
+                <button class="btn btn-primary brand-button" id="filterbutton" data-brand="Mclaren">Mclaren</button>
+            </div>
+            <div class="col-sm-12">
+                <button class="btn btn-primary brand-button" id="filterbutton" data-brand="BMW">BMW</button>
+            </div>
+            <!--            <div class="col-l-12" >
+                <div id="brandButtons">
+                    <button class="btn btn-primary brand-button"  id="filterbutton"   data-brand="all">All Brands</button>
+                    <button class="btn btn-primary brand-button" id="filterbutton" data-brand="Bugatti">Bugatti</button>
+                    <button class="btn btn-primary brand-button" id="filterbutton" data-brand="Ferrari">Ferrari</button>
+                    <button class="btn btn-primary brand-button" id="filterbutton" data-brand="Porsche">Porsche</button>
+                    <button class="btn btn-primary brand-button" id="filterbutton" data-brand="Ford">Ford</button>
+                    <button class="btn btn-primary brand-button" id="filterbutton" data-brand="Lamborghini">Lamborghini</button>
+                    <button class="btn btn-primary brand-button" id="filterbutton"  data-brand="Mercedes-Benz">Mercedes-Benz</button>
+                    <button class="btn btn-primary brand-button" id="filterbutton"  data-brand="Mclaren">Mclaren</button>
+                    <button class="btn btn-primary brand-button" id="filterbutton"  data-brand="BMW">BMW</button>
+                </div>
+            </div>
+
+            -->
+
+        </div>
+    </div>
+
+
+
+
+
+    <!-- Model Comparison Section -->
+    <button type="button" class="btn btn-primary btn-lg" id="compareBtn"
+        style="position: fixed; bottom: 20px; right: 20px; z-index: 999;">
+        Compare
+    </button>
+    <button type="button" class="btn btn-primary btn-lg" id="uncheckAllBtn"
+        style="position: fixed; bottom: 20px; right: 10rem; z-index: 999;">
+        Uncheck All
+    </button>
+
+    <div class="container-xl" id="compare_container">
+        <div class="row">
+            <div class="col-md-5 brand-div" data-brand="Porsche">
+                <div class="Car_Title">
+                    Porsche
+                </div>
+            </div>
+            <div class="col-md-7 brand-div" data-brand="Porsche">
+                <img src="Logo_final\PORSCHE.png">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-5 car-card" data-brand="Porsche">
+                <div class="card" style="width: 28rem;">
+                    <div>
+                        <img alt="Porsche 718 Cayman" src="Car_models\Caymen.webp"
+                            data-image-src="Car_models\Caymen.webp" data-width="640" data-height="360"
+                            data-fade-in-show="true">
+                        <input type="checkbox" class="car-checkbox" id="car-checkbox-Caymen" value="Caymen"
+                            data-car-info="718 Cayman : Performance :  0-100 in 4.2 sec">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Cayman</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5 car-card" data-brand="Porsche">
+                <div class="card" style="width: 28rem;">
+                    <div>
+                        <img alt="Porsche 718 Cayman" src="Car_models\911.jpg" data-image-src="Car_models\911.jpg"
+                            data-width="640" data-height="360" data-fade-in-show="true">
+                        <input type="checkbox" class="car-checkbox" id="car-checkbox-911" value="911"
+                            data-car-info="718 Cayman : Performance :  0-100 in 4.2 sec">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">911</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 car-card" data-brand="Porsche">
+                <div class="card" style="width: 28rem;">
+                    <div>
+                        <img alt="Porsche 718 Cayman Style Edition" src="Car_models\CAYENNEN.jpg"
+                            data-image-src="Car_models\CAYENNEN.jpg" data-width="640" data-height="360"
+                            data-fade-in-show="true">
+                        <input type="checkbox" class="car-checkbox" id="car-checkbox-cayenne" value="cayenne"
+                            data-car-info="718 Boxster: Some quick example text to build on the card title and make up the bulk of the card's content.">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Cayenne</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-5 car-card" data-brand="Porsche">
+                <div class="card" style="width: 28rem;">
+                    <div>
+                        <img alt="Porsche 911 Carrera" src="Car_models\MACAN.jpg" data-image-src="Car_models\MACAN.jpg"
+                            data-width="640" data-height="360" data-lazy-load="true" data-lazy-loaded="true"
+                            data-fade-in-show="true">
+                        <input type="checkbox" class="car-checkbox" id="car-checkbox-macan" value="macan"
+                            data-car-info="718 Cayman : Performance :  0-100 in 4.2 sec">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Macan</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5 car-card" data-brand="Porsche">
+                <div class="card" style="width: 28rem;">
+                    <div>
+                        <img alt="Porsche 911 Carrera T" src="Car_models\PANAMERA.jpg"
+                            data-image-src="Car_models\PANAMERA.jpg" data-width="640" data-height="360"
+                            data-lazy-load="true" data-lazy-loaded="true" data-fade-in-show="true">
+                        <input type="checkbox" class="car-checkbox" id="car-checkbox-panamera" value="panamera"
+                            data-car-info="718 Cayman : Performance :  0-100 in 4.2 sec">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Panamera</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 car-card" data-brand="Porsche">
+                <div class="card" style="width: 28rem;">
+                    <div>
+                        <img alt="Porsche 911 Carrera Cabriolet" src="Car_models\TAYCAN.jpg"
+                            data-image-src="Car_models\TAYCAN.jpg" data-width="640" data-height="360"
+                            data-lazy-load="true" data-lazy-loaded="true" data-fade-in-show="true">
+                        <input type="checkbox" class="car-checkbox" id="car-checkbox-taycan" value="taycan"
+                            data-car-info="718 Cayman : Performance :  0-100 in 4.2 sec">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Taycan</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-5 brand-div" data-brand="Lamborghini">
+                <div class="Car_Title">
+                    Lamborghini
+                </div>
+            </div>
+            <div class="col-md-7 brand-div" data-brand="Lamborghini">
+                <img src="Logo_final\LAMBORGHINI.png">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-5 car-card" data-brand="Lamborghini">
+                <div class="card d-flex flex-column" style="width: 28rem;">
+                    <div>
+                        <img alt="Porsche 718 Boxster" src="Samesize\AVENTADOR-removebg-preview.png"
+                            data-image-src="Samesize\AVENTADOR-removebg-preview.png" data-width="640" data-height="360"
+                            data-fade-in-show="true" style="height: 216px;width: 450px;">
+                    </div>
+                    <div class="card-body">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col">
+                                    <h5 class="card-title">Aventador</h5>
+                                </div>
+                                <div class="col-auto">
+                                    <input type="checkbox" class="car-checkbox" id="car-checkbox-Aventador"
+                                        value="aventador" data-car-info="718 Cayman : Performance :  0-100 in 4.2 sec">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-5 car-card" data-brand="Lamborghini">
+                <div class="card d-flex flex-column" style="width: 28rem;">
+                    <div>
+                        <img alt="Porsche 718 Boxster" src="Samesize\URUS-removebg-preview.png"
+                            data-image-src="Samesize\URUS-removebg-preview.png" data-width="640" data-height="360"
+                            data-fade-in-show="true" style="max-width: 90%">
+                        <input type="checkbox" class="car-checkbox" id="car-checkbox-urus" value="urus"
+                            data-car-info="718 Cayman : Performance :  0-100 in 4.2 sec">
+                    </div>
+
+                    <div class="card-body">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col">
+                                    <h5 class="card-title">Urus</h5>
+                                </div>
+                                <div class="col-auto">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 car-card" data-brand="Lamborghini">
+                <div class="card d-flex flex-column" style="width: 28rem;">
+                    <div>
+                        <img alt="Porsche 718 Boxster" src="Samesize\VENENO-removebg-preview.png"
+                            data-image-src="Samesize\VENENO-removebg-preview.png" data-width="640" data-height="360"
+                            data-fade-in-show="true" style="max-width: 85%">
+                        <input type="checkbox" class="car-checkbox" id="car-checkbox-veneno" value="veneno"
+                            data-car-info="718 Cayman : Performance :  0-100 in 4.2 sec">
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col">
+                                <h5 class="card-title">Veneno</h5>
+                            </div>
+                            <div class="col-auto">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-5 car-card" data-brand="Lamborghini">
+                <div class="card" style="width: 28rem;">
+                    <div>
+                        <img alt="Porsche 718 Boxster" src="Car_models\DIABLO-removebg-preview.png"
+                            data-image-src="Car_models\DIABLO-removebg-preview.png" data-width="640" data-height="360"
+                            data-fade-in-show="true" style="max-width: 90%">
+                        <input type="checkbox" class="car-checkbox" id="car-checkbox-diablo" value="diablo"
+                            data-car-info="718 Cayman : Performance :  0-100 in 4.2 sec">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Diablo</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5 car-card" data-brand="Lamborghini">
+                <div class="card" style="width: 28rem;">
+                    <div>
+                        <img alt="Porsche 718 Boxster" src="Samesize\COUNTECH-removebg-preview.png"
+                            data-image-src="Samesize\COUNTECH-removebg-preview.png" data-width="640" data-height="360"
+                            data-fade-in-show="true" style="max-width: 90%">
+                        <input type="checkbox" class="car-checkbox" id="car-checkbox-countech" value="countech"
+                            data-car-info="718 Cayman : Performance :  0-100 in 4.2 sec">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Countech</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 car-card" data-brand="Lamborghini">
+                <div class="card" style="width: 28rem;">
+                    <div>
+                        <img alt="Porsche 718 Boxster" src="Car_models\HURACAN-removebg-preview.png"
+                            data-image-src="Car_models\HURACAN-removebg-preview.png" data-width="640" data-height="360"
+                            data-fade-in-show="true" style="max-width: 90%">
+                        <input type="checkbox" class="car-checkbox" id="car-checkbox-huracan" value="huracan"
+                            data-car-info="718 Cayman : Performance :  0-100 in 4.2 sec">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Huracan</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-5 brand-div" data-brand="Ferrari">
+                <div class="Car_Title">
+                    Ferrari
+                </div>
+            </div>
+            <div class="col-md-7 brand-div" data-brand="Ferrari">
+                <img src="Logo_final\FERRARI.png">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-5 car-card" data-brand="Ferrari">
+                <div class="card d-flex flex-column" style="width: 28rem;">
+                    <div>
+                        <img alt="Porsche 718 Boxster" src="Samesize\EVO-599x-removebg-preview.png"
+                            data-image-src="Samesize\EVO-599x-removebg-preview.png" data-width="640" data-height="360"
+                            data-fade-in-show="true" style="max-width: 90%">
+                        <input type="checkbox" class="car-checkbox" id="car-checkbox-evolution" value="evolution"
+                            data-car-info="718 Cayman : Performance :  0-100 in 4.2 sec">
+                    </div>
+                    <div class="card-body">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col">
+                                    <h5 class="card-title">Evolution</h5>
+                                </div>
+                                <div class="col-auto">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5 car-card" data-brand="Ferrari">
+                <div class="card" style="width: 28rem;">
+                    <div>
+                        <img alt="Porsche 911 Carrera T" src="Samesize\ITALIA-removebg-preview.png"
+                            data-image-src="Samesize\ITALIA-removebg-preview.png" data-width="640" data-height="360"
+                            data-lazy-load="true" data-lazy-loaded="true" data-fade-in-show="true"
+                            style="max-width: 90%">
+                        <input type="checkbox" class="car-checkbox" id="car-checkbox-italia" value="italia"
+                            data-car-info="718 Cayman : Performance :  0-100 in 4.2 sec">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Italia</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 car-card" data-brand="Ferrari">
+                <div class="card" style="width: 28rem;">
+                    <div>
+                        <img alt="Porsche 911 Carrera T" src="Samesize\1_PISTA-removebg-preview.png"
+                            data-image-src="Samesize\PISTA-removebg-preview.png" data-width="640" data-height="360"
+                            data-lazy-load="true" data-lazy-loaded="true" data-fade-in-show="true"
+                            style="max-width: 90%">
+                        <input type="checkbox" class="car-checkbox" id="car-checkbox-pista" value="pista"
+                            data-car-info="718 Cayman : Performance :  0-100 in 4.2 sec">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Pista</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-5 car-card" data-brand="Ferrari">
+                <div class="card" style="width: 28rem;">
+                    <div>
+                        <img alt="Porsche 718 Boxster" src="Samesize\FF50-removebg-preview.png"
+                            data-image-src="Samesize\FF50-removebg-preview.png" data-width="640" data-height="360"
+                            data-fade-in-show="true" style="max-width: 90%">
+                        <input type="checkbox" class="car-checkbox" id="car-checkbox-ff50" value="ff50"
+                            data-car-info="718 Cayman : Performance :  0-100 in 4.2 sec">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">FF50</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5 car-card" data-brand="Ferrari">
+                <div class="card" style="width: 28rem;">
+                    <div>
+                        <img alt="Porsche 718 Boxster" src="Samesize\SUPERFAST-removebg-preview.png"
+                            data-image-src="Samesize\SUPERFAST-removebg-preview.png" data-width="640" data-height="360"
+                            data-fade-in-show="true" style="max-width: 90%">
+                        <input type="checkbox" class="car-checkbox" id="car-checkbox-superfast" value="superfast"
+                            data-car-info="718 Cayman : Performance :  0-100 in 4.2 sec">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Superfast</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 car-card" data-brand="Ferrari">
+                <div class="card" style="width: 28rem;">
+                    <div>
+                        <img alt="Porsche 718 Boxster" src="Samesize\PORTOFINO-removebg-preview.png"
+                            data-image-src="Samesize\PORTOFINO-removebg-preview.png" data-width="640" data-height="360"
+                            data-fade-in-show="true" style="max-width: 90%">
+                        <input type="checkbox" class="car-checkbox" id="car-checkbox-portofino" value="portofino"
+                            data-car-info="718 Cayman : Performance :  0-100 in 4.2 sec">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Portofino</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-5 brand-div" data-brand="Bugatti">
+                <div class="Car_Title">
+                    Buggati
+                </div>
+            </div>
+            <div class="col-md-7 brand-div" data-brand="Bugatti">
+                <img src="Logo_final\BUGGATI.png">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-5 car-card" data-brand="Bugatti">
+                <div class="card d-flex flex-column" style="width: 28rem;">
+                    <div>
+                        <img alt="Porsche 718 Boxster" src="Samesize\CHIRON_side-removebg.png"
+                            data-image-src="Samesize\CHIRON_side-removebg.png" data-width="640" data-height="360"
+                            data-fade-in-show="true" style="max-width: 90%">
+                        <input type="checkbox" class="car-checkbox" id="car-checkbox-chiron" value="chiron"
+                            data-car-info="718 Cayman : Performance :  0-100 in 4.2 sec">
+                    </div>
+                    <div class="card-body">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col">
+                                    <h5 class="card-title">Chiron</h5>
+                                </div>
+                                <div class="col-auto">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5 car-card" data-brand="Bugatti">
+                <div class="card" style="width: 28rem;">
+                    <div>
+                        <img alt="Porsche 911 Carrera T" src="Samesize\DIVO-removebg-preview.png"
+                            data-image-src="Samesize\DIVO-removebg-preview.png" data-width="640" data-height="360"
+                            data-lazy-load="true" data-lazy-loaded="true" data-fade-in-show="true"
+                            style="max-width: 90%">
+                        <input type="checkbox" class="car-checkbox" id="car-checkbox-divo" value="divo"
+                            data-car-info="718 Cayman : Performance :  0-100 in 4.2 sec">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Divo</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 car-card" data-brand="Bugatti">
+                <div class="card" style="width: 28rem;">
+                    <div>
+                        <img alt="Porsche 911 Carrera T" src="Samesize\VEYRON-Side_view.png"
+                            data-image-src="Samesize\VEYRON-Side_view.png" data-width="640" data-height="360"
+                            data-lazy-load="true" data-lazy-loaded="true" data-fade-in-show="true"
+                            style="max-width: 90%">
+                        <input type="checkbox" class="car-checkbox" id="car-checkbox-veyron" value="veyron"
+                            data-car-info="718 Cayman : Performance :  0-100 in 4.2 sec">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Veyron</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-5 brand-div" data-brand="BMW">
+                <div class="Car_Title">
+                    BMW
+                </div>
+            </div>
+            <div class="col-md-7 brand-div" data-brand="BMW">
+                <img src="Logo_final\1_BMW-removebg-preview.png">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-5 car-card" data-brand="BMW">
+                <div class="card d-flex flex-column" style="width: 28rem;">
+                    <div>
+                        <img alt="Porsche 718 Boxster" src="Samesize\BMW_M3_GTR-removebg-preview.png"
+                            data-image-src="Samesize\BMW_M3_GTR-removebg-preview.png" data-width="640" data-height="360"
+                            data-fade-in-show="true" style="max-width: 90%">
+                        <input type="checkbox" class="car-checkbox" id="car-checkbox-m3-gtr" value="m3-gtr"
+                            data-car-info="718 Cayman : Performance :  0-100 in 4.2 sec">
+                    </div>
+                    <div class="card-body">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col">
+                                    <h5 class="card-title">M3 GTR</h5>
+                                </div>
+                                <div class="col-auto">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5 car-card" data-brand="BMW">
+                <div class="card" style="width: 28rem;">
+                    <div>
+                        <img alt="Porsche 911 Carrera T" src="Samesize\I8-removebg-preview.png"
+                            data-image-src="Samesize\I8-removebg-preview.png" data-width="640" data-height="360"
+                            data-lazy-load="true" data-lazy-loaded="true" data-fade-in-show="true"
+                            style="max-width: 90%">
+                        <input type="checkbox" class="car-checkbox" id="car-checkbox-i8" value="i8"
+                            data-car-info="718 Cayman : Performance :  0-100 in 4.2 sec">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">I8</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 car-card" data-brand="BMW">
+                <div class="card" style="width: 28rem;">
+                    <div>
+                        <img alt="Porsche 911 Carrera T" src="Samesize\M4_Coupe-removebg-preview.png"
+                            data-image-src="Samesize\M4_Coupe-removebg-preview.png" data-width="640" data-height="360"
+                            data-lazy-load="true" data-lazy-loaded="true" data-fade-in-show="true"
+                            style="max-width: 90%">
+                        <input type="checkbox" class="car-checkbox" id="car-checkbox-m4-coupe" value="m4-coupe"
+                            data-car-info="718 Cayman : Performance :  0-100 in 4.2 sec">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">M4 Coupe</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-5 car-card" data-brand="BMW">
+                <div class="card" style="width: 28rem;">
+                    <div>
+                        <img alt="Porsche 911 Carrera T" src="Samesize\ROADSTER.jpg"
+                            data-image-src="Samesize\ROADSTER.jpg" data-width="640" data-height="360"
+                            data-lazy-load="true" data-lazy-loaded="true" data-fade-in-show="true"
+                            style="max-width: 90%">
+                        <input type="checkbox" class="car-checkbox" id="car-checkbox-roadster" value="roadster"
+                            data-car-info="718 Cayman : Performance :  0-100 in 4.2 sec">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Roadster</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5 car-card" data-brand="BMW">
+                <div class="card" style="width: 28rem;">
+                    <div>
+                        <img alt="Porsche 911 Carrera T" src="Samesize\M5.jpg" data-image-src="Samesize\M5.jpg"
+                            data-width="640" data-height="360" data-lazy-load="true" data-lazy-loaded="true"
+                            data-fade-in-show="true" style="max-width: 90%">
+                        <input type="checkbox" class="car-checkbox" id="car-checkbox-m5" value="m5"
+                            data-car-info="718 Cayman : Performance :  0-100 in 4.2 sec">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">M5</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 car-card" data-brand="BMW">
+                <div class="card" style="width: 28rem;">
+                    <div>
+                        <img alt="Porsche 911 Carrera T" src="Samesize\M6_Coupe-removebg-preview.png"
+                            data-image-src="Samesize\M6_Coupe-removebg-preview.png" data-width="640" data-height="360"
+                            data-lazy-load="true" data-lazy-loaded="true" data-fade-in-show="true"
+                            style="max-width: 90%">
+                        <input type="checkbox" class="car-checkbox" id="car-checkbox-m6-coupe" value="m6-coupe"
+                            data-car-info="718 Cayman : Performance :  0-100 in 4.2 sec">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">M6 Coupe</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-5 brand-div" data-brand="Mclaren">
+                <div class="Car_Title">
+                    Mclaren
+                </div>
+            </div>
+            <div class="col-md-7 brand-div" data-brand="Mclaren">
+                <img src="Logo_final\MCLAREN.png">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-5 car-card" data-brand="Mclaren">
+                <div class="card d-flex flex-column" style="width: 28rem;">
+                    <div>
+                        <img alt="Porsche 718 Boxster" src="Samesize\Mclaren_GT-removebg-preview.png"
+                            data-image-src="Samesize\Mclaren_GT-removebg-preview.png" data-width="640" data-height="360"
+                            data-fade-in-show="true" style="max-width: 90%">
+                        <input type="checkbox" class="car-checkbox" id="car-checkbox-gt" value="gt"
+                            data-car-info="718 Cayman : Performance :  0-100 in 4.2 sec">
+                    </div>
+                    <div class="card-body">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col">
+                                    <h5 class="card-title">Mclaren GT</h5>
+                                </div>
+                                <div class="col-auto">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5 car-card" data-brand="Mclaren">
+                <div class="card" style="width: 28rem;">
+                    <div>
+                        <img alt="Porsche 911 Carrera T" src="Samesize\Mclaren_P1-removebg-preview.png"
+                            data-image-src="Samesize\Mclaren_P1-removebg-preview.png" data-width="640" data-height="360"
+                            data-lazy-load="true" data-lazy-loaded="true" data-fade-in-show="true"
+                            style="max-width: 90%">
+                        <input type="checkbox" class="car-checkbox" id="car-checkbox-p1" value="p1"
+                            data-car-info="718 Cayman : Performance :  0-100 in 4.2 sec">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Mclaren P1</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 car-card" data-brand="Mclaren">
+                <div class="card" style="width: 28rem;">
+                    <div>
+                        <img alt="Porsche 911 Carrera T" src="Samesize\SPYDER-removebg-preview.png"
+                            data-image-src="Samesize\SPYDER-removebg-preview.png" data-width="640" data-height="360"
+                            data-lazy-load="true" data-lazy-loaded="true" data-fade-in-show="true"
+                            style="max-width: 90%">
+                        <input type="checkbox" class="car-checkbox" id="car-checkbox-spyder" value="spyder"
+                            data-car-info="718 Cayman : Performance :  0-100 in 4.2 sec">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Mclaren Spyder</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-5 brand-div" data-brand="Mercedes-Benz">
+                <div class="Car_Title">
+                    Mercedes-Benz
+                </div>
+            </div>
+            <div class="col-md-7 brand-div" data-brand="Mercedes-Benz">
+                <img src="Logo_final\MERCEDES_BENZ.png">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-5 car-card" data-brand="Mercedes-Benz">
+                <div class="card d-flex flex-column" style="width: 28rem;">
+                    <div>
+                        <img alt="Porsche 718 Boxster" src="Samesize\AMGONE-removebg-preview.png"
+                            data-image-src="Samesize\AMGONE-removebg-preview.png" data-width="640" data-height="360"
+                            data-fade-in-show="true" style="max-width: 90%">
+                        <input type="checkbox" class="car-checkbox" id="car-checkbox-amg-one" value="amg-one"
+                            data-car-info="718 Cayman : Performance :  0-100 in 4.2 sec">
+                    </div>
+                    <div class="card-body">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col">
+                                    <h5 class="card-title">AMG-ONE</h5>
+                                </div>
+                                <div class="col-auto">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5 car-card" data-brand="Mercedes-Benz">
+                <div class="card" style="width: 28rem;">
+                    <div>
+                        <img alt="Porsche 911 Carrera T" src="Samesize\COUPE-removebg-preview.png"
+                            data-image-src="Samesize\COUPE-removebg-preview.png" data-width="640" data-height="360"
+                            data-lazy-load="true" data-lazy-loaded="true" data-fade-in-show="true"
+                            style="max-width: 90%">
+                        <input type="checkbox" class="car-checkbox" id="car-checkbox-coupe-black" value="coupe-black"
+                            data-car-info="718 Cayman : Performance :  0-100 in 4.2 sec">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Coupe Black</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 car-card" data-brand="Mercedes-Benz">
+                <div class="card" style="width: 28rem;">
+                    <div>
+                        <img alt="Porsche 911 Carrera T" src="Samesize/GTR-removebg-preview.png"
+                            data-image-src="Samesize/GTR-removebg-preview.png" data-width="640" data-height="360"
+                            data-lazy-load="true" data-lazy-loaded="true" data-fade-in-show="true"
+                            style="max-width: 90%">
+                        <input type="checkbox" class="car-checkbox" id="car-checkbox-gtr" value="gtr"
+                            data-car-info="718 Cayman : Performance :  0-100 in 4.2 sec">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Mercedes-Benz GTR</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-5 brand-div" data-brand="Ford">
+                <div class="Car_Title">
+                    Ford
+                </div>
+            </div>
+            <div class="col-md-7 brand-div" data-brand="Ford">
+                <img src="Logo_final\FORD.png">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-5 car-card" data-brand="Ford">
+                <div class="card d-flex flex-column" style="width: 28rem;">
+                    <div>
+                        <img alt="Porsche 718 Boxster" src="Samesize\MUSTANG-removebg-preview.png"
+                            data-image-src="Samesize\MUSTANG-removebg-preview.png" data-width="640" data-height="360"
+                            data-fade-in-show="true" style="max-width: 90%">
+                        <input type="checkbox" class="car-checkbox" id="car-checkbox-amg-one" value="amg-one"
+                            data-car-info="718 Cayman : Performance :  0-100 in 4.2 sec">
+                    </div>
+                    <div class="card-body">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col">
+                                    <h5 class="card-title">Mustang</h5>
+                                </div>
+                                <div class="col-auto">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5 car-card" data-brand="Ford">
+                <div class="card" style="width: 28rem;">
+                    <div>
+                        <img alt="Porsche 911 Carrera T" src="Samesize\FORD_GT-removebg-preview.png"
+                            data-image-src="Samesize\FORD_GT-removebg-preview.png" data-width="640" data-height="360"
+                            data-lazy-load="true" data-lazy-loaded="true" data-fade-in-show="true"
+                            style="max-width: 90%">
+                        <input type="checkbox" class="car-checkbox" id="car-checkbox-raptor-pickup-truck"
+                            value="raptor-pickup-truck" data-car-info="718 Cayman : Performance :  0-100 in 4.2 sec">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Ford GT</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 car-card" data-brand="Ford">
+                <div class="card" style="width: 28rem;">
+                    <div>
+                        <img alt="Porsche 911 Carrera T" src="Samesize\RAPTOR.jpg" data-image-src="Samesize\RAPTOR.jpg"
+                            data-width="640" data-height="360" data-lazy-load="true" data-lazy-loaded="true"
+                            data-fade-in-show="true" style="max-width: 90%">
+                        <input type="checkbox" class="car-checkbox" id="car-checkbox-raptor-pickup-truck"
+                            value="raptor-pickup-truck" data-car-info="718 Cayman : Performance :  0-100 in 4.2 sec">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Raptor</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- Modal -->
+    <input type="hidden" id="selectedCars" value="">
+    <div class="modal fade" id="infoModal" tabindex="-1" role="dialog" aria-labelledby="infoModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="infoModalLabel">Car Information</h5>
+
+                </div>
+                <div class="modal-body" id="modalBody">
+                    <!-- Car information will be inserted here -->
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal" id="close1"
+                        onclick="closeModal()">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script src="compare.js">
+    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+<!-- Site footer -->
+<hr style="margin-top: 10%;">
+
+<div class="container-fluid bg-dark text-white-50 footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s" id="footer1234"
+    style="margin-top: 200px;">
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-lg-3 col-md-6">
+                <h5 class="text-white mb-4">CarVerse</h5>
+                <a class="btn btn-link text-white-50" href="">About Us</a>
+                <a class="btn btn-link text-white-50" href="">Homepage</a>
+                <a class="btn btn-link text-white-50" href="">Our Services</a>
+                <a class="btn btn-link text-white-50" href="">Privacy Policy</a>
+                <a class="btn btn-link text-white-50" href="">Terms & Condition</a>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h5 class="text-white mb-4">Quick links</h5>
+                <a class="btn btn-link text-white-50" href="">About Us</a>
+                <a class="btn btn-link text-white-50" href="">Homepage</a>
+                <a class="btn btn-link text-white-50" href="">Our Services</a>
+                <a class="btn btn-link text-white-50" href="">Privacy Policy</a>
+                <a class="btn btn-link text-white-50" href="">Terms & Condition</a>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h5 class="text-white mb-4">Contact</h5>
+                <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>VIT,Pune , Maharashtra,Pune</p>
+                <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
+                <p class="mb-2"><i class="fa fa-envelope me-3"></i>Carverse@gmail.com</p>
+                <div class="d-flex pt-2">
+                    <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                    <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h5 class="text-white mb-4">About Us</h5>
+                <span style="margin-left: 10px;">
+                    CarVerse is your premier online destination for delving deep into the world of luxury car brands and
+                    their iconic models. Our platform is dedicated to delivering meticulously researched, engaging.
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+
+</html>
